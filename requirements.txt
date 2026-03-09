@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+playwright
+playwright-stealth
+h3
+openai  # For the Agentic matching later
+python-dotenv
