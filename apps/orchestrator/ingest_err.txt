@@ -1,0 +1,2 @@
+<frozen site>:101: RuntimeWarning: Unexpected value in sys.prefix, expected /home/burakkp/Documents/Projects/nederland-discounts/.venv, got /home/burakkp/Documents/Projects/nederland-discounts/apps/orchestrator/../../.venv
+<frozen site>:101: RuntimeWarning: Unexpected value in sys.exec_prefix, expected /home/burakkp/Documents/Projects/nederland-discounts/.venv, got /home/burakkp/Documents/Projects/nederland-discounts/apps/orchestrator/../../.venv

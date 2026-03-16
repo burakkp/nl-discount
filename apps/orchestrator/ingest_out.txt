@@ -1,0 +1,8 @@
+✅ Processed 198 items from Albert Heijn.
+✅ Processed 89 items from Jumbo.
+✅ Processed 194 items from Aldi.
+✅ Processed 24 items from Lidl.
+✅ Processed 18 items from Plus.
+
+🚀 Initiating Database Upsert for 523 total discounts...
+💾 Database transaction complete. Inserted 0, skipped 523.

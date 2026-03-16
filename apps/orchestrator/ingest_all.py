@@ -1,16 +1,24 @@
 import json
 import os
+import sys
+
 from normalizer import DiscountNormalizer
 from date_helper import RetailDateCalculator
-# Assuming you have SQLAlchemy setup in core/database/models.py
-# from core.database.models import SessionLocal, Product, Discount, Store
+
+# Make the project root importable regardless of where the script is invoked from
+_project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+if _project_root not in sys.path:
+    sys.path.insert(0, _project_root)
+
+from core.database.session import SessionLocal
+from core.database.models import Discount, Store
 
 class DataIngestor:
     def __init__(self):
         self.normalizer = DiscountNormalizer()
         self.date_calc = RetailDateCalculator()
-        self.data_dir = os.path.join(os.path.dirname(__file__), "..", "..", "tmp")  # JSON files live in tmp/
-        # self.db = SessionLocal()   # Database connection
+        self.data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "tmp")  # JSON files live in tmp/
+        self.db = SessionLocal()
 
     def load_json(self, filepath):
         """Safely load JSON data."""
@@ -63,27 +71,50 @@ class DataIngestor:
         print(f"✅ Processed {len(processed_items)} items from {store_name}.")
         return processed_items
 
+    def _get_or_create_store(self, chain_name: str) -> Store:
+        """Return an existing Store row, or create one on the fly."""
+        store = (
+            self.db.query(Store)
+            .filter(Store.chain_name.ilike(chain_name))
+            .first()
+        )
+        if not store:
+            store = Store(chain_name=chain_name)
+            self.db.add(store)
+            self.db.flush()  # assigns store.id without a full commit
+        return store
+
     def ingest_to_db(self, all_items):
-        """
-        Mock DB insertion. In production, this uses SQLAlchemy to upsert data.
-        """
+        """Upsert processed discount records into the database."""
         print(f"\n🚀 Initiating Database Upsert for {len(all_items)} total discounts...")
-        # Example SQLAlchemy Logic:
-        # for item in all_items:
-        #     product = self.db.query(Product).filter_by(name=item['product_name']).first()
-        #     if not product:
-        #         product = Product(name=item['product_name'], brand=item['brand'])
-        #         self.db.add(product)
-        #     
-        #     discount = Discount(
-        #         product_id=product.id,
-        #         store_id=get_store_id(item['store_name']),
-        #         discount_price=item['deal_price'],
-        #         deal_description=item['original_deal_string']
-        #     )
-        #     self.db.add(discount)
-        # self.db.commit()
-        print("💾 Database transaction complete.")
+        inserted = 0
+        try:
+            for item in all_items:
+                store = self._get_or_create_store(item['store_name'])
+
+                # The Discount schema has no Product FK — it stores a string ID.
+                master_product_id = item['product_name'].lower().replace(' ', '_')[:100]
+
+                discount = Discount(
+                    master_product_id=master_product_id,
+                    store_id=store.id,
+                    deal_type=item['deal_type'],
+                    deal_price=item['deal_price'],
+                    unit_price=item['unit_price'],
+                    start_date=item['start_date'],
+                    end_date=item['end_date'],
+                )
+                self.db.add(discount)
+                inserted += 1
+
+            self.db.commit()
+            print(f"💾 Database transaction complete. Inserted {inserted} discounts.")
+        except Exception as exc:
+            self.db.rollback()
+            print(f"❌ DB error — transaction rolled back: {exc}")
+            raise
+        finally:
+            self.db.close()
 
     def run(self):
         files_to_process = [
