@@ -11,3 +11,4 @@ GeoAlchemy2
 firebase-admin
 google-genai
 Pillow
+python-multipart
