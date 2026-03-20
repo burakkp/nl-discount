@@ -3,6 +3,7 @@ from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from firebase_admin import auth, credentials
 import firebase_admin
 import os
+import json
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -10,18 +11,36 @@ load_dotenv()
 # 1. Setup the FastAPI Bearer Token schema
 security = HTTPBearer()
 
-# 2. Ensure Firebase is initialized (Idempotent check just like before)
+# 2. Ensure Firebase is initialized (Idempotent check)
 def initialize_firebase():
-    if not firebase_admin._apps:
-        env = os.getenv("ENVIRONMENT", "DEV")
-        key_path = "core/security/firebase_dev.json" if env == "DEV" else "core/security/firebase_prod.json"
-        
-        try:
+    if firebase_admin._apps:
+        return  # Already initialised, skip.
+
+    env = os.getenv("ENVIRONMENT", "DEV")
+
+    try:
+        if env == "DEV":
+            # Local dev: load from the JSON file on disk.
+            key_path = os.path.join(
+                os.path.dirname(__file__), "firebase_dev.json"
+            )
             cred = credentials.Certificate(key_path)
-            firebase_admin.initialize_app(cred)
-            print("🔐 Firebase Auth initialized for FastAPI.")
-        except Exception as e:
-            print(f"🚨 CRITICAL: Could not initialize Firebase for Auth: {e}")
+        else:
+            # Production / Render: load from the JSON string stored in an env var.
+            # Set FIREBASE_CREDENTIALS_JSON to the *contents* of your service-account JSON.
+            cred_json = os.getenv("FIREBASE_CREDENTIALS_JSON")
+            if not cred_json:
+                raise ValueError(
+                    "FIREBASE_CREDENTIALS_JSON env var is not set. "
+                    "Paste the service-account JSON as its value in Render's environment settings."
+                )
+            cred_dict = json.loads(cred_json)
+            cred = credentials.Certificate(cred_dict)
+
+        firebase_admin.initialize_app(cred)
+        print("🔐 Firebase Auth initialised successfully.")
+    except Exception as e:
+        print(f"🚨 CRITICAL: Could not initialise Firebase for Auth: {e}")
 
 initialize_firebase()
 

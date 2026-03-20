@@ -5,7 +5,9 @@ psycopg2-binary
 playwright
 playwright-stealth
 h3
-openai  # For the Agentic matching later
+openai
 python-dotenv
 GeoAlchemy2
 firebase-admin
+google-genai
+Pillow
