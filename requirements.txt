@@ -8,3 +8,4 @@ h3
 openai  # For the Agentic matching later
 python-dotenv
 GeoAlchemy2
+firebase-admin
