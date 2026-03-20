@@ -19,6 +19,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of your project into the container
 COPY . .
 
+# Ensure the path /app/apps/api is correctly set in your PYTHONPATH
+ENV PYTHONPATH=/app
+
 # Expose the port FastAPI will run on
 EXPOSE 8000
 

@@ -7,3 +7,4 @@ playwright-stealth
 h3
 openai  # For the Agentic matching later
 python-dotenv
+GeoAlchemy2
