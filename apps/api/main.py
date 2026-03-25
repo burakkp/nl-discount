@@ -5,6 +5,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import func
 from core.database.models import Store, Discount
 from core.database.session import SessionLocal
+from pydantic import BaseModel
 
 import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '../../core/security'))
@@ -37,7 +38,7 @@ def get_nearby_discounts(
     Finds all active discounts within X kilometers of the user's GPS coordinates.
     """
     radius_meters = radius_km * 1000
-    
+
     # 1. Construct the PostGIS Point from the user's Lat/Lng
     # PostGIS expects Longitude first, then Latitude! -> POINT(lng lat)
     user_location = f"SRID=4326;POINT({lng} {lat})"
@@ -48,7 +49,7 @@ def get_nearby_discounts(
         Discount.master_product_id,
         Discount.deal_type,
         Discount.deal_price,
-        Discount.start_date,  
+        Discount.start_date,
         Discount.end_date,
         Store.chain_name,
         Store.address,
@@ -148,3 +149,66 @@ async def crowdsource_discount(
         if os.path.exists(temp_file_path):
             os.remove(temp_file_path)
         raise HTTPException(status_code=500, detail=str(e))
+
+# 1. Pydantic schema for the incoming request
+class WatchlistRequest(BaseModel):
+    product_id: str
+
+# 2. GET: Fetch the user's current watchlist
+@app.get("/watchlist")
+async def get_watchlist(
+    db: Session = Depends(get_db),
+    user_uid: str = Depends(verify_firebase_token)
+):
+    # Find the user by their Firebase UID
+    user = db.query(User).filter(User.device_id == user_uid).first()
+    if not user:
+        return {"status": "success", "data": []}
+
+    items = db.query(WatchlistItem).filter(WatchlistItem.user_id == user.id).all()
+    return {"status": "success", "data": [item.master_product_id for item in items]}
+
+# 3. POST: Add an item to the watchlist
+@app.post("/watchlist")
+async def add_to_watchlist(
+    request: WatchlistRequest,
+    db: Session = Depends(get_db),
+    user_uid: str = Depends(verify_firebase_token)
+):
+    # Ensure user exists in our DB
+    user = db.query(User).filter(User.device_id == user_uid).first()
+    if not user:
+        user = User(device_id=user_uid)
+        db.add(user)
+        db.commit()
+        db.refresh(user)
+
+    # Check if item already exists to prevent duplicates
+    existing = db.query(WatchlistItem).filter(
+        WatchlistItem.user_id == user.id,
+        WatchlistItem.master_product_id == request.product_id
+    ).first()
+
+    if not existing:
+        new_item = WatchlistItem(user_id=user.id, master_product_id=request.product_id)
+        db.add(new_item)
+        db.commit()
+
+    return {"status": "success", "message": f"{request.product_id} added to watchlist."}
+
+# 4. DELETE: Remove an item
+@app.delete("/watchlist/{product_id}")
+async def remove_from_watchlist(
+    product_id: str,
+    db: Session = Depends(get_db),
+    user_uid: str = Depends(verify_firebase_token)
+):
+    user = db.query(User).filter(User.device_id == user_uid).first()
+    if user:
+        db.query(WatchlistItem).filter(
+            WatchlistItem.user_id == user.id,
+            WatchlistItem.master_product_id == product_id
+        ).delete()
+        db.commit()
+
+    return {"status": "success", "message": "Item removed."}
