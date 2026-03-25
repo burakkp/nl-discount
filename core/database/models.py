@@ -39,6 +39,8 @@ class User(Base):
     id = Column(Integer, primary_key=True, index=True)
     device_id = Column(String, unique=True, index=True) # Firebase UID
 
+    fcm_token = Column(String, nullable=True)
+
     # Relationships
     watchlists = relationship("WatchlistItem", back_populates="user")
 
