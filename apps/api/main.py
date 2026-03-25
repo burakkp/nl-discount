@@ -3,7 +3,7 @@ import shutil
 from fastapi import FastAPI, Depends, Query, File, UploadFile, Form, HTTPException
 from sqlalchemy.orm import Session
 from sqlalchemy import func
-from core.database.models import Store, Discount
+from core.database.models import Store, Discount, User, WatchlistItem
 from core.database.session import SessionLocal
 from pydantic import BaseModel
 
