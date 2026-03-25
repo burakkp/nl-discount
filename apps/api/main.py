@@ -1,6 +1,6 @@
 import os
 import shutil
-from fastapi import FastAPI, Depends, Query, File, UploadFile, Form, HTTPException
+from fastapi import FastAPI, Depends, Query, File, UploadFile, Form, HTTPException, Header
 from sqlalchemy.orm import Session
 from sqlalchemy import func
 from core.database.models import Store, Discount, User, WatchlistItem
@@ -212,3 +212,28 @@ async def remove_from_watchlist(
         db.commit()
 
     return {"status": "success", "message": "Item removed."}
+
+# Pull a master password from the environment
+CRON_SECRET = os.getenv("CRON_SECRET", "my-local-secret-123")
+
+@app.post("/admin/trigger-notifications")
+async def trigger_notifications(
+    authorization: str = Header(None),
+    db: Session = Depends(get_db)
+):
+    """
+    Secure endpoint triggered daily by an external Cron service.
+    """
+    # 🛡️ THE CRON BOUNCER
+    if authorization != f"Bearer {CRON_SECRET}":
+        raise HTTPException(status_code=401, detail="Unauthorized Cron Trigger")
+
+    # 🚀 Run the Engine
+    import sys
+    sys.path.append(os.path.join(os.path.dirname(__file__), '../workers'))
+    from notifier import SmartNotificationEngine
+
+    engine = SmartNotificationEngine()
+    engine.run_daily_digest(db)
+
+    return {"status": "success", "message": "Daily notifications processed."}

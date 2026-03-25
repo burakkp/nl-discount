@@ -2,65 +2,85 @@ import os
 from datetime import date, timedelta
 import firebase_admin
 from firebase_admin import credentials, messaging
+from sqlalchemy.orm import Session
+
+# Import our database models
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '../../'))
+from core.database.models import User, WatchlistItem, Discount, Store
 
 class SmartNotificationEngine:
     def __init__(self):
-        env = os.getenv("ENVIRONMENT", "DEV")
-        
-        # Determine which key to use
-        if env == "DEV":
-            key_path = "core/security/firebase_dev.json" # Adjust to match your exact filename
-        else:
-            key_path = "core/security/firebase_prod.json"
-
-        # Safety Check: Only initialize if Firebase isn't already running
+        # 1. Initialize Firebase safely
         if not firebase_admin._apps:
+            env = os.getenv("ENVIRONMENT", "DEV")
+            key_path = "core/security/firebase_service_account.json" if env == "DEV" else "/etc/secrets/firebase_prod.json"
             try:
                 cred = credentials.Certificate(key_path)
                 firebase_admin.initialize_app(cred)
-                print(f"✅ Firebase Admin SDK initialized in {env} mode.")
-            except FileNotFoundError:
-                print(f"🚨 CRITICAL: Firebase key not found at {key_path}")
+                print("✅ Notifier connected to Firebase.")
+            except Exception as e:
+                print(f"🚨 Notifier Firebase Error: {e}")
 
-    def classify_and_notify(self, user, active_deals):
+    def send_push_notification(self, token: str, title: str, body: str):
+        """Sends the payload to Google's FCM servers."""
+        if not token: return
+        try:
+            message = messaging.Message(
+                notification=messaging.Notification(title=title, body=body),
+                token=token,
+            )
+            response = messaging.send(message)
+            print(f"📡 [PUSH SENT] to {token[-10:]}: {title}")
+        except Exception as e:
+            print(f"❌ Failed to send push: {e}")
+
+    def process_user_watchlist(self, db: Session, user: User):
+        """Finds active deals for a specific user and fires alerts."""
         today = date.today()
         tomorrow = today + timedelta(days=1)
-        
-        new_deals = []
-        expiring_deals = []
 
-        for deal in active_deals:
-            if deal.start_date == today:
-                new_deals.append(deal)
-            elif deal.end_date == tomorrow:
-                expiring_deals.append(deal)
+        # Get what the user is tracking
+        watched_items = db.query(WatchlistItem).filter(WatchlistItem.user_id == user.id).all()
+        watched_ids = [item.master_product_id for item in watched_items]
+
+        if not watched_ids: return
+
+        # Query Supabase for active deals matching those items
+        active_deals = db.query(Discount).filter(
+            Discount.master_product_id.in_(watched_ids),
+            Discount.end_date >= today
+        ).all()
+
+        new_deals = [d for d in active_deals if d.start_date == today]
+        expiring_deals = [d for d in active_deals if d.end_date == tomorrow]
 
         # 1. Fire the "Fresh Week" Alert
         if new_deals:
-            items_str = ", ".join([d.product_name for d in new_deals[:3]])
-            title = "🛒 New Deals on your Shopping List!"
-            body = f"{items_str} and more are on sale nearby starting today."
-            # Note: We need a send_push_notification method defined below
-            self.send_push_notification(user.fcm_token, title, body)
+            items_str = ", ".join([d.master_product_id for d in new_deals[:3]])
+            self.send_push_notification(
+                user.fcm_token,
+                "🛒 New Deals Found!",
+                f"{items_str} and more are on sale today."
+            )
 
         # 2. Fire the "Last Chance" Alert
         if expiring_deals:
-            items_str = ", ".join([d.product_name for d in expiring_deals[:2]])
-            title = "⏳ Last Chance!"
-            body = f"The discount on {items_str} ends tomorrow. Grab it while you can!"
-            self.send_push_notification(user.fcm_token, title, body)
+            items_str = ", ".join([d.master_product_id for d in expiring_deals[:2]])
+            self.send_push_notification(
+                user.fcm_token,
+                "⏳ Last Chance!",
+                f"Discounts on {items_str} end tomorrow."
+            )
 
-    def send_push_notification(self, token, title, body):
-        """Actually sends the payload to Firebase."""
-        # For testing purposes today, we will just print to console
-        print(f"📡 [PUSH TO {token}] {title} | {body}")
+    def run_daily_digest(self, db: Session):
+        """The Master Function triggered by the Cron Job."""
+        print(f"🚀 Starting Daily Smart Digest for {date.today()}...")
 
-    def run_daily_digest(self):
-        print(f"🚀 Running Smart Digest for {date.today()}...")
-        # Get users and their shopping lists
-        # For each user -> Get active deals -> self.classify_and_notify(user, deals)
+        # Get all users who have an FCM token
+        users = db.query(User).filter(User.fcm_token.isnot(None)).all()
 
-if __name__ == "__main__":
-    # Test execution
-    engine = SmartNotificationEngine()
-    engine.run_daily_digest()
+        for user in users:
+            self.process_user_watchlist(db, user)
+
+        print("✅ Daily digest complete.")
