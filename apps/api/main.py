@@ -213,6 +213,28 @@ async def remove_from_watchlist(
 
     return {"status": "success", "message": "Item removed."}
 
+class FCMTokenRequest(BaseModel):
+    fcm_token: str
+
+@app.put("/users/fcm-token")
+async def update_fcm_token(
+    request: FCMTokenRequest,
+    db: Session = Depends(get_db),
+    user_uid: str = Depends(verify_firebase_token)
+):
+    """Saves the user's physical device token for Push Notifications."""
+    user = db.query(User).filter(User.device_id == user_uid).first()
+
+    # If the user doesn't exist yet, create them!
+    if not user:
+        user = User(device_id=user_uid, fcm_token=request.fcm_token)
+        db.add(user)
+    else:
+        user.fcm_token = request.fcm_token
+
+    db.commit()
+    return {"status": "success", "message": "Device token securely saved."}
+
 # Pull a master password from the environment
 CRON_SECRET = os.getenv("CRON_SECRET", "my-local-secret-123")
 
