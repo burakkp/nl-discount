@@ -19,23 +19,16 @@ def initialize_firebase():
     env = os.getenv("ENVIRONMENT", "DEV")
 
     try:
-        if env == "DEV":
-            # Local dev: load from the JSON file on disk.
-            key_path = os.path.join(
-                os.path.dirname(__file__), "firebase_dev.json"
+        # Load from the JSON string stored in an env var for both DEV and PROD.
+        # Set FIREBASE_CREDENTIALS_JSON to the *contents* of your service-account JSON.
+        cred_json = os.getenv("FIREBASE_CREDENTIALS_JSON")
+        if not cred_json:
+            raise ValueError(
+                "FIREBASE_CREDENTIALS_JSON env var is not set. "
+                "Ensure it exists in your .env file or environment settings."
             )
-            cred = credentials.Certificate(key_path)
-        else:
-            # Production / Render: load from the JSON string stored in an env var.
-            # Set FIREBASE_CREDENTIALS_JSON to the *contents* of your service-account JSON.
-            cred_json = os.getenv("FIREBASE_CREDENTIALS_JSON")
-            if not cred_json:
-                raise ValueError(
-                    "FIREBASE_CREDENTIALS_JSON env var is not set. "
-                    "Paste the service-account JSON as its value in Render's environment settings."
-                )
-            cred_dict = json.loads(cred_json)
-            cred = credentials.Certificate(cred_dict)
+        cred_dict = json.loads(cred_json)
+        cred = credentials.Certificate(cred_dict)
 
         firebase_admin.initialize_app(cred)
         print("🔐 Firebase Auth initialised successfully.")
