@@ -1,0 +1,45 @@
+name: Daily Supermarket Sync
+
+on:
+  schedule:
+    # 04:30 AM UTC is approx 06:30 AM in Netherlands (perfect for fresh morning deals)
+    - cron: '30 4 * * *'
+  workflow_dispatch:
+    # Allows for manual testing from the UI
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Playwright Browsers
+        run: |
+          python -m playwright install --with-deps chromium
+
+      - name: Execute Full Sync Cycle
+        env:
+          # These must be set in your GitHub Repository Secrets
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          RENDER_API_URL: https://nl-discounts-api.onrender.com
+          ENVIRONMENT: PROD
+        run: python scripts/sync_all.py
+
+      - name: Cleanup
+        if: always()
+        run: rm -rf tmp/

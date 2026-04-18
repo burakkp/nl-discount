@@ -17,12 +17,17 @@ if not DATABASE_URL:
         "Example: postgresql://user:password@localhost:5432/nederland_discounts"
     )
 
-engine = create_engine(
-    DATABASE_URL,
-    pool_pre_ping=True,   # Detects stale connections before use
-    pool_size=5,          # Connections kept open
-    max_overflow=10       # Burst capacity above pool_size
-)
+engine_args = {
+    "pool_pre_ping": True,   # Detects stale connections before use
+    "pool_size": 5,          # Connections kept open
+    "max_overflow": 10       # Burst capacity above pool_size
+}
+
+# 🔐 SECURITY HARDENING: Use SSL for production (Supabase/Postgres requirement)
+if os.getenv("ENVIRONMENT") == "PROD":
+    engine_args["connect_args"] = {"sslmode": "require"}
+
+engine = create_engine(DATABASE_URL, **engine_args)
 
 SessionLocal = sessionmaker(
     bind=engine,

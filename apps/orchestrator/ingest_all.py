@@ -5,13 +5,16 @@ import sys
 from normalizer import DiscountNormalizer
 from date_helper import RetailDateCalculator
 
-# Make the project root importable regardless of where the script is invoked from
-_project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-if _project_root not in sys.path:
-    sys.path.insert(0, _project_root)
-
-from core.database.session import SessionLocal
-from core.database.models import Discount, Store
+# Use setuptools/standard imports where possible, but keep a fallback for direct script execution
+try:
+    from core.database.session import SessionLocal
+    from core.database.models import Discount, Store
+except ImportError:
+    _project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+    if _project_root not in sys.path:
+        sys.path.insert(0, _project_root)
+    from core.database.session import SessionLocal
+    from core.database.models import Discount, Store
 
 class DataIngestor:
     def __init__(self):

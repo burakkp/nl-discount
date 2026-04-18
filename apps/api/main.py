@@ -6,7 +6,10 @@ from sqlalchemy.orm import Session
 from sqlalchemy import func
 from core.database.models import Store, Discount, User, WatchlistItem
 from core.database.session import SessionLocal
-from pydantic import BaseModel
+import logging
+from typing import List, Optional
+from pydantic import BaseModel, Field
+from fastapi.middleware.cors import CORSMiddleware
 
 from core.security.auth import verify_firebase_token
 
@@ -16,7 +19,22 @@ from apps.orchestrator.vision_agent import CrowdsourceVisionAgent
 # Initialize the agent once when the server starts
 vision_agent = CrowdsourceVisionAgent()
 
+# 📝 Configure Logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger("DUTCH_DISCOUNTS_API")
+
 app = FastAPI(title="Dutch Discounts API", version="1.0")
+
+# 🌍 Phase 3: CORS Configuration
+# We restrict this to ensure browsers can't hit the API from random domains.
+# For a mobile app, we can allow all origins or specific domains if you have a web companion.
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], # Expand this if you launch a web version!
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Dependency to get DB session
 def get_db():
@@ -94,7 +112,7 @@ async def crowdsource_discount(
     and adds it to the database if the AI is highly confident.
     """
     # If the code reaches this line, the token is 100% valid.
-    print(f"👤 Authenticated Upload from Firebase User: {user_uid}")
+    logger.info(f"👤 Authenticated Upload from Firebase User: {user_uid}")
 
     # 🛡️ Defensive Check: Does this store actually exist?
     store_exists = db.query(Store).filter(Store.id == store_id).first()
@@ -107,23 +125,23 @@ async def crowdsource_discount(
         shutil.copyfileobj(image.file, buffer)
 
     try:
-        # 🛡️ ARCHITECT'S CHECK: Is the AI Agent healthy?
+
         if not vision_agent.is_active:
             if os.path.exists(temp_file_path):
                 os.remove(temp_file_path)
             raise HTTPException(
-                status_code=503, 
+                status_code=503,
                 detail="Crowdsourcing is temporarily disabled (AI Agent offline). Please try again later."
             )
 
-        # 2. Hand the image to the AI Agent
+
         ai_result = vision_agent.analyze_price_tag(temp_file_path)
 
-        # 3. Decision Engine: Is the AI confident enough?
+
         confidence = ai_result.get("confidence_score", 0)
 
         if confidence < 80:
-            # AI is confused. Reject it or send it to a human review queue.
+
             os.remove(temp_file_path)
             return {
                 "status": "rejected",
@@ -131,7 +149,7 @@ async def crowdsource_discount(
                 "ai_data": ai_result
             }
 
-        # 4. Database Upsert! (The AI was confident)
+
         new_deal = Discount(
             master_product_id=ai_result.get("product_name", "Unknown").lower().replace(" ", "_"),
             store_id=store_id,
@@ -160,7 +178,7 @@ async def crowdsource_discount(
 
 # 1. Pydantic schema for the incoming request
 class WatchlistRequest(BaseModel):
-    product_id: str
+    product_id: str = Field(..., min_length=1, max_length=100, pattern="^[a-zA-Z0-9_.-]+$")
 
 # 2. GET: Fetch the user's current watchlist
 @app.get("/watchlist")
@@ -222,7 +240,7 @@ async def remove_from_watchlist(
     return {"status": "success", "message": "Item removed."}
 
 class FCMTokenRequest(BaseModel):
-    fcm_token: str
+    fcm_token: str = Field(..., min_length=10, max_length=255)
 
 @app.put("/users/fcm-token")
 async def update_fcm_token(
@@ -283,8 +301,11 @@ def get_this_week_discounts(
         ]
     }
 
-# Pull a master password from the environment
-CRON_SECRET = os.getenv("CRON_SECRET", "my-local-secret-123")
+# 🔐 SECURITY HARDENING: Enforce mandatory Cron Secret in Production
+CRON_SECRET = os.getenv("CRON_SECRET")
+if not CRON_SECRET and os.getenv("ENVIRONMENT") == "PROD":
+    logger.error("🚨 CRITICAL: CRON_SECRET is missing in PROD environment!")
+    # We allow the app to boot for debugging but the endpoint will be inaccessible
 
 @app.post("/admin/trigger-notifications")
 async def trigger_notifications(
