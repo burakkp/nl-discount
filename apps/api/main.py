@@ -1,5 +1,6 @@
 import os
 import shutil
+from datetime import date
 from fastapi import FastAPI, Depends, Query, File, UploadFile, Form, HTTPException, Header
 from sqlalchemy.orm import Session
 from sqlalchemy import func
@@ -7,9 +8,7 @@ from core.database.models import Store, Discount, User, WatchlistItem
 from core.database.session import SessionLocal
 from pydantic import BaseModel
 
-import sys
-sys.path.append(os.path.join(os.path.dirname(__file__), '../../core/security'))
-from auth import verify_firebase_token
+from core.security.auth import verify_firebase_token
 
 # Import our new Vision Agent! Note: Adjust the import path if needed based on your folder structure
 from apps.orchestrator.vision_agent import CrowdsourceVisionAgent
@@ -108,6 +107,15 @@ async def crowdsource_discount(
         shutil.copyfileobj(image.file, buffer)
 
     try:
+        # 🛡️ ARCHITECT'S CHECK: Is the AI Agent healthy?
+        if not vision_agent.is_active:
+            if os.path.exists(temp_file_path):
+                os.remove(temp_file_path)
+            raise HTTPException(
+                status_code=503, 
+                detail="Crowdsourcing is temporarily disabled (AI Agent offline). Please try again later."
+            )
+
         # 2. Hand the image to the AI Agent
         ai_result = vision_agent.analyze_price_tag(temp_file_path)
 
@@ -235,6 +243,46 @@ async def update_fcm_token(
     db.commit()
     return {"status": "success", "message": "Device token securely saved."}
 
+@app.get("/discounts/this-week")
+def get_this_week_discounts(
+    store: str = Query(None, description="Filter by store name (optional)"),
+    deal_type: str = Query(None, description="Filter by deal type (optional)"),
+    limit: int = Query(50, le=200),
+    db: Session = Depends(get_db)
+):
+    """Returns all active discounts for the current week."""
+    today = date.today()
+    query = db.query(Discount, Store).join(
+        Store, Discount.store_id == Store.id
+    ).filter(
+        Discount.start_date <= today,
+        Discount.end_date >= today,
+    )
+    if store:
+        query = query.filter(Store.chain_name.ilike(f"%{store}%"))
+    if deal_type:
+        query = query.filter(Discount.deal_type == deal_type.upper())
+
+    results = query.order_by(Discount.deal_price).limit(limit).all()
+
+    return {
+        "status": "success",
+        "week": str(today),
+        "count": len(results),
+        "data": [
+            {
+                "product": r.Discount.master_product_id,
+                "supermarket": r.Store.chain_name,
+                "deal_type": r.Discount.deal_type,
+                "price": r.Discount.deal_price,
+                "unit_price": r.Discount.unit_price,
+                "start_date": str(r.Discount.start_date),
+                "end_date": str(r.Discount.end_date),
+            }
+            for r in results
+        ]
+    }
+
 # Pull a master password from the environment
 CRON_SECRET = os.getenv("CRON_SECRET", "my-local-secret-123")
 
@@ -251,9 +299,7 @@ async def trigger_notifications(
         raise HTTPException(status_code=401, detail="Unauthorized Cron Trigger")
 
     # 🚀 Run the Engine
-    import sys
-    sys.path.append(os.path.join(os.path.dirname(__file__), '../workers'))
-    from notifier import SmartNotificationEngine
+    from apps.workers.notifier import SmartNotificationEngine
 
     engine = SmartNotificationEngine()
     engine.run_daily_digest(db)

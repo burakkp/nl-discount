@@ -12,24 +12,43 @@ class CrowdsourceVisionAgent:
     def __init__(self):
         # The genai.Client automatically looks for GEMINI_API_KEY in your environment
         api_key = os.getenv("GEMINI_API_KEY")
+        
+        # Safe defaults
+        self.model_name = "gemini-1.5-flash"
+        self.is_active = False
+        self.client = None
+
         if not api_key:
-            raise ValueError("🚨 GEMINI_API_KEY is missing. Did you create the .env file?")
-        
-        self.client = genai.Client()
-        
-        # --- The Architect's Dynamic Model Selector ---
-        print("🔍 Auto-detecting the latest available Gemini Vision model...")
-        valid_models = []
-        for m in self.client.models.list():
-            if "flash" in m.name:
-                valid_models.append(m.name)
-                
-        if not valid_models:
-            raise ValueError("❌ No Flash models found for this API key. Check your Google AI Studio account.")
+            print("⚠️ GEMINI_API_KEY is missing. Vision features will be disabled.")
+            return
+
+        try:
+            self.client = genai.Client()
             
-        # Select the most recent model Google returned
-        self.model_name = valid_models[0]
-        print(f"✅ Dynamically connected to: {self.model_name}")
+            # --- The Architect's Dynamic Model Selector ---
+            print("🔍 Auto-detecting the latest available Gemini Vision model...")
+            valid_models = []
+            # We wrap the list() call because this is where expired keys cause crashes
+            for m in self.client.models.list():
+                if "flash" in m.name:
+                    valid_models.append(m.name)
+                    
+            if valid_models:
+                # Select the most recent model Google returned
+                self.model_name = valid_models[0]
+                self.is_active = True
+                print(f"✅ Dynamically connected to: {self.model_name}")
+            else:
+                print("⚠️ No Flash models found. Falling back to 'gemini-1.5-flash'.")
+                # We still mark as inactive if discovery fails significantly, 
+                # or keep it active if we trust the fallback. 
+                # Let's be conservative:
+                self.is_active = False 
+
+        except Exception as e:
+            print(f"❌ Vision Agent Initialization Failed: {e}")
+            print("⚠️ Crowdsourcing features will be disabled until the API key is fixed.")
+            self.is_active = False
 
     def analyze_price_tag(self, image_path: str):
         """

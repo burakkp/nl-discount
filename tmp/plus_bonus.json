@@ -1,164 +1,191 @@
 [
   {
     "store": "Plus",
-    "name": "Ben & Jerry's en Magnum IJsbekers",
-    "deal": "50 % KORTING",
-    "price": "3. 74 7.493.747.49",
-    "url": "https://www.plus.nl/aanbiedingen/4419-47",
-    "image": "https://images.ctfassets.net/s0lodsnpsezb/2yXEBqAzw67uJ7FhSF7T0g/d216c1c483adaf3c3be5c953eaf9ba7b/PLUS_Voetbalplaatjes-2026_Dagje-Uit_Spaarversnellers-zegels__1.png?h=50",
-    "scraped_date": "2026-03-05"
+    "name": "Hertog Jan",
+    "deal": "GRATIS BEZORGING BIJ 10.00 EURO",
+    "price": null,
+    "url": "https://www.plus.nl/aanbiedingen/4425-175",
+    "image": "https://images.ctfassets.net/s0lodsnpsezb/4425_175_M/c10fe6d08376dc6fa1ea7c4c8a934dd0/4425_175.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
   },
   {
     "store": "Plus",
-    "name": "Coca-Cola Alle flessen à 1,5 liter",
-    "deal": "2 VOOR 3.99",
-    "price": "3. 99 5.50 - 5.983.995.50 - 5.98",
-    "url": "https://www.plus.nl/aanbiedingen/4419-73",
-    "image": "https://images.ctfassets.net/s0lodsnpsezb/2yXEBqAzw67uJ7FhSF7T0g/d216c1c483adaf3c3be5c953eaf9ba7b/PLUS_Voetbalplaatjes-2026_Dagje-Uit_Spaarversnellers-zegels__1.png?h=50",
-    "scraped_date": "2026-03-05"
+    "name": "t/m 21 apr",
+    "deal": "Campina Langlekker",
+    "price": "1. 00 1.89 - 2.39",
+    "url": "https://www.plus.nl/aanbiedingen/4425-17",
+    "image": "//images.ctfassets.net/s0lodsnpsezb/4425_17_M/49b0698c77781d9a2f33bc06e1021474/4425_17.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
   },
   {
     "store": "Plus",
-    "name": "Alle Lenor",
-    "deal": "1+1 GRATIS",
-    "price": "7. 99 15.987.9915.98",
-    "url": "https://www.plus.nl/aanbiedingen/4419-83",
-    "image": "https://images.ctfassets.net/s0lodsnpsezb/J0z3IV2hpGy3MC4KVyXdQ/ff335b52298ad4bad954a160a188a136/PLUS_Voetbalplaatjes-2026_Dagje-Uit_Spaarversnellers-zegels__2.png?h=50",
-    "scraped_date": "2026-03-05"
+    "name": "t/m 21 apr",
+    "deal": "Melkunie Vla en pap",
+    "price": "1. 00 1.35 - 2.59",
+    "url": "https://www.plus.nl/aanbiedingen/4425-20",
+    "image": "https://images.ctfassets.net/s0lodsnpsezb/4425_20_M/005097619d722fb72d881f54edd4f6d7/4425_20.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
   },
   {
     "store": "Plus",
-    "name": "t/m 10 mrt",
-    "deal": "Quaker Cruesli en Granola",
-    "price": "2. 99 3.59 - 4.392.993.59 - 4.39",
-    "url": "https://www.plus.nl/aanbiedingen/4419-92",
-    "image": "https://images.ctfassets.net/s0lodsnpsezb/2yXEBqAzw67uJ7FhSF7T0g/d216c1c483adaf3c3be5c953eaf9ba7b/PLUS_Voetbalplaatjes-2026_Dagje-Uit_Spaarversnellers-zegels__1.png?h=50",
-    "scraped_date": "2026-03-05"
+    "name": "t/m 21 apr",
+    "deal": "PLUS Bollen",
+    "price": "1. 00 1.59",
+    "url": "https://www.plus.nl/aanbiedingen/4425-51",
+    "image": "//images.ctfassets.net/s0lodsnpsezb/4425_51_M/b2dbc7ff4fed9bf2a921112a6e987c95/4425_51.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
   },
   {
     "store": "Plus",
-    "name": "Verspakketten",
-    "deal": "PLUS Verspakketten",
-    "price": "4. 49 5.49 - 5.894.495.49 - 5.89",
-    "url": "https://www.plus.nl/aanbiedingen/4419-160",
-    "image": "https://images.ctfassets.net/s0lodsnpsezb/4419_160_M/412aaa1396af7afc2fd6ffa3f18268fa/4419_160.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scraped_date": "2026-03-05"
+    "name": "t/m 21 apr",
+    "deal": "Taksi, Dubbelfrisss Boost en Van de Boom",
+    "price": "1. 00 1.99",
+    "url": "https://www.plus.nl/aanbiedingen/4425-123",
+    "image": "//images.ctfassets.net/s0lodsnpsezb/4425_123_M/5103634497c3e67ccaa1bd2f9a3f5d46/4425_123.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
   },
   {
     "store": "Plus",
-    "name": "Bijv. Basis soepgroenten",
-    "deal": "50 % KORTING",
-    "price": "0. 57 1.150.571.15",
-    "url": "https://www.plus.nl/aanbiedingen/4419-154",
-    "image": "https://images.ctfassets.net/s0lodsnpsezb/4419_154_M/434c0371e4e6b6a67cd747f457604f87/4419_154.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scraped_date": "2026-03-05"
+    "name": "Verspakketen",
+    "deal": "PLUS Verspakketen",
+    "price": "4. 49 5.99",
+    "url": "https://www.plus.nl/aanbiedingen/4425-194",
+    "image": "https://images.ctfassets.net/s0lodsnpsezb/4425_194_M/e4ad37e42eb5a2fc52a7ecb712b14fc8/4425_194.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
   },
   {
     "store": "Plus",
-    "name": "Snijbonen gesneden, broccoliroosjes en pompoenblokjes",
-    "deal": "PLUS Snijbonen gesneden, broccoliroosjes en pompoenblokjes",
-    "price": "1. 79 2.49 - 3.491.792.49 - 3.49",
-    "url": "https://www.plus.nl/aanbiedingen/4419-159",
-    "image": "https://images.ctfassets.net/s0lodsnpsezb/4419_159_M/7854c55335d96d628382e0a2bb55c3f1/4419_159.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scraped_date": "2026-03-05"
+    "name": "Opbakaardappels",
+    "deal": "PLUS Opbakaardappels",
+    "price": "1. 00 1.29 - 1.49",
+    "url": "https://www.plus.nl/aanbiedingen/4425-187",
+    "image": "https://images.ctfassets.net/s0lodsnpsezb/4425_187_M/b56ed071d45a17762fe2810cd84da65d/4425_187.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
+  },
+  {
+    "store": "Plus",
+    "name": "Salades",
+    "deal": "PLUS Salades",
+    "price": "3. 00 3.29 - 4.99",
+    "url": "https://www.plus.nl/aanbiedingen/4425-191",
+    "image": "https://images.ctfassets.net/s0lodsnpsezb/6bnAStR9SI0ZeF5Y13snBN/ae869077fd22d32873f156bd35a43634/PLUS_Zwilling-Pannen-2025_APP_1-Zegel.png?h=50",
+    "scraped_date": "2026-04-17"
+  },
+  {
+    "store": "Plus",
+    "name": "Wok- en roerbakgroenten",
+    "deal": "PLUS Wok- en roerbakgroenten",
+    "price": "1. 00 1.99",
+    "url": "https://www.plus.nl/aanbiedingen/4425-185",
+    "image": "https://images.ctfassets.net/s0lodsnpsezb/4425_185_M/4647b372fd8f82e284298db2a219697a/4425_185.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
+  },
+  {
+    "store": "Plus",
+    "name": "Kookgroenten",
+    "deal": "PLUS Kookgroenten",
+    "price": "1. 00 1.09 - 1.99",
+    "url": "https://www.plus.nl/aanbiedingen/4425-182",
+    "image": "https://images.ctfassets.net/s0lodsnpsezb/4425_182_M/efd2b45a8c2b4a57892f6d30b7b27eab/4425_182.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
+  },
+  {
+    "store": "Plus",
+    "name": "Fruitpunch en meloenmix",
+    "deal": "PLUS Fruitpunch en meloenmix",
+    "price": "3. 00 4.99",
+    "url": "https://www.plus.nl/aanbiedingen/4425-192",
+    "image": "https://images.ctfassets.net/s0lodsnpsezb/4425_192_M/e47fc1564d784497fe55e8490fd357ef/4425_192.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
   },
   {
     "store": "Plus",
     "name": "Snoepgroente",
     "deal": "3 VOOR 5.00",
-    "price": "5. 00 6.57 - 7.475.006.57 - 7.47",
-    "url": "https://www.plus.nl/aanbiedingen/4417-15",
-    "image": "https://images.ctfassets.net/s0lodsnpsezb/4417_15_M/3bbb7f082fc70841db2fa4e38f9cc42e/4417_15.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scraped_date": "2026-03-05"
+    "price": "5. 00 6.57 - 7.47",
+    "url": "https://www.plus.nl/aanbiedingen/4425-138",
+    "image": "https://images.ctfassets.net/s0lodsnpsezb/4425_138_M/6ee4d90695ef60ab728c2df2a8693b98/4425_138.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
+  },
+  {
+    "store": "Plus",
+    "name": "Vers gesneden fruit",
+    "deal": "3 VOOR 5.00",
+    "price": "5. 00 7.47",
+    "url": "https://www.plus.nl/aanbiedingen/4425-129",
+    "image": "https://images.ctfassets.net/s0lodsnpsezb/4425_129_M/03ed6e72a48108b88536ef491984169c/4425_129.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
+  },
+  {
+    "store": "Plus",
+    "name": "Oosterse maaltijd",
+    "deal": "PLUS Oosterse maaltijd",
+    "price": "4. 00 4.49 - 4.99",
+    "url": "https://www.plus.nl/aanbiedingen/4425-12",
+    "image": "//images.ctfassets.net/s0lodsnpsezb/4425_12_M/50ec94808a22f7478446f692d8ee7184/4425_12.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
   },
   {
     "store": "Plus",
     "name": "Verse pizza's",
     "deal": "2 VOOR 6.99",
-    "price": "6. 99 11.98 - 13.586.9911.98 - 13.58",
-    "url": "https://www.plus.nl/aanbiedingen/4419-124",
-    "image": "https://images.ctfassets.net/s0lodsnpsezb/4419_124_M/592be09b594bcd4aa591c038de2c9807/4419_124.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scraped_date": "2026-03-05"
+    "price": "6. 99 10.98 - 12.58",
+    "url": "https://www.plus.nl/aanbiedingen/4425-44",
+    "image": "//images.ctfassets.net/s0lodsnpsezb/4425_44_M/a0bcacd58e1fc4ca3f8286b17c0e53e4/4425_44.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
   },
   {
     "store": "Plus",
-    "name": "Verse pasta en pastasauzen Bijv. Ravioli 3 kazen",
-    "deal": "1+1 GRATIS",
-    "price": "2. 49 4.982.494.98",
-    "url": "https://www.plus.nl/aanbiedingen/4419-54",
-    "image": "https://images.ctfassets.net/s0lodsnpsezb/4419_54_M/4dc5fe62e8feb5d83f390e89941a0e7a/4419_54.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scraped_date": "2026-03-05"
+    "name": "Verse pizza's",
+    "deal": "Alle Uit de keuken van PLUS Verse pizza's",
+    "price": "5. 00 6.49 - 7.49",
+    "url": "https://www.plus.nl/aanbiedingen/4425-10",
+    "image": "//images.ctfassets.net/s0lodsnpsezb/4425_10_M/2bae8a87ec9814e2fe05d350826d37b6/4425_10.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
   },
   {
     "store": "Plus",
-    "name": "Hollandse maaltijd",
-    "deal": "PLUS Hollandse maaltijd",
-    "price": "3. 99 4.49 - 5.793.994.49 - 5.79",
-    "url": "https://www.plus.nl/aanbiedingen/4419-21",
-    "image": "//images.ctfassets.net/s0lodsnpsezb/4419_21_M/262f8b4482a8a6bc839eff08e36e1a0b/4419_21.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scraped_date": "2026-03-05"
-  },
-  {
-    "store": "Plus",
-    "name": "Soep",
-    "deal": "50 % KORTING",
-    "price": "1. 24 2.491.242.49",
-    "url": "https://www.plus.nl/aanbiedingen/4419-147",
-    "image": "https://images.ctfassets.net/s0lodsnpsezb/4419_147_M/15d6a83d38c0e783b1e88d27fa7c7f0d/4419_147.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scraped_date": "2026-03-05"
-  },
-  {
-    "store": "Plus",
-    "name": "Burger",
-    "deal": "2 VOOR 2.99",
-    "price": "2. 99 4.78 - 6.182.994.78 - 6.18",
-    "url": "https://www.plus.nl/aanbiedingen/4419-22",
-    "image": "https://images.ctfassets.net/s0lodsnpsezb/4419_22_M/9d6ac11d8bc62c7dcaa754eab06dc169/4419_22.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scraped_date": "2026-03-05"
-  },
-  {
-    "store": "Plus",
-    "name": "Verse maaltijd",
-    "deal": "2 VOOR 11.00",
-    "price": "11. 00 12.7811.0012.78",
-    "url": "https://www.plus.nl/aanbiedingen/4419-151",
-    "image": "https://images.ctfassets.net/s0lodsnpsezb/4419_151_M/c92a610c363fd83ad1f9ccdca95b95ab/4419_151.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scraped_date": "2026-03-05"
+    "name": "Bapao",
+    "deal": "PLUS Bapao",
+    "price": "1. 00 1.09 - 1.29",
+    "url": "https://www.plus.nl/aanbiedingen/4425-11",
+    "image": "https://images.ctfassets.net/s0lodsnpsezb/4425_11_M/b72a85861b775a9b86c3bbca8980c643/4425_11.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
   },
   {
     "store": "Plus",
     "name": "Maaltijdsalade",
     "deal": "2 VOOR 9.00",
-    "price": "9. 00 9.38 - 12.589.009.38 - 12.58",
-    "url": "https://www.plus.nl/aanbiedingen/4417-17",
-    "image": "https://images.ctfassets.net/s0lodsnpsezb/4417_17_M/8e8b8a11be3455d14fb4d49c61e080f2/4417_17.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scraped_date": "2026-03-05"
+    "price": "9. 00 9.38 - 12.58",
+    "url": "https://www.plus.nl/aanbiedingen/4425-140",
+    "image": "https://images.ctfassets.net/s0lodsnpsezb/4425_140_M/d42ffa1d6e01a7bde42888c4050e173f/4425_140.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
   },
   {
     "store": "Plus",
     "name": "Verse soep",
     "deal": "2 VOOR 5.50",
-    "price": "5. 50 7.185.507.18",
-    "url": "https://www.plus.nl/aanbiedingen/4417-24",
-    "image": "//images.ctfassets.net/s0lodsnpsezb/4417_24_M/88675b30358135f34270f2bc5acac4ac/4417_24.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scraped_date": "2026-03-05"
+    "price": "5. 50 7.18",
+    "url": "https://www.plus.nl/aanbiedingen/4425-145",
+    "image": "https://images.ctfassets.net/s0lodsnpsezb/4425_145_M/8a8502cff811a56e4d16229a7476d0bf/4425_145.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
   },
   {
     "store": "Plus",
     "name": "Oosterse maaltijd",
     "deal": "2 VOOR 5.50",
-    "price": "5. 50 6.18 - 7.585.506.18 - 7.58",
-    "url": "https://www.plus.nl/aanbiedingen/4417-25",
-    "image": "https://images.ctfassets.net/s0lodsnpsezb/4417_25_M/d210fc548d537c986a929285f3eaefec/4417_25.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scraped_date": "2026-03-05"
+    "price": "5. 50 6.18 - 7.58",
+    "url": "https://www.plus.nl/aanbiedingen/4425-147",
+    "image": "https://images.ctfassets.net/s0lodsnpsezb/4425_147_M/9a63eb50225076ea39abbe7ac7615545/4425_147.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
   },
   {
     "store": "Plus",
     "name": "Combi gerechten",
     "deal": "2 VOOR 7.50",
-    "price": "7. 50 7.98 - 9.987.507.98 - 9.98",
-    "url": "https://www.plus.nl/aanbiedingen/4417-26",
-    "image": "https://images.ctfassets.net/s0lodsnpsezb/4417_26_M/2493464922534b2096c7a96d871cdf89/4417_26.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scraped_date": "2026-03-05"
+    "price": "7. 50 7.98 - 9.98",
+    "url": "https://www.plus.nl/aanbiedingen/4425-148",
+    "image": "https://images.ctfassets.net/s0lodsnpsezb/4425_148_M/948971f348d0d17a0bef2906658f8b3e/4425_148.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "scraped_date": "2026-04-17"
   }
 ]
