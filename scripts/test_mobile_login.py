@@ -22,7 +22,9 @@ def get_test_token():
         print("Bearer " + data["idToken"])
         print("\n📋 Copy the token (WITHOUT the word 'Bearer ') and paste it into Swagger UI!")
     else:
-        print(f"❌ Error getting token: {data}")
+        # Avoid logging raw upstream error details, which may contain sensitive information.
+        print(f"❌ Error getting token (status {response.status_code}).")
+        print("Please verify your Firebase configuration and try again.")
 
 if __name__ == "__main__":
     get_test_token()
