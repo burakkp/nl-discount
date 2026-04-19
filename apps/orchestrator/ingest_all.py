@@ -121,17 +121,17 @@ class DataIngestor:
 
     def run(self):
         files_to_process = [
-            "ah_bonus.json", 
-            "jumbo_bonus.json", 
-            "aldi_bonus.json", 
-            "lidl_bonus.json", 
+            "ah_bonus.json",
+            "jumbo_bonus.json",
+            "aldi_bonus.json",
+            "lidl_bonus.json",
             "plus_bonus.json"
         ]
-        
+
         master_list = []
         for file in files_to_process:
             master_list.extend(self.process_file(file))
-            
+
         self.ingest_to_db(master_list)
 
 if __name__ == "__main__":
