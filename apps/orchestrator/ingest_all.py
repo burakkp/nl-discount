@@ -2,8 +2,8 @@ import json
 import os
 import sys
 
-from normalizer import DiscountNormalizer
-from date_helper import RetailDateCalculator
+from .normalizer import DiscountNormalizer
+from .date_helper import RetailDateCalculator
 
 # Use setuptools/standard imports where possible, but keep a fallback for direct script execution
 try:
