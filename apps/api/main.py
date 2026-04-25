@@ -178,7 +178,7 @@ async def crowdsource_discount(
 
 # 1. Pydantic schema for the incoming request
 class WatchlistRequest(BaseModel):
-    product_id: str = Field(..., min_length=1, max_length=100, pattern="^[a-zA-Z0-9_.-]+$")
+    product_id: str = Field(..., min_length=1, max_length=200)
 
 # 2. GET: Fetch the user's current watchlist
 @app.get("/watchlist")
@@ -269,6 +269,29 @@ def get_this_week_discounts(
     db: Session = Depends(get_db)
 ):
     """Returns all active discounts for the current week."""
+    import re
+
+    def _parse_slug(slug: str):
+        """Extract a human-readable name and price pair from a product slug.
+        E.g. 'ah_komkommer_los_van_1.7_voor_0.99' -> ('Komkommer Los', 1.70, 0.99)
+        Handles both 'van X voor Y' and plain slugs.
+        """
+        # Try to find 'van <old> voor <new>' pattern
+        m = re.search(r'van_([0-9]+[.,][0-9]+)_voor_([0-9]+[.,][0-9]+)', slug)
+        old_price = float(m.group(1).replace(',', '.')) if m else None
+        new_price = float(m.group(2).replace(',', '.')) if m else None
+
+        # Strip store prefix (ah_, alle_ah_, jumbo_, lidl_, etc.)
+        name = re.sub(r'^(alle_)?(ah|jumbo|lidl|aldi|plus)_', '', slug, flags=re.IGNORECASE)
+        # Remove trailing price fragment
+        name = re.sub(r'_van_[0-9.,]+_voor_[0-9.,]+$', '', name)
+        # Convert underscores to spaces and title-case
+        name = name.replace('_', ' ').strip().title()
+        # Clean up parentheses artefacts like '(Gele)'
+        name = re.sub(r'\(([^)]+)\)', lambda x: x.group(1).title(), name)
+
+        return name, old_price, new_price
+
     today = date.today()
     query = db.query(Discount, Store).join(
         Store, Discount.store_id == Store.id
@@ -281,24 +304,34 @@ def get_this_week_discounts(
     if deal_type:
         query = query.filter(Discount.deal_type == deal_type.upper())
 
-    results = query.order_by(Discount.deal_price).limit(limit).all()
+    results = query.order_by(Discount.start_date.desc()).limit(limit).all()
+
+    data = []
+    for r in results:
+        slug = r.Discount.master_product_id or ''
+        display_name, old_price, price_from_slug = _parse_slug(slug)
+
+        # Prefer DB-stored prices; fall back to parsed values from the slug
+        price = r.Discount.deal_price if r.Discount.deal_price and r.Discount.deal_price > 0 else price_from_slug
+        old_p = old_price  # DB doesn't have old_price column yet
+
+        data.append({
+            "product": display_name,
+            "product_slug": slug,
+            "supermarket": r.Store.chain_name,
+            "deal_type": r.Discount.deal_type,
+            "price": price,
+            "old_price": old_p,
+            "unit_price": r.Discount.unit_price,
+            "start_date": str(r.Discount.start_date),
+            "end_date": str(r.Discount.end_date),
+        })
 
     return {
         "status": "success",
         "week": str(today),
-        "count": len(results),
-        "data": [
-            {
-                "product": r.Discount.master_product_id,
-                "supermarket": r.Store.chain_name,
-                "deal_type": r.Discount.deal_type,
-                "price": r.Discount.deal_price,
-                "unit_price": r.Discount.unit_price,
-                "start_date": str(r.Discount.start_date),
-                "end_date": str(r.Discount.end_date),
-            }
-            for r in results
-        ]
+        "count": len(data),
+        "data": data,
     }
 
 # 🔐 SECURITY HARDENING: Enforce mandatory Cron Secret in Production
