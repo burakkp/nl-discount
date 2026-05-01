@@ -12,6 +12,7 @@ from pydantic import BaseModel, Field
 from fastapi.middleware.cors import CORSMiddleware
 
 from core.security.auth import verify_firebase_token
+from firebase_admin import auth
 
 # Import our new Vision Agent! Note: Adjust the import path if needed based on your folder structure
 from apps.orchestrator.vision_agent import CrowdsourceVisionAgent
@@ -44,6 +45,21 @@ def get_db():
     finally:
         db.close()
 
+def get_optional_user_uid(authorization: Optional[str] = Header(None)):
+    """
+    Optional authentication: returns UID if valid token present, else None.
+    Does not raise 401 if header is missing.
+    """
+    if not authorization or not authorization.startswith("Bearer "):
+        return None
+    
+    token = authorization.split(" ")[1]
+    try:
+        decoded_token = auth.verify_id_token(token)
+        return decoded_token.get("uid")
+    except Exception:
+        return None
+
 @app.get("/discounts/nearby")
 def get_nearby_discounts(
     lat: float = Query(..., description="User's latitude"),
@@ -66,6 +82,9 @@ def get_nearby_discounts(
         Discount.master_product_id,
         Discount.deal_type,
         Discount.deal_price,
+        Discount.original_price,
+        Discount.unit_price,
+        Discount.unit_label,
         Discount.start_date,
         Discount.end_date,
         Store.chain_name,
@@ -79,7 +98,8 @@ def get_nearby_discounts(
         func.ST_DWithin(Store.location, func.ST_GeographyFromText(user_location), radius_meters)
     ).order_by(
         "distance_meters" # Closest stores first
-    ).limit(100).all()
+    ).limit(500).all()
+
 
     # 3. Format for the Mobile App
     discounts_list = []
@@ -91,11 +111,78 @@ def get_nearby_discounts(
             "distance_km": round(row.distance_meters / 1000, 2),
             "deal_type": row.deal_type,
             "price": row.deal_price,
+            "original_price": row.original_price,
+            "unit_price": row.unit_price,
+            "unit_label": row.unit_label,
             "start_date": row.start_date,
             "end_date": row.end_date
         })
 
     return {"status": "success", "radius_km": radius_km, "data": discounts_list}
+
+
+@app.get("/stores/nearby")
+def get_nearby_stores(
+    lat: float = Query(..., description="User's latitude"),
+    lng: float = Query(..., description="User's longitude"),
+    radius_km: float = Query(5.0, description="Search radius in kilometers"),
+    db: Session = Depends(get_db),
+    user_uid: Optional[str] = Depends(get_optional_user_uid)
+):
+    """
+    Returns supermarkets within radius, enriched with watchlist hit counts if authenticated.
+    """
+    radius_meters = radius_km * 1000
+    user_location = f"SRID=4326;POINT({lng} {lat})"
+    today = date.today()
+
+    # Find the user's DB ID if authenticated
+    user_id = None
+    if user_uid:
+        user = db.query(User).filter(User.device_id == user_uid).first()
+        if user:
+            user_id = user.id
+
+    # Core Query: Stores in radius
+    # We use func.ST_AsText and some parsing or just func.ST_X/Y if available
+    query = db.query(
+        Store.id,
+        Store.chain_name,
+        Store.address,
+        func.ST_Y(func.ST_AsText(Store.location)).label("lat_val"),
+        func.ST_X(func.ST_AsText(Store.location)).label("lng_val"),
+        func.ST_Distance(Store.location, func.ST_GeographyFromText(user_location)).label("distance_meters")
+    ).filter(
+        func.ST_DWithin(Store.location, func.ST_GeographyFromText(user_location), radius_meters)
+    )
+
+    stores = query.all()
+    results = []
+
+    for s in stores:
+        # Calculate watchlist hits for this store
+        hits = 0
+        if user_id:
+            hits = db.query(func.count(Discount.id)).join(
+                WatchlistItem, WatchlistItem.master_product_id == Discount.master_product_id
+            ).filter(
+                Discount.store_id == s.id,
+                WatchlistItem.user_id == user_id,
+                Discount.start_date <= today,
+                Discount.end_date >= today
+            ).scalar()
+
+        results.append({
+            "id": s.id,
+            "chain_name": s.chain_name,
+            "address": s.address,
+            "latitude": float(s.lat_val) if s.lat_val else 0.0,
+            "longitude": float(s.lng_val) if s.lng_val else 0.0,
+            "distance_km": round(s.distance_meters / 1000, 2),
+            "watchlist_hits": hits
+        })
+
+    return {"status": "success", "data": results}
 
 
 @app.post("/discounts/crowdsource")
@@ -265,7 +352,9 @@ async def update_fcm_token(
 def get_this_week_discounts(
     store: str = Query(None, description="Filter by store name (optional)"),
     deal_type: str = Query(None, description="Filter by deal type (optional)"),
-    limit: int = Query(50, le=200),
+    query_str: str = Query(None, alias="query", description="Search for specific products"),
+    page: int = Query(1, ge=1, description="Page number"),
+    page_size: int = Query(20, ge=1, le=100, description="Items per page"),
     db: Session = Depends(get_db)
 ):
     """Returns all active discounts for the current week."""
@@ -293,18 +382,38 @@ def get_this_week_discounts(
         return name, old_price, new_price
 
     today = date.today()
+    # Rename to avoid shadowing the query-param `deal_type` inside the loop below
+    deal_type_filter = deal_type
+
+    # Only surface items that have EITHER a real price OR a known deal type we can label.
+    # This must be done at the SQL level so pagination counts are accurate.
+    from sqlalchemy import or_, and_
+    LABELABLE_TYPES = ('BOGO', 'HALF_PRICE_2ND', 'PERCENTAGE', 'FIXED_AMOUNT',
+                       'FIXED_BUNDLE', 'FIXED_PRICE', 'PER_UNIT', 'CLEARANCE',
+                       'MULTI_BUY', 'FIXED_DISCOUNT')
+
     query = db.query(Discount, Store).join(
         Store, Discount.store_id == Store.id
     ).filter(
         Discount.start_date <= today,
         Discount.end_date >= today,
+        Discount.image_url.isnot(None),
+        # Must have a price OR a deal type we can render a label for
+        or_(
+            and_(Discount.deal_price.isnot(None), Discount.deal_price > 0),
+            Discount.deal_type.in_(LABELABLE_TYPES),
+        ),
     )
     if store:
         query = query.filter(Store.chain_name.ilike(f"%{store}%"))
-    if deal_type:
-        query = query.filter(Discount.deal_type == deal_type.upper())
+    if query_str:
+        query = query.filter(Discount.master_product_id.ilike(f"%{query_str}%"))
+    if deal_type_filter:
+        query = query.filter(Discount.deal_type == deal_type_filter.upper())
 
-    results = query.order_by(Discount.start_date.desc()).limit(limit).all()
+    # Pagination logic
+    offset = (page - 1) * page_size
+    results = query.order_by(Discount.id.desc()).offset(offset).limit(page_size).all()
 
     data = []
     for r in results:
@@ -313,16 +422,54 @@ def get_this_week_discounts(
 
         # Prefer DB-stored prices; fall back to parsed values from the slug
         price = r.Discount.deal_price if r.Discount.deal_price and r.Discount.deal_price > 0 else price_from_slug
-        old_p = old_price  # DB doesn't have old_price column yet
+        old_p = r.Discount.original_price if r.Discount.original_price else old_price
+
+        # Build a human-readable deal label for items without a numeric price
+        # (BOGO, percentage discounts, half-price — no base price on source page)
+        deal_type = r.Discount.deal_type or 'UNKNOWN'
+        deal_label = None
+        if not price:
+            if deal_type == 'BOGO':
+                deal_label = '1+1 GRATIS'
+            elif deal_type == 'HALF_PRICE_2ND':
+                deal_label = '2e HALVE PRIJS'
+            elif deal_type == 'PERCENTAGE':
+                # unit_price stores the discount fraction (e.g. 0.25 = 25%)
+                up = r.Discount.unit_price
+                if up and up <= 1.0:
+                    deal_label = f'{int(round(up * 100))}% KORTING'
+                else:
+                    deal_label = 'KORTING'
+            elif deal_type == 'FIXED_AMOUNT' and r.Discount.unit_price:
+                deal_label = f'\u20ac{r.Discount.unit_price:.2f} KORTING'
+            elif deal_type not in ('UNKNOWN', None):
+                deal_label = deal_type.replace('_', ' ')
+
+        # Skip items with no numeric price AND no deal label — nothing to show
+        if not price and not deal_label:
+            continue
+
+        import json as _json
+        deal_options_parsed = []
+        if r.Discount.deal_options:
+            try:
+                deal_options_parsed = _json.loads(r.Discount.deal_options)
+            except Exception:
+                pass
 
         data.append({
             "product": display_name,
             "product_slug": slug,
             "supermarket": r.Store.chain_name,
-            "deal_type": r.Discount.deal_type,
+            "deal_type": deal_type,
+            "deal_label": deal_label,
             "price": price,
             "old_price": old_p,
             "unit_price": r.Discount.unit_price,
+            "unit_label": r.Discount.unit_label,
+            "description": r.Discount.description,
+            "deal_options": deal_options_parsed,   # [{qty:4, price:7.99}, {qty:6, price:10.99}]
+            "image_url": r.Discount.image_url,
             "start_date": str(r.Discount.start_date),
             "end_date": str(r.Discount.end_date),
         })
@@ -330,6 +477,8 @@ def get_this_week_discounts(
     return {
         "status": "success",
         "week": str(today),
+        "page": page,
+        "page_size": page_size,
         "count": len(data),
         "data": data,
     }
