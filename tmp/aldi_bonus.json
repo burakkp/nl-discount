@@ -1,1303 +1,183 @@
 [
   {
     "store": "Aldi",
-    "name": "Rode puntpaprika's",
+    "name": "BBQ Speklappen gekruid",
+    "brand": "BBQ",
+    "deal": "-38%",
+    "price": "2.99",
+    "url": "https://www.aldi.nl/product/speklappen-gekruid-1231671.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1231671_main_cms_3_nl_nl_speklappen_gekruid_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "BBQ Barbecueworsten",
+    "brand": "BBQ",
+    "deal": "-16%",
+    "price": "2.49",
+    "url": "https://www.aldi.nl/product/barbecueworsten-91233152.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/91233152_wk18?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "BBQ Hamburgers",
+    "brand": "BBQ",
+    "deal": "-14%",
+    "price": "5.99",
+    "url": "https://www.aldi.nl/product/hamburgers-1226658.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1226658_main_cms_2_nl_nl_hamburgers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "BBQ Varkensfiletlapjes gemarineerd",
+    "brand": "BBQ",
+    "deal": "OP=OP",
+    "price": "4.79",
+    "url": "https://www.aldi.nl/product/varkensfiletlapjes-gemarineerd-1233396.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1233396_main_cms_4_nl_nl_varkensfiletlapjes_gemarineerd_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "Gehaktschnitzels",
     "brand": "",
     "deal": "OP=OP",
     "price": "1.49",
-    "url": "https://www.aldi.nl/product/rode-puntpaprikas-1208033",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1208033_main_cms_7_nl_nl_rode_puntpaprika_s_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.aldi.nl/product/gehaktschnitzels-91235171.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/91235171_wk18?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
-    "name": "Komkommer",
-    "brand": "",
-    "deal": "0.59",
-    "price": "0.59",
-    "url": "https://www.aldi.nl/product/komkommer-1219603",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1219603_main_cms_8_nl_nl_komkommer_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "name": "GOLDEN SEAFOOD Pangasiusfilets",
+    "brand": "GOLDEN SEAFOOD",
+    "deal": "OP=OP",
+    "price": "4.99",
+    "url": "https://www.aldi.nl/product/pangasiusfilets-1216724.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1216724_main_cms_7_nl_nl_pangasiusfilets_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
-    "name": "Courgette",
-    "brand": "",
-    "deal": "0.69",
-    "price": "0.69",
-    "url": "https://www.aldi.nl/product/courgette-1219382",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1219382_main_cms_5_nl_nl_courgette_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Zoete aardappelen",
+    "name": "Blauwe bessen",
     "brand": "",
     "deal": "OP=OP",
-    "price": "1.69",
-    "url": "https://www.aldi.nl/product/zoete-aardappelen-1207991",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1207991_main_cms_1_nl_nl_zoete_aardappelen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "KANZI Appels",
-    "brand": "KANZI",
-    "deal": "-16%",
-    "price": "2.49",
-    "url": "https://www.aldi.nl/product/appels-1215535",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1215535_main_cms_3_nl_nl_appels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Mandarijnen",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "2.99",
-    "url": "https://www.aldi.nl/product/mandarijnen-1238165",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1238165_main_cms_2_nl_nl_mandarijnen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "price": "4.49",
+    "url": "https://www.aldi.nl/product/blauwe-bessen-1210650.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1210650_main_cms_10_nl_nl_blauwe_bessen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
     "name": "Pitloze rode druiven",
     "brand": "",
-    "deal": "-28%",
-    "price": "1.79",
-    "url": "https://www.aldi.nl/product/pitloze-rode-druiven-1219224",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1219224_main_cms_28_nl_nl_pitloze_rode_druiven_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "DAYLICIOUS Nasi-bamigroenten",
-    "brand": "DAYLICIOUS",
-    "deal": "-11%",
-    "price": "1.49",
-    "url": "https://www.aldi.nl/product/nasi-bamigroenten-1221345",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1221345_main_cms_4_nl_nl_nasi_bamigroenten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "DAYLICIOUS Jonge bladsla met rucola",
-    "brand": "DAYLICIOUS",
-    "deal": "-27%",
-    "price": "1.59",
-    "url": "https://www.aldi.nl/product/jonge-bladsla-met-rucola-1219494",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1219494_main_cms_3_nl_nl_jonge_bladsla_met_rucola_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "BBQ Gemarineerde speklappen",
-    "brand": "BBQ",
-    "deal": "OP=OP",
-    "price": "4.99",
-    "url": "https://www.aldi.nl/product/gemarineerde-speklappen-1233314",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1233314_main_cms_4_nl_nl_gemarineerde_speklappen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Gyros met paprika",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "5.99",
-    "url": "https://www.aldi.nl/product/gyros-met-paprika-1209562",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1209562_main_cms_6_nl_nl_gyros_met_paprika_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Scharrelkipdijfilet",
-    "brand": "",
-    "deal": "-18%",
-    "price": "7.49",
-    "url": "https://www.aldi.nl/product/scharrelkipdijfilet-1235165",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1235165_main_cms_3_nl_nl_scharrelkipdijfilet_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Gehakt cordon bleus",
-    "brand": "",
     "deal": "-20%",
     "price": "1.99",
-    "url": "https://www.aldi.nl/product/gehakt-cordon-bleus-1201595",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1201595_main_cms_2_nl_nl_gehakt_cordon_bleus_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.aldi.nl/product/pitloze-rode-druiven-1219224.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1219224_main_cms_28_nl_nl_pitloze_rode_druiven_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
-    "name": "MY VAY Plantaardig rulgehakt",
-    "brand": "MY VAY",
-    "deal": "-10%",
-    "price": "1.25",
-    "url": "https://www.aldi.nl/product/plantaardig-rulgehakt-1200191",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1200191_main_cms_3_nl_nl_plantaardig_rulgehakt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "name": "Handsinaasappels",
+    "brand": "",
+    "deal": "-16%",
+    "price": "2.49",
+    "url": "https://www.aldi.nl/product/handsinaasappels-1219056.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1219056_main_cms_1_nl_nl_handsinaasappels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
-    "name": "Groene pesto of kaas-pestodip",
+    "name": "Mango",
     "brand": "",
     "deal": "-27%",
     "price": "1.29",
-    "url": "https://www.aldi.nl/product/groene-pesto-of-kaas-pestodip-91200141",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91200141_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.aldi.nl/product/mango-1219722.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1219722_main_cms_2_nl_nl_mango_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
-    "name": "PHILADELPHIA Roomkaas",
-    "brand": "PHILADELPHIA",
-    "deal": "-28%",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/roomkaas-1205826",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1205826_main_cms_8_nl_nl_roomkaas_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "MOLENLAND Goudse kaas 48+ oud",
-    "brand": "MOLENLAND",
-    "deal": "-22%",
-    "price": "3.99",
-    "url": "https://www.aldi.nl/product/goudse-kaas-48-oud-1226223",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1226223_main_cms_1_nl_nl_goudse_kaas_48_oud_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Grillworst chili, saté of jalapeño & kaas",
+    "name": "Frambozen",
     "brand": "",
-    "deal": "OP=OP",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/grillworst-chili-sate-of-jalapeno-en-kaas-91233342",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91233342_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "deal": "-40%",
+    "price": "1.49",
+    "url": "https://www.aldi.nl/product/frambozen-1201661.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1201661_main_cms_3_nl_nl_frambozen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
-    "name": "Leverworst",
+    "name": "Trostomaten",
     "brand": "",
-    "deal": "OP=OP",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/leverworst-1232681",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232681_main_cms_2_nl_nl_leverworst_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "MILSANI Halfvolle romige kwark",
-    "brand": "MILSANI",
-    "deal": "2 VOOR",
-    "price": "2.50",
-    "url": "https://www.aldi.nl/product/halfvolle-romige-kwark-1201679",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1201679_main_cms_14_nl_nl_halfvolle_romige_kwark_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "MILSANI Mango-passievla",
-    "brand": "MILSANI",
-    "deal": "2 VOOR",
-    "price": "3.00",
-    "url": "https://www.aldi.nl/product/mango-passievla-1225295",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1225295_main_cms_2_nl_nl_mango_passievla_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "MONA Griesmeel- of vanillepudding",
-    "brand": "MONA",
-    "deal": "OP=OP",
-    "price": "1.49",
-    "url": "https://www.aldi.nl/product/griesmeel-of-vanillepudding-91216567",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91216567_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Mueslibollen",
-    "brand": "",
-    "deal": "-16%",
-    "price": "1.49",
-    "url": "https://www.aldi.nl/product/mueslibollen-1219447",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1219447_main_cms_7_nl_nl_mueslibollen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "BLUE BAND Goede start of halvarine",
-    "brand": "BLUE BAND",
-    "deal": "1.49",
-    "price": "1.49",
-    "url": "https://www.aldi.nl/product/goede-start-of-halvarine-91225913",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91225913_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "BLUE BAND Heerlijk romig",
-    "brand": "BLUE BAND",
-    "deal": "OP=OP",
-    "price": "1.49",
-    "url": "https://www.aldi.nl/product/heerlijk-romig-1237176",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1237176_main_cms_2_nl_nl_heerlijk_romig_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "BLUE BAND Bak en braad wikkel",
-    "brand": "BLUE BAND",
-    "deal": "-28%",
-    "price": "2.49",
-    "url": "https://www.aldi.nl/product/bak-en-braad-wikkel-1208243",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/variant_1208243_1_main_cms_2_nl_nl_bak_en_braad_wikkel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "TESOROS DEL SUR Fuet",
-    "brand": "TESOROS DEL SUR",
-    "deal": "OP=OP",
-    "price": "3.99",
-    "url": "https://www.aldi.nl/product/fuet-1230486",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1230486_main_cms_1_nl_nl_fuet_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "OSTEUROPA Hongaarse salami",
-    "brand": "OSTEUROPA",
-    "deal": "OP=OP",
-    "price": "4.99",
-    "url": "https://www.aldi.nl/product/hongaarse-salami-1202181",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1202181_main_cms_1_nl_nl_hongaarse_salami_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "TRADER JOE'S Gedroogde dadels",
-    "brand": "TRADER JOE'S",
-    "deal": "OP=OP",
-    "price": "2.29",
-    "url": "https://www.aldi.nl/product/gedroogde-dadels-1234311",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234311_main_cms_1_nl_nl_gedroogde_dadels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "MAGGI Mix voor ovenschotel",
-    "brand": "MAGGI",
-    "deal": "2 VOOR",
-    "price": "2.00",
-    "url": "https://www.aldi.nl/product/mix-voor-ovenschotel-91229179",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91229179_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "MAGGI Aspergesaus",
-    "brand": "MAGGI",
-    "deal": "OP=OP",
-    "price": "1.29",
-    "url": "https://www.aldi.nl/product/aspergesaus-1240602",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240602_main_cms_2_nl_nl_aspergesaus_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "MAGGI Mix voor aspergesaus",
-    "brand": "MAGGI",
-    "deal": "OP=OP",
-    "price": "0.69",
-    "url": "https://www.aldi.nl/product/mix-voor-aspergesaus-1209024",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1209024_main_cms_1_nl_nl_mix_voor_aspergesaus_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "COROOS Maïs",
-    "brand": "COROOS",
-    "deal": "OP=OP",
-    "price": "0.69",
-    "url": "https://www.aldi.nl/product/mais-1240603",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240603_main_cms_1_nl_nl_mais_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "ALL SEASONS Groenten",
-    "brand": "ALL SEASONS",
-    "deal": "OP=OP",
-    "price": "1.59",
-    "url": "https://www.aldi.nl/product/groenten-91233060",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91233060_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "SPEISE ZEIT Ravioli bolognesesaus",
-    "brand": "SPEISE ZEIT",
-    "deal": "OP=OP",
-    "price": "2.99",
-    "url": "https://www.aldi.nl/product/ravioli-bolognesesaus-1230249",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1230249_main_cms_2_nl_nl_ravioli_bolognesesaus_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "FINEST BAKERY Taartbodem of tartelettes",
-    "brand": "FINEST BAKERY",
-    "deal": "OP=OP",
-    "price": "1.69",
-    "url": "https://www.aldi.nl/product/taartbodem-of-tartelettes-1223891",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1223891_main_cms_4_nl_nl_taartbodem_of_tartelettes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CHOCEUR Milk Mouse chocoladebiscuits",
-    "brand": "CHOCEUR",
-    "deal": "OP=OP",
-    "price": "2.99",
-    "url": "https://www.aldi.nl/product/milk-mouse-chocoladebiscuits-1236316",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1236316_main_cms_1_nl_nl_milk_mouse_chocoladebiscuits_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "FINEST BAKERY Mini-cakes",
-    "brand": "FINEST BAKERY",
-    "deal": "OP=OP",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/mini-cakes-1234611",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234611_main_cms_7_nl_nl_mini_cakes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "FINEST BAKERY Hartwafels",
-    "brand": "FINEST BAKERY",
-    "deal": "OP=OP",
-    "price": "1.49",
-    "url": "https://www.aldi.nl/product/hartwafels-1230161",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1230161_main_cms_2_nl_nl_hartwafels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "KOEK& BAKKER Rijkgevulde luxe ontbijtkoek",
-    "brand": "KOEK& BAKKER",
-    "deal": "OP=OP",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/rijkgevulde-luxe-ontbijtkoek-1204238",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1204238_main_cms_3_nl_nl_rijkgevulde_luxe_ontbijtkoek_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CHOCEUR Belgische chocoladeblaadjes",
-    "brand": "CHOCEUR",
-    "deal": "OP=OP",
-    "price": "2.99",
-    "url": "https://www.aldi.nl/product/belgische-chocoladeblaadjes-1220383",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1220383_main_cms_9_nl_nl_belgische_chocoladeblaadjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CHOCEUR Mini-reepjes",
-    "brand": "CHOCEUR",
-    "deal": "-20 CENT",
-    "price": "2.49",
-    "url": "https://www.aldi.nl/product/mini-reepjes-1229486",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1229486_main_cms_28_nl_nl_mini_reepjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "DROPMAKERS Salmiaksnoep",
-    "brand": "DROPMAKERS",
-    "deal": "OP=OP",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/salmiaksnoep-1224417",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1224417_main_cms_5_nl_nl_salmiaksnoep_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "HEERLIJCK BANKET Koeken",
-    "brand": "HEERLIJCK BANKET",
-    "deal": "OP=OP",
-    "price": "1.39",
-    "url": "https://www.aldi.nl/product/koeken-91224417",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91224417_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "GOLDEN BRIDGE Granola",
-    "brand": "GOLDEN BRIDGE",
-    "deal": "-16%",
-    "price": "2.29",
-    "url": "https://www.aldi.nl/product/granola-1220911",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1220911_main_cms_19_nl_nl_granola_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "BRINTA Volkoren graanontbijt",
-    "brand": "BRINTA",
-    "deal": "-14%",
-    "price": "1.49",
-    "url": "https://www.aldi.nl/product/volkoren-graanontbijt-1207027",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/variant_1207027_1_main_cms_2_nl_nl_volkoren_graanontbijt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "ALL SEASONS 4-pack knijpfruit",
-    "brand": "ALL SEASONS",
-    "deal": "-26%",
-    "price": "1.39",
-    "url": "https://www.aldi.nl/product/4-pack-knijpfruit-1211642",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1211642_main_cms_17_nl_nl_4_pack_knijpfruit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CHEETOS Chips",
-    "brand": "CHEETOS",
-    "deal": "2 VOOR",
-    "price": "3.00",
-    "url": "https://www.aldi.nl/product/chips-91211502",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91211502_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "SUN SNACKS Hummus-chips",
-    "brand": "SUN SNACKS",
-    "deal": "OP=OP",
-    "price": "1.29",
-    "url": "https://www.aldi.nl/product/hummus-chips-1239024",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1239024_main_cms_4_nl_nl_hummus_chips_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "TASTY PLANET Italiaanse maaltijd",
-    "brand": "TASTY PLANET",
-    "deal": "-10%",
-    "price": "4.49",
-    "url": "https://www.aldi.nl/product/italiaanse-maaltijd-1232085",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232085_main_cms_5_nl_nl_italiaanse_maaltijd_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "MORA Oven- en airfryersnacks",
-    "brand": "MORA",
-    "deal": "OP=OP",
-    "price": "2.99",
-    "url": "https://www.aldi.nl/product/oven-en-airfryersnacks-91232906",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91232906_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "AVIKO Super crunchfriet",
-    "brand": "AVIKO",
-    "deal": "NU VOOR",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/super-crunchfriet-91225862",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91225862_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "MUCCI 4-pack Milk Mouse ijslolly's",
-    "brand": "MUCCI",
-    "deal": "OP=OP",
-    "price": "2.29",
-    "url": "https://www.aldi.nl/product/4-pack-milk-mouse-ijslollys-1235327",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1235327_main_cms_1_nl_nl_4_pack_milk_mouse_ijslolly_s_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "L'OR Espressocups",
-    "brand": "L'OR",
-    "deal": "NU VOOR",
-    "price": "4.99",
-    "url": "https://www.aldi.nl/product/espressocups-91232764",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91232764_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "FAIR Biologische thee",
-    "brand": "FAIR",
-    "deal": "-54%",
+    "deal": "-13%",
     "price": "0.99",
-    "url": "https://www.aldi.nl/product/biologische-thee-1204171",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1204171_main_cms_9_nl_nl_biologische_thee_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.aldi.nl/product/trostomaten-1219442.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1219442_main_cms_1_nl_nl_trostomaten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
-    "name": "DR. PEPPER Cola regular of zero",
-    "brand": "DR. PEPPER",
+    "name": "DAYLICIOUS Mini-krieltjes groene kruiden",
+    "brand": "DAYLICIOUS",
+    "deal": "-25%",
+    "price": "0.89",
+    "url": "https://www.aldi.nl/product/mini-krieltjes-groene-kruiden-1206810.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1206810_main_cms_4_nl_nl_mini_krieltjes_groene_kruiden_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "Beenham of kipfilet flinterdun",
+    "brand": "",
+    "deal": "-35%",
+    "price": "1.29",
+    "url": "https://www.aldi.nl/product/beenham-of-kipfilet-flinterdun-1235032.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1235032_main_cms_3_nl_nl_beenham_of_kipfilet_flinterdun_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "Roasted pork",
+    "brand": "",
+    "deal": null,
+    "price": null,
+    "url": "https://www.aldi.nl/product/roasted-pork-1220059.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1220059_main_cms_3_nl_nl_roasted_pork_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "Cervelaatworst",
+    "brand": "",
     "deal": "OP=OP",
     "price": "1.99",
-    "url": "https://www.aldi.nl/product/cola-regular-of-zero-91240100",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91240100_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.aldi.nl/product/cervelaatworst-1208860.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1208860_main_cms_6_nl_nl_cervelaatworst_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
-    "name": "SANPELLEGRINO 6-pack limonata of aranciata rossa",
-    "brand": "SANPELLEGRINO",
+    "name": "Filet americain",
+    "brand": "",
     "deal": "OP=OP",
-    "price": "4.99",
-    "url": "https://www.aldi.nl/product/6-pack-limonata-of-aranciata-rossa-91238176",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91238176_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "price": "2.19",
+    "url": "https://www.aldi.nl/product/filet-americain-1232412.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232412_main_cms_1_nl_nl_filet_americain_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
-    "name": "RIO D'ORO Fruitig & fris",
-    "brand": "RIO D'ORO",
+    "name": "Varkenskotelet in aspic",
+    "brand": "",
     "deal": "OP=OP",
     "price": "1.29",
-    "url": "https://www.aldi.nl/product/fruitig-en-fris-91228480",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91228480_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "4-pack Fernandes of Fanta",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/4-pack-fernandes-of-fanta-91208944",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91208944_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "SMIRNOFF Ice mixdrink",
-    "brand": "SMIRNOFF",
-    "deal": "OP=OP",
-    "price": "2.99",
-    "url": "https://www.aldi.nl/product/ice-mixdrink-91226712",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91226712_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "El Árbol Cabernet Sauvignon en Chardonnay",
-    "brand": "",
-    "deal": "2 VOOR",
-    "price": "6.00",
-    "url": "https://www.aldi.nl/product/el-arbol-cabernet-sauvignon-en-chardonnay-91207372",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91207372_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "HERTOG JAN 6-pack bier",
-    "brand": "HERTOG JAN",
-    "deal": "OP=OP",
-    "price": "4.99",
-    "url": "https://www.aldi.nl/product/6-pack-bier-1216421",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1216421_main_cms_1_nl_nl_6_pack_bier_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "DREFT Max power afwasmiddel",
-    "brand": "DREFT",
-    "deal": "OP=OP",
-    "price": "2.19",
-    "url": "https://www.aldi.nl/product/max-power-afwasmiddel-91229165",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91229165_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "SANEX Douchegel",
-    "brand": "SANEX",
-    "deal": "OP=OP",
-    "price": "2.99",
-    "url": "https://www.aldi.nl/product/douchegel-91227586",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91227586_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "ARIEL & LENOR Pods en geurparels",
-    "brand": "ARIEL & LENOR",
-    "deal": "3 VOOR",
-    "price": "10.00",
-    "url": "https://www.aldi.nl/product/pods-en-geurparels-91236139",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91236139_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "SILAN Wasverzachter",
-    "brand": "SILAN",
-    "deal": "OP=OP",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/wasverzachter-91223794",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91223794_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "DREFT PROFESSIONAL Vloeibaar wasmiddel",
-    "brand": "DREFT PROFESSIONAL",
-    "deal": "OP=OP",
-    "price": "9.99",
-    "url": "https://www.aldi.nl/product/vloeibaar-wasmiddel-1223682",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1223682_main_cms_1_nl_nl_vloeibaar_wasmiddel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "3-pack navullingen vochtregelaar",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "5.99",
-    "url": "https://www.aldi.nl/product/3-pack-navullingen-vochtregelaar-1221211",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1221211_main_cms_1_nl_nl_3_pack_navullingen_vochtregelaar_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "UNA 3-pack wc-blokken",
-    "brand": "UNA",
-    "deal": "OP=OP",
-    "price": "2.49",
-    "url": "https://www.aldi.nl/product/3-pack-wc-blokken-1234661",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234661_main_cms_3_nl_nl_3_pack_wc_blokken_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "SOLO 3-laags multi-keukenrol",
-    "brand": "SOLO",
-    "deal": "OP=OP",
-    "price": "2.29",
-    "url": "https://www.aldi.nl/product/3-laags-multi-keukenrol-1226680",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1226680_main_cms_2_nl_nl_3_laags_multi_keukenrol_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "LACURA Shampoo- en hoofdhuidborstel",
-    "brand": "LACURA",
-    "deal": "OP=OP",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/shampoo-en-hoofdhuidborstel-1233859",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1233859_main_cms_6_nl_nl_shampoo_en_hoofdhuidborstel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "LACURA Keratine-haarstyling",
-    "brand": "LACURA",
-    "deal": "OP=OP",
-    "price": "2.49",
-    "url": "https://www.aldi.nl/product/keratine-haarstyling-1233936",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1233936_main_cms_5_nl_nl_keratine_haarstyling_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Verse pizza",
-    "brand": "CUCINA",
-    "deal": "-12%",
-    "price": "3.49",
-    "url": "https://www.aldi.nl/product/verse-pizza-91237700",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91237700_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Pizza napolitana met salami",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "2.99",
-    "url": "https://www.aldi.nl/product/pizza-napolitana-met-salami-1234991",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234991_main_cms_1_nl_nl_pizza_napolitana_met_salami_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Breekbrood",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/breekbrood-1223835",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1223835_main_cms_4_nl_nl_breekbrood_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA NOBILE Panini's",
-    "brand": "CUCINA NOBILE",
-    "deal": "OP=OP",
-    "price": "1.59",
-    "url": "https://www.aldi.nl/product/paninis-1200814",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1200814_main_cms_1_nl_nl_panini_s_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Focaccia",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.49",
-    "url": "https://www.aldi.nl/product/focaccia-1229084",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1229084_main_cms_3_nl_nl_focaccia_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Ciambella",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "2.19",
-    "url": "https://www.aldi.nl/product/ciambella-1237013",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1237013_main_cms_3_nl_nl_ciambella_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Siciliaanse pistachekoeken",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "2.19",
-    "url": "https://www.aldi.nl/product/siciliaanse-pistachekoeken-1234436",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234436_main_cms_5_nl_nl_siciliaanse_pistachekoeken_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Crostata",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "2.19",
-    "url": "https://www.aldi.nl/product/crostata-1237015",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1237015_main_cms_4_nl_nl_crostata_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Mini-pinsa",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/mini-pinsa-1234885",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234885_main_cms_1_nl_nl_mini_pinsa_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Piadina",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.59",
-    "url": "https://www.aldi.nl/product/piadina-1234891",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234891_main_cms_1_nl_nl_piadina_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Zuid-Tiroler spek",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "9.59",
-    "url": "https://www.aldi.nl/product/zuid-tiroler-spek-1241394",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1241394_main_cms_2_nl_nl_zuid_tiroler_spek_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Guanciale",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "5.99",
-    "url": "https://www.aldi.nl/product/guanciale-1233739",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1233739_main_cms_1_nl_nl_guanciale_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Pancetta stagionato",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "4.99",
-    "url": "https://www.aldi.nl/product/pancetta-stagionato-1233744",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1233744_main_cms_2_nl_nl_pancetta_stagionato_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Salsiccia",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "3.49",
-    "url": "https://www.aldi.nl/product/salsiccia-1229961",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1229961_main_cms_6_nl_nl_salsiccia_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Salsiccia stagionata",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "3.99",
-    "url": "https://www.aldi.nl/product/salsiccia-stagionata-91233901",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91233901_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Italiaanse salami",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "3.49",
-    "url": "https://www.aldi.nl/product/italiaanse-salami-1218850",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1218850_main_cms_9_nl_nl_italiaanse_salami_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Prosciutto crudo",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "2.99",
-    "url": "https://www.aldi.nl/product/prosciutto-crudo-1234041",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234041_main_cms_1_nl_nl_prosciutto_crudo_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA NOBILE Mortadella Bologna",
-    "brand": "CUCINA NOBILE",
-    "deal": "OP=OP",
-    "price": "1.69",
-    "url": "https://www.aldi.nl/product/mortadella-bologna-1229833",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1229833_main_cms_1_nl_nl_mortadella_bologna_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA NOBILE Anchovis",
-    "brand": "CUCINA NOBILE",
-    "deal": "OP=OP",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/anchovis-1234876",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234876_main_cms_4_nl_nl_anchovis_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Tonno per pasta",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.69",
-    "url": "https://www.aldi.nl/product/tonno-per-pasta-1233910",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1233910_main_cms_7_nl_nl_tonno_per_pasta_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Siciliaanse bruschetta",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/siciliaanse-bruschetta-1230250",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1230250_main_cms_4_nl_nl_siciliaanse_bruschetta_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA NOBILE Antipasti di mare",
-    "brand": "CUCINA NOBILE",
-    "deal": "OP=OP",
-    "price": "3.99",
-    "url": "https://www.aldi.nl/product/antipasti-di-mare-1240072",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240072_main_cms_5_nl_nl_antipasti_di_mare_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Italiaanse pasta",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.49",
-    "url": "https://www.aldi.nl/product/italiaanse-pasta-1227170",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1227170_main_cms_12_nl_nl_italiaanse_pasta_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Lasagne",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.69",
-    "url": "https://www.aldi.nl/product/lasagne-1234151",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234151_main_cms_2_nl_nl_lasagne_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Cannelloni",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.49",
-    "url": "https://www.aldi.nl/product/cannelloni-1233950",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1233950_main_cms_2_nl_nl_cannelloni_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Ravioli",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/ravioli-1229074",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1229074_main_cms_8_nl_nl_ravioli_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Tortelloni",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "3.49",
-    "url": "https://www.aldi.nl/product/tortelloni-1241068",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1241068_main_cms_4_nl_nl_tortelloni_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Antipasti",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.79",
-    "url": "https://www.aldi.nl/product/antipasti-1218399",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1218399_main_cms_11_nl_nl_antipasti_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Olijfolie extra vierge",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "5.99",
-    "url": "https://www.aldi.nl/product/olijfolie-extra-vierge-1200809",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1200809_main_cms_1_nl_nl_olijfolie_extra_vierge_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Balsamicocrème",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.49",
-    "url": "https://www.aldi.nl/product/balsamicocreme-1211048",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1211048_main_cms_5_nl_nl_balsamicocreme_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Pizzasaus",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "0.99",
-    "url": "https://www.aldi.nl/product/pizzasaus-1234141",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234141_main_cms_1_nl_nl_pizzasaus_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Siciliaanse cherrytomatensaus",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.19",
-    "url": "https://www.aldi.nl/product/siciliaanse-cherrytomatensaus-1230251",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1230251_main_cms_5_nl_nl_siciliaanse_cherrytomatensaus_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Pizzabloem",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.59",
-    "url": "https://www.aldi.nl/product/pizzabloem-1229636",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1229636_main_cms_1_nl_nl_pizzabloem_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Foccacia-crackers",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.49",
-    "url": "https://www.aldi.nl/product/foccacia-crackers-1234412",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234412_main_cms_7_nl_nl_foccacia_crackers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Grissotti",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.49",
-    "url": "https://www.aldi.nl/product/grissotti-1226889",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1226889_main_cms_13_nl_nl_grissotti_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Taralli",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.19",
-    "url": "https://www.aldi.nl/product/taralli-1234421",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234421_main_cms_4_nl_nl_taralli_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA NOBILE Mini-grissini",
-    "brand": "CUCINA NOBILE",
-    "deal": "OP=OP",
-    "price": "1.29",
-    "url": "https://www.aldi.nl/product/mini-grissini-1240043",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240043_main_cms_3_nl_nl_mini_grissini_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Pizzini",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.69",
-    "url": "https://www.aldi.nl/product/pizzini-1203623",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1203623_main_cms_5_nl_nl_pizzini_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Mini-crackers",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.49",
-    "url": "https://www.aldi.nl/product/mini-crackers-1229805",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1229805_main_cms_4_nl_nl_mini_crackers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Pistacherepen",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "2.29",
-    "url": "https://www.aldi.nl/product/pistacherepen-1234267",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234267_main_cms_3_nl_nl_pistacherepen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Amarettini",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.89",
-    "url": "https://www.aldi.nl/product/amarettini-1234275",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234275_main_cms_1_nl_nl_amarettini_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Ricciarelli di Siena",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "3.99",
-    "url": "https://www.aldi.nl/product/ricciarelli-di-siena-1234226",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234226_main_cms_1_nl_nl_ricciarelli_di_siena_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Frollini",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.69",
-    "url": "https://www.aldi.nl/product/frollini-1234535",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234535_main_cms_3_nl_nl_frollini_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA NOBILE Cantuccini",
-    "brand": "CUCINA NOBILE",
-    "deal": "OP=OP",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/cantuccini-1226950",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1226950_main_cms_5_nl_nl_cantuccini_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Italiaanse zoete spread",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "2.29",
-    "url": "https://www.aldi.nl/product/italiaanse-zoete-spread-1232268",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232268_main_cms_6_nl_nl_italiaanse_zoete_spread_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Pistachecrème",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/pistachecreme-1234282",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234282_main_cms_3_nl_nl_pistachecreme_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Torta tiramisu",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "2.19",
-    "url": "https://www.aldi.nl/product/torta-tiramisu-1239769",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1239769_main_cms_3_nl_nl_torta_tiramisu_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA 2-pack dolce paradiso of cookie dessert",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.69",
-    "url": "https://www.aldi.nl/product/2-pack-dolce-paradiso-of-cookie-dessert-1233358",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1233358_main_cms_3_nl_nl_2_pack_dolce_paradiso_of_cookie_dessert_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA NOBILE Profiteroles of tiramisu",
-    "brand": "CUCINA NOBILE",
-    "deal": "OP=OP",
-    "price": "2.99",
-    "url": "https://www.aldi.nl/product/profiteroles-of-tiramisu-1216769",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1216769_main_cms_3_nl_nl_profiteroles_of_tiramisu_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA NOBILE Mozzarella maxi",
-    "brand": "CUCINA NOBILE",
-    "deal": "OP=OP",
-    "price": "1.49",
-    "url": "https://www.aldi.nl/product/mozzarella-maxi-1225540",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1225540_main_cms_1_nl_nl_mozzarella_maxi_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA NOBILE Italiaanse kaasplakken",
-    "brand": "CUCINA NOBILE",
-    "deal": "OP=OP",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/italiaanse-kaasplakken-1224410",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1224410_main_cms_4_nl_nl_italiaanse_kaasplakken_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "GOURMET Italiaanse kaasspecialiteit",
-    "brand": "GOURMET",
-    "deal": "OP=OP",
-    "price": "3.49",
-    "url": "https://www.aldi.nl/product/italiaanse-kaasspecialiteit-1231884",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1231884_main_cms_10_nl_nl_italiaanse_kaasspecialiteit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "BARISSIMO Koffiebonen Milano crema of Siciliano espresso",
-    "brand": "BARISSIMO",
-    "deal": "OP=OP",
-    "price": "12.99",
-    "url": "https://www.aldi.nl/product/koffiebonen-milano-crema-of-siciliano-espresso-91226631",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91226631_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Spritz",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "3.49",
-    "url": "https://www.aldi.nl/product/spritz-91212387",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91212387_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Chiaretto di Bardolino Classico",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "3.99",
-    "url": "https://www.aldi.nl/product/chiaretto-di-bardolino-classico-1218182",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1218182_main_cms_1_nl_nl_chiaretto_di_bardolino_classico_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Frappato Rosé Spumante Brut",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "4.99",
-    "url": "https://www.aldi.nl/product/frappato-rose-spumante-brut-1239756",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1239756_main_cms_1_nl_nl_frappato_rose_spumante_brut_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Primitivo Rosato Puglia IGT",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "3.99",
-    "url": "https://www.aldi.nl/product/primitivo-rosato-puglia-igt-1234464",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234464_main_cms_1_nl_nl_primitivo_rosato_puglia_igt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Ballaturi Negroamaro Primitivo Appassite",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "4.49",
-    "url": "https://www.aldi.nl/product/ballaturi-negroamaro-primitivo-appassite-1228884",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1228884_main_cms_1_nl_nl_ballaturi_negroamaro_primitivo_appassite_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.aldi.nl/product/varkenskotelet-in-aspic-1233846.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1233846_main_cms_1_nl_nl_varkenskotelet_in_aspic_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
@@ -1305,9 +185,9 @@
     "brand": "",
     "deal": "OP=OP",
     "price": "2.99",
-    "url": "https://www.aldi.nl/product/rozen-1222219",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1222219_main_cms_46_nl_nl_rozen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.aldi.nl/product/rozen-1222219.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1222219_main_cms_47_nl_nl_rozen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
@@ -1315,9 +195,9 @@
     "brand": "",
     "deal": "OP=OP",
     "price": "2.49",
-    "url": "https://www.aldi.nl/product/tulpen-1211624",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1211624_main_cms_21_nl_nl_tulpen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.aldi.nl/product/tulpen-1211624.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1211624_main_cms_22_nl_nl_tulpen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
@@ -1325,808 +205,548 @@
     "brand": "",
     "deal": "OP=OP",
     "price": "1.99",
-    "url": "https://www.aldi.nl/product/trosanjers-1210796",
+    "url": "https://www.aldi.nl/product/trosanjers-1210796.html",
     "image": "https://s7g10.scene7.com/is/image/aldinord/product_1210796_main_cms_17_nl_nl_trosanjers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
-    "name": "10-pack perkplanten",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "1.79",
-    "url": "https://www.aldi.nl/product/10-pack-perkplanten-1219529",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1219529_main_cms_5_nl_nl_10_pack_perkplanten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Oleander",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "5.99",
-    "url": "https://www.aldi.nl/product/oleander-1203775",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1203775_main_cms_12_nl_nl_oleander_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "GARDENLINE Magnolia of Camelia",
-    "brand": "GARDENLINE",
-    "deal": "OP=OP",
-    "price": "2.79",
-    "url": "https://www.aldi.nl/product/magnolia-of-camelia-1215265",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1215265_main_cms_19_nl_nl_magnolia_of_camelia_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "6-pack lavendel",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "4.99",
-    "url": "https://www.aldi.nl/product/6-pack-lavendel-1215616",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1215616_main_cms_1_nl_nl_6_pack_lavendel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Lavendel",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "2.39",
-    "url": "https://www.aldi.nl/product/lavendel-1220633",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1220633_main_cms_1_nl_nl_lavendel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "BELAVI Ledlichtketting voor parasol",
-    "brand": "BELAVI",
-    "deal": "OP=OP",
-    "price": "9.99",
-    "url": "https://www.aldi.nl/product/ledlichtketting-voor-parasol-1240777",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240777_main_cms_7_nl_nl_ledlichtketting_voor_parasol_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "HOME CREATION Tuinkabouter",
-    "brand": "HOME CREATION",
-    "deal": "OP=OP",
-    "price": "3.99",
-    "url": "https://www.aldi.nl/product/tuinkabouter-1240713",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240713_main_cms_6_nl_nl_tuinkabouter_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "BELAVI Stoelkussen met hoge rugleuning",
-    "brand": "BELAVI",
-    "deal": "OP=OP",
-    "price": "12.99",
-    "url": "https://www.aldi.nl/product/stoelkussen-met-hoge-rugleuning-1240672",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240672_main_cms_4_nl_nl_stoelkussen_met_hoge_rugleuning_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "HOME CREATION Tafelkleed",
-    "brand": "HOME CREATION",
-    "deal": "OP=OP",
-    "price": "6.99",
-    "url": "https://www.aldi.nl/product/tafelkleed-1240643",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240643_main_cms_8_nl_nl_tafelkleed_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "BELAVI Stoelkussen stapelbare stoel",
-    "brand": "BELAVI",
-    "deal": "OP=OP",
-    "price": "8.99",
-    "url": "https://www.aldi.nl/product/stoelkussen-stapelbare-stoel-1240867",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240867_main_cms_10_nl_nl_stoelkussen_stapelbare_stoel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "BELAVI Stoelkussen verstelbare stoel",
-    "brand": "BELAVI",
-    "deal": "OP=OP",
-    "price": "9.99",
-    "url": "https://www.aldi.nl/product/stoelkussen-verstelbare-stoel-1240769",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240769_main_cms_12_nl_nl_stoelkussen_verstelbare_stoel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "BELAVI Solar ledfiguur",
-    "brand": "BELAVI",
-    "deal": "OP=OP",
-    "price": "7.99",
-    "url": "https://www.aldi.nl/product/solar-ledfiguur-1240802",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240802_main_cms_10_nl_nl_solar_ledfiguur_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "BELAVI Solar vloerlamp",
-    "brand": "BELAVI",
-    "deal": "OP=OP",
-    "price": "12.99",
-    "url": "https://www.aldi.nl/product/solar-vloerlamp-1240783",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240783_main_cms_27_nl_nl_solar_vloerlamp_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "BELAVI Solar verlichtingssticks",
-    "brand": "BELAVI",
-    "deal": "OP=OP",
-    "price": "3.99",
-    "url": "https://www.aldi.nl/product/solar-verlichtingssticks-1233348",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1233348_main_cms_40_nl_nl_solar_verlichtingssticks_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CROFTON Multifunctionele hakmolen",
-    "brand": "CROFTON",
-    "deal": "OP=OP",
-    "price": "3.79",
-    "url": "https://www.aldi.nl/product/multifunctionele-hakmolen-1232115",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232115_main_cms_16_nl_nl_multifunctionele_hakmolen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "UP2FASHION Overhemd",
-    "brand": "UP2FASHION",
-    "deal": "OP=OP",
+    "name": "TEFAL Inicio koekenpan",
+    "brand": "TEFAL",
+    "deal": "VANAF",
     "price": "14.99",
-    "url": "https://www.aldi.nl/product/overhemd-1228012",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1228012_main_cms_11_nl_nl_overhemd_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.aldi.nl/product/inicio-koekenpan-91212696.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/91212696_wk18?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
-    "name": "UP2FASHION Jeans",
-    "brand": "UP2FASHION",
-    "deal": "OP=OP",
-    "price": "9.99",
-    "url": "https://www.aldi.nl/product/jeans-1232742",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232742_main_cms_13_nl_nl_jeans_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "UP2FASHION 3-pack T-shirts",
-    "brand": "UP2FASHION",
-    "deal": "OP=OP",
-    "price": "7.99",
-    "url": "https://www.aldi.nl/product/3-pack-t-shirts-1231231",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1231231_main_cms_19_nl_nl_3_pack_t_shirts_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "UP2FASHION Top",
-    "brand": "UP2FASHION",
-    "deal": "OP=OP",
-    "price": "5.99",
-    "url": "https://www.aldi.nl/product/top-1233430",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1233430_main_cms_14_nl_nl_top_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "UP2FASHION Onderjurk",
-    "brand": "UP2FASHION",
-    "deal": "OP=OP",
-    "price": "3.99",
-    "url": "https://www.aldi.nl/product/onderjurk-1240455",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240455_main_cms_8_nl_nl_onderjurk_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "UP2FASHION Jogger",
-    "brand": "UP2FASHION",
-    "deal": "OP=OP",
-    "price": "9.99",
-    "url": "https://www.aldi.nl/product/jogger-1233436",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1233436_main_cms_17_nl_nl_jogger_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "UP2FASHION Shortama",
-    "brand": "UP2FASHION",
-    "deal": "OP=OP",
-    "price": "7.99",
-    "url": "https://www.aldi.nl/product/shortama-1240586",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240586_main_cms_7_nl_nl_shortama_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "UP2FASHION 5-pack pantysokken",
-    "brand": "UP2FASHION",
-    "deal": "OP=OP",
-    "price": "2.49",
-    "url": "https://www.aldi.nl/product/5-pack-pantysokken-1240479",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240479_main_cms_10_nl_nl_5_pack_pantysokken_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "UP2FASHION 7-pack sokken",
-    "brand": "UP2FASHION",
-    "deal": "OP=OP",
-    "price": "4.99",
-    "url": "https://www.aldi.nl/product/7-pack-sokken-1237233",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1237233_main_cms_22_nl_nl_7_pack_sokken_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "UP2FASHION Leren inlegzolen",
-    "brand": "UP2FASHION",
-    "deal": "OP=OP",
-    "price": "4.99",
-    "url": "https://www.aldi.nl/product/leren-inlegzolen-1233147",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1233147_main_cms_6_nl_nl_leren_inlegzolen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "UP2FASHION Lichtgewicht sneakers",
-    "brand": "UP2FASHION",
-    "deal": "OP=OP",
-    "price": "12.99",
-    "url": "https://www.aldi.nl/product/lichtgewicht-sneakers-1232623",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232623_main_cms_5_nl_nl_lichtgewicht_sneakers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "UP2FASHION Lichtgewicht sneakers",
-    "brand": "UP2FASHION",
-    "deal": "OP=OP",
-    "price": "12.99",
-    "url": "https://www.aldi.nl/product/lichtgewicht-sneakers-1226994",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1226994_main_cms_4_nl_nl_lichtgewicht_sneakers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "UP2FASHION Slippers",
-    "brand": "UP2FASHION",
-    "deal": "OP=OP",
-    "price": "9.99",
-    "url": "https://www.aldi.nl/product/slippers-1232825",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232825_main_cms_8_nl_nl_slippers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "LILY & DAN Slippers",
-    "brand": "LILY & DAN",
-    "deal": "OP=OP",
-    "price": "6.99",
-    "url": "https://www.aldi.nl/product/slippers-1240476",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240476_main_cms_9_nl_nl_slippers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "GOLDEN SEAFOOD Pangasiusfilets",
-    "brand": "GOLDEN SEAFOOD",
-    "deal": "-30%",
-    "price": "2.79",
-    "url": "https://www.aldi.nl/product/pangasiusfilets-1237235",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1237235_main_cms_4_nl_nl_pangasiusfilets_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Entrecote pepermarinade",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "4.97",
-    "url": "https://www.aldi.nl/product/entrecote-pepermarinade-1236605",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1236605_main_cms_3_nl_nl_entrecote_pepermarinade_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CUCINA Pan gnocchi met truffel of champignon",
-    "brand": "CUCINA",
-    "deal": "OP=OP",
-    "price": "1.99",
-    "url": "https://www.aldi.nl/product/pan-gnocchi-met-truffel-of-champignon-1234178",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234178_main_cms_4_nl_nl_pan_gnocchi_met_truffel_of_champignon_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Wilde Wietze-dip",
-    "brand": "",
-    "deal": "-12%",
-    "price": "1.49",
-    "url": "https://www.aldi.nl/product/wilde-wietze-dip-1238014",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1238014_main_cms_6_nl_nl_wilde_wietze_dip_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Trio tapenade",
-    "brand": "",
-    "deal": "-20%",
-    "price": "1.59",
-    "url": "https://www.aldi.nl/product/trio-tapenade-1232332",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232332_main_cms_2_nl_nl_trio_tapenade_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Mango",
-    "brand": "",
-    "deal": "-33%",
-    "price": "1.19",
-    "url": "https://www.aldi.nl/product/mango-1219722",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1219722_main_cms_2_nl_nl_mango_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CONIMEX Boemboe",
-    "brand": "CONIMEX",
-    "deal": "2 VOOR",
-    "price": "2.50",
-    "url": "https://www.aldi.nl/product/boemboe-91208843",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91208843_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "KNORR 3-pack Cup-a-Soup",
-    "brand": "KNORR",
-    "deal": "OP=OP",
-    "price": "0.89",
-    "url": "https://www.aldi.nl/product/3-pack-cup-a-soup-91202448",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91202448_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "NAMDONG Noodles",
-    "brand": "NAMDONG",
-    "deal": "OP=OP",
-    "price": "1.29",
-    "url": "https://www.aldi.nl/product/noodles-91240342",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91240342_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CROKY Tortillachips",
-    "brand": "CROKY",
-    "deal": "2 VOOR",
-    "price": "2.00",
-    "url": "https://www.aldi.nl/product/tortillachips-91216184",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91216184_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "EAT NATURAL Fruit & nut bars",
-    "brand": "EAT NATURAL",
-    "deal": "OP=OP",
-    "price": "2.79",
-    "url": "https://www.aldi.nl/product/fruit-en-nut-bars-91233504",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91233504_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "VERKADE Koeken",
-    "brand": "VERKADE",
-    "deal": "OP=OP",
-    "price": "1.49",
-    "url": "https://www.aldi.nl/product/koeken-91216328",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91216328_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "5-pack Bounty, Mars, Snickers of Twix",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "2.99",
-    "url": "https://www.aldi.nl/product/5-pack-bounty-mars-snickers-of-twix-91210449",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91210449_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "STORCK Toffifee witte chocolade",
-    "brand": "STORCK",
-    "deal": "OP=OP",
-    "price": "1.59",
-    "url": "https://www.aldi.nl/product/toffifee-witte-chocolade-1213333",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1213333_main_cms_7_nl_nl_toffifee_witte_chocolade_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "HARIBO Snoep",
-    "brand": "HARIBO",
-    "deal": "OP=OP",
-    "price": "1.59",
-    "url": "https://www.aldi.nl/product/snoep-91212093",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91212093_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "NAPOLEON Snoep",
-    "brand": "NAPOLEON",
-    "deal": "OP=OP",
-    "price": "1.69",
-    "url": "https://www.aldi.nl/product/snoep-91224275",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91224275_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "6-pack Spa fruit",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "3.99",
-    "url": "https://www.aldi.nl/product/6-pack-spa-fruit-91240170",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91240170_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "ARIZONA IJsthee",
-    "brand": "ARIZONA",
-    "deal": "OP=OP",
-    "price": "0.99",
-    "url": "https://www.aldi.nl/product/ijsthee-91233500",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91233500_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "LA CHOUFFE 4-pack blond",
-    "brand": "LA CHOUFFE",
-    "deal": "OP=OP",
-    "price": "7.49",
-    "url": "https://www.aldi.nl/product/4-pack-blond-1206010",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1206010_main_cms_2_nl_nl_4_pack_blond_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "STADSHAVEN Speciaalbier",
-    "brand": "STADSHAVEN",
-    "deal": "OP=OP",
-    "price": "1.69",
-    "url": "https://www.aldi.nl/product/speciaalbier-91232126",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91232126_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Maynards rosé port",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "5.99",
-    "url": "https://www.aldi.nl/product/maynards-rose-port-1232219",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232219_main_cms_1_nl_nl_maynards_rose_port_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "AMBI PUR Wc-gel",
-    "brand": "AMBI PUR",
-    "deal": "OP=OP",
-    "price": "1.59",
-    "url": "https://www.aldi.nl/product/wc-gel-91231593",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91231593_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "ZWITSAL Wasgel of shampoo",
-    "brand": "ZWITSAL",
-    "deal": "OP=OP",
-    "price": "3.49",
-    "url": "https://www.aldi.nl/product/wasgel-of-shampoo-91220464",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91220464_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "LUCOVITAAL Collageen",
-    "brand": "LUCOVITAAL",
-    "deal": "OP=OP",
-    "price": "3.99",
-    "url": "https://www.aldi.nl/product/collageen-1240466",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240466_main_cms_3_nl_nl_collageen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "DESTOP Ontstopper",
-    "brand": "DESTOP",
-    "deal": "OP=OP",
-    "price": "4.69",
-    "url": "https://www.aldi.nl/product/ontstopper-1240677",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240677_main_cms_1_nl_nl_ontstopper_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "LILY & DAN Jumpsuit",
-    "brand": "LILY & DAN",
-    "deal": "OP=OP",
-    "price": "6.99",
-    "url": "https://www.aldi.nl/product/jumpsuit-1240474",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240474_main_cms_20_nl_nl_jumpsuit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "LILY & DAN Ajour pyjama",
-    "brand": "LILY & DAN",
-    "deal": "OP=OP",
-    "price": "6.99",
-    "url": "https://www.aldi.nl/product/ajour-pyjama-1240662",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240662_main_cms_7_nl_nl_ajour_pyjama_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "LILY & DAN Joggingpak",
-    "brand": "LILY & DAN",
-    "deal": "OP=OP",
-    "price": "11.99",
-    "url": "https://www.aldi.nl/product/joggingpak-1240661",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240661_main_cms_5_nl_nl_joggingpak_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "LILY & DAN Lichtgewicht sneakers",
-    "brand": "LILY & DAN",
-    "deal": "OP=OP",
-    "price": "9.99",
-    "url": "https://www.aldi.nl/product/lichtgewicht-sneakers-1240473",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240473_main_cms_4_nl_nl_lichtgewicht_sneakers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "TOYLINO Houten zandbak",
-    "brand": "TOYLINO",
-    "deal": "OP=OP",
-    "price": "39.99",
-    "url": "https://www.aldi.nl/product/houten-zandbak-1226381",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1226381_main_cms_1_nl_nl_houten_zandbak_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "TOYLINO Houten speeltafel",
-    "brand": "TOYLINO",
-    "deal": "OP=OP",
-    "price": "34.99",
-    "url": "https://www.aldi.nl/product/houten-speeltafel-1240619",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240619_main_cms_13_nl_nl_houten_speeltafel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "TOYLINO Houten buitenkeuken",
-    "brand": "TOYLINO",
-    "deal": "OP=OP",
-    "price": "29.99",
-    "url": "https://www.aldi.nl/product/houten-buitenkeuken-1206519",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1206519_main_cms_5_nl_nl_houten_buitenkeuken_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "TOYLINO Nestschommel",
-    "brand": "TOYLINO",
+    "name": "TEFAL Inicio wokpan",
+    "brand": "TEFAL",
     "deal": "OP=OP",
     "price": "24.99",
-    "url": "https://www.aldi.nl/product/nestschommel-1240955",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240955_main_cms_1_nl_nl_nestschommel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.aldi.nl/product/inicio-wokpan-1240908.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240908_main_cms_16_nl_nl_inicio_wokpan_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
-    "name": "TOYLINO Schommelassortiment",
-    "brand": "TOYLINO",
-    "deal": "OP=OP",
-    "price": "6.99",
-    "url": "https://www.aldi.nl/product/schommelassortiment-1240625",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240625_main_cms_15_nl_nl_schommelassortiment_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "CRANE Bal",
-    "brand": "CRANE",
-    "deal": "OP=OP",
-    "price": "6.99",
-    "url": "https://www.aldi.nl/product/bal-1240869",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240869_main_cms_20_nl_nl_bal_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "3-pack stuiterballen",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "2.99",
-    "url": "https://www.aldi.nl/product/3-pack-stuiterballen-1240445",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240445_main_cms_20_nl_nl_3_pack_stuiterballen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "TOYLINO Ledtekenscherm",
-    "brand": "TOYLINO",
-    "deal": "OP=OP",
-    "price": "6.99",
-    "url": "https://www.aldi.nl/product/ledtekenscherm-1239320",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1239320_main_cms_19_nl_nl_ledtekenscherm_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "ROBO ALIVE Robot-waterspeelgoed",
-    "brand": "ROBO ALIVE",
-    "deal": "OP=OP",
-    "price": "5.99",
-    "url": "https://www.aldi.nl/product/robot-waterspeelgoed-1235643",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1235643_main_cms_44_nl_nl_robot_waterspeelgoed_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Fietsaccessoire",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "4.99",
-    "url": "https://www.aldi.nl/product/fietsaccessoire-1235030",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1235030_main_cms_53_nl_nl_fietsaccessoire_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "Knutselboek",
-    "brand": "",
-    "deal": "OP=OP",
-    "price": "3.99",
-    "url": "https://www.aldi.nl/product/knutselboek-1240471",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240471_main_cms_9_nl_nl_knutselboek_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "FUNKO Mini-pop",
-    "brand": "FUNKO",
-    "deal": "OP=OP",
-    "price": "4.99",
-    "url": "https://www.aldi.nl/product/mini-pop-1240651",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240651_main_cms_44_nl_nl_mini_pop_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "NOVITESSE Hypoallergeen dekbed",
-    "brand": "NOVITESSE",
-    "deal": "VANAF",
-    "price": "12.99",
-    "url": "https://www.aldi.nl/product/hypoallergeen-dekbed-91214094",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91214094_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "NOVITESSE Dekbedovertrek",
-    "brand": "NOVITESSE",
-    "deal": "VANAF",
-    "price": "12.99",
-    "url": "https://www.aldi.nl/product/dekbedovertrek-91229187",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91229187_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "NOVITESSE Jersey hoeslaken of hypoallergeen hoofdkussen",
-    "brand": "NOVITESSE",
-    "deal": "VANAF",
-    "price": "5.99",
-    "url": "https://www.aldi.nl/product/jersey-hoeslaken-of-hypoallergeen-hoofdkussen-91240446",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91240446_wk16?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "NOVITESSE 2-pack kussenslopen",
-    "brand": "NOVITESSE",
-    "deal": "OP=OP",
-    "price": "3.99",
-    "url": "https://www.aldi.nl/product/2-pack-kussenslopen-1240656",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240656_main_cms_9_nl_nl_2_pack_kussenslopen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "NOVITESSE Handdoek",
-    "brand": "NOVITESSE",
+    "name": "CROFTON Pannenkoekenpan",
+    "brand": "CROFTON",
     "deal": "OP=OP",
     "price": "7.99",
-    "url": "https://www.aldi.nl/product/handdoek-1232805",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232805_main_cms_35_nl_nl_handdoek_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.aldi.nl/product/pannenkoekenpan-1238608.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1238608_main_cms_11_nl_nl_pannenkoekenpan_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
-    "name": "NOVITESSE Badmat",
-    "brand": "NOVITESSE",
-    "deal": "OP=OP",
-    "price": "5.99",
-    "url": "https://www.aldi.nl/product/badmat-1240660",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240660_main_cms_14_nl_nl_badmat_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Aldi",
-    "name": "HOME CREATION Kunstplant",
+    "name": "HOME CREATION Keukenorganizer",
     "brand": "HOME CREATION",
     "deal": "OP=OP",
     "price": "7.99",
-    "url": "https://www.aldi.nl/product/kunstplant-1240587",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240587_main_cms_18_nl_nl_kunstplant_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.aldi.nl/product/keukenorganizer-1241038.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1241038_main_cms_11_nl_nl_keukenorganizer_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
-    "name": "AMBIANO Natuurgeluidenbox",
-    "brand": "AMBIANO",
+    "name": "CROFTON 5-delige snijplankenset",
+    "brand": "CROFTON",
     "deal": "OP=OP",
     "price": "9.99",
-    "url": "https://www.aldi.nl/product/natuurgeluidenbox-1240442",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240442_main_cms_29_nl_nl_natuurgeluidenbox_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.aldi.nl/product/5-delige-snijplankenset-1241025.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1241025_main_cms_16_nl_nl_5_delige_snijplankenset_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
-    "name": "AMBIANO Personenweegschaal",
+    "name": "CROFTON Keukengerei",
+    "brand": "CROFTON",
+    "deal": "OP=OP",
+    "price": "0.99",
+    "url": "https://www.aldi.nl/product/keukengerei-1241020.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1241020_main_cms_37_nl_nl_keukengerei_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "AMBIANO Meubel- of matrasreiniger",
     "brand": "AMBIANO",
+    "deal": "OP=OP",
+    "price": "29.99",
+    "url": "https://www.aldi.nl/product/meubel-of-matrasreiniger-1233293.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1233293_main_cms_7_nl_nl_meubel_of_matrasreiniger_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "AMBIANO Accu-handstofzuiger",
+    "brand": "AMBIANO",
+    "deal": "OP=OP",
+    "price": "19.99",
+    "url": "https://www.aldi.nl/product/accu-handstofzuiger-1241023.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1241023_main_cms_7_nl_nl_accu_handstofzuiger_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "AMBIANO Pluizentondeuse",
+    "brand": "AMBIANO",
+    "deal": "OP=OP",
+    "price": "3.99",
+    "url": "https://www.aldi.nl/product/pluizentondeuse-1241024.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1241024_main_cms_17_nl_nl_pluizentondeuse_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "CASALUX Accu-tafellamp",
+    "brand": "CASALUX",
+    "deal": "OP=OP",
+    "price": "9.99",
+    "url": "https://www.aldi.nl/product/accu-tafellamp-1241041.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1241041_main_cms_46_nl_nl_accu_tafellamp_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "HOME CREATION Planten- of schoonmaakspuit",
+    "brand": "HOME CREATION",
+    "deal": "OP=OP",
+    "price": "0.99",
+    "url": "https://www.aldi.nl/product/planten-of-schoonmaakspuit-1241035.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1241035_main_cms_4_nl_nl_planten_of_schoonmaakspuit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "HOME CREATION Opbergdozen",
+    "brand": "HOME CREATION",
     "deal": "OP=OP",
     "price": "7.99",
-    "url": "https://www.aldi.nl/product/personenweegschaal-1240454",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240454_main_cms_20_nl_nl_personenweegschaal_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.aldi.nl/product/opbergdozen-1238741.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1238741_main_cms_21_nl_nl_opbergdozen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Aldi",
-    "name": "AMBIANO Heren-haarverzorging",
-    "brand": "AMBIANO",
+    "name": "BELAVI Balkonparasol",
+    "brand": "BELAVI",
     "deal": "OP=OP",
     "price": "14.99",
-    "url": "https://www.aldi.nl/product/heren-haarverzorging-1235735",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1235735_main_cms_8_nl_nl_heren_haarverzorging_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.aldi.nl/product/balkonparasol-1241031.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1241031_main_cms_4_nl_nl_balkonparasol_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "BELAVI Granieten parasolvoet",
+    "brand": "BELAVI",
+    "deal": "OP=OP",
+    "price": "24.99",
+    "url": "https://www.aldi.nl/product/granieten-parasolvoet-1203286.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1203286_main_cms_3_nl_nl_granieten_parasolvoet_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "BELAVI Afscherming",
+    "brand": "BELAVI",
+    "deal": "OP=OP",
+    "price": "9.99",
+    "url": "https://www.aldi.nl/product/afscherming-1240919.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240919_main_cms_2_nl_nl_afscherming_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "BELAVI Houten plantenrek",
+    "brand": "BELAVI",
+    "deal": "OP=OP",
+    "price": "14.99",
+    "url": "https://www.aldi.nl/product/houten-plantenrek-1240922.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240922_main_cms_6_nl_nl_houten_plantenrek_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "BELAVI Zeegras bloempot",
+    "brand": "BELAVI",
+    "deal": "OP=OP",
+    "price": "6.99",
+    "url": "https://www.aldi.nl/product/zeegras-bloempot-1240890.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240890_main_cms_3_nl_nl_zeegras_bloempot_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "BELAVI Balkonbak",
+    "brand": "BELAVI",
+    "deal": "OP=OP",
+    "price": "9.99",
+    "url": "https://www.aldi.nl/product/balkonbak-1232677.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232677_main_cms_19_nl_nl_balkonbak_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "Hangplant",
+    "brand": "",
+    "deal": "OP=OP",
+    "price": "5.99",
+    "url": "https://www.aldi.nl/product/hangplant-1201762.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1201762_main_cms_16_nl_nl_hangplant_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "Hangpot",
+    "brand": "",
+    "deal": "OP=OP",
+    "price": "4.99",
+    "url": "https://www.aldi.nl/product/hangpot-1236765.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1236765_main_cms_7_nl_nl_hangpot_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "Calibrachoa of Petunia Peppy",
+    "brand": "",
+    "deal": "OP=OP",
+    "price": "1.69",
+    "url": "https://www.aldi.nl/product/calibrachoa-of-petunia-peppy-1211561.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1211561_main_cms_5_nl_nl_calibrachoa_of_petunia_peppy_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "Fuchsia op stam",
+    "brand": "",
+    "deal": "OP=OP",
+    "price": "5.99",
+    "url": "https://www.aldi.nl/product/fuchsia-op-stam-1219271.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1219271_main_cms_1_nl_nl_fuchsia_op_stam_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "Verbena",
+    "brand": "",
+    "deal": "OP=OP",
+    "price": "1.69",
+    "url": "https://www.aldi.nl/product/verbena-1224533.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1224533_main_cms_5_nl_nl_verbena_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "GARDENLINE Pampasgras",
+    "brand": "GARDENLINE",
+    "deal": "OP=OP",
+    "price": "1.99",
+    "url": "https://www.aldi.nl/product/pampasgras-1215248.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1215248_main_cms_9_nl_nl_pampasgras_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "Aubergine",
+    "brand": "",
+    "deal": "-40%",
+    "price": "0.59",
+    "url": "https://www.aldi.nl/product/aubergine-1219536.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1219536_main_cms_10_nl_nl_aubergine_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "Varkens- of kipschnitzel XXL",
+    "brand": "",
+    "deal": "-16%",
+    "price": "2.49",
+    "url": "https://www.aldi.nl/product/varkens-of-kipschnitzel-xxl-91200201.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/91200201_wk18?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "Black Angus diamanthaas",
+    "brand": "",
+    "deal": "OP=OP",
+    "price": "5.99",
+    "url": "https://www.aldi.nl/product/black-angus-diamanthaas-1240950.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240950_main_cms_2_nl_nl_black_angus_diamanthaas_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "Borrelblokjes 48+ jong belegen",
+    "brand": "",
+    "deal": "-20%",
+    "price": "1.89",
+    "url": "https://www.aldi.nl/product/borrelblokjes-48-jong-belegen-1226180.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1226180_main_cms_10_nl_nl_borrelblokjes_48_jong_belegen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "Borrelsalade ei-truffel of gerookte zalm",
+    "brand": "",
+    "deal": "OP=OP",
+    "price": "1.69",
+    "url": "https://www.aldi.nl/product/borrelsalade-ei-truffel-of-gerookte-zalm-91235990.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/91235990_wk18?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "CUCINA Focaccia",
+    "brand": "CUCINA",
+    "deal": "-25%",
+    "price": "1.49",
+    "url": "https://www.aldi.nl/product/focaccia-91200145.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/91200145_wk18?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "MAGINON Vergrootglas",
+    "brand": "MAGINON",
+    "deal": "OP=OP",
+    "price": "9.99",
+    "url": "https://www.aldi.nl/product/vergrootglas-1235254.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1235254_main_cms_30_nl_nl_vergrootglas_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "EXPERTIZ Papierversnipperaar of lamineerapparaat",
+    "brand": "EXPERTIZ",
+    "deal": "OP=OP",
+    "price": "17.99",
+    "url": "https://www.aldi.nl/product/papierversnipperaar-of-lamineerapparaat-1240996.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240996_main_cms_3_nl_nl_papierversnipperaar_of_lamineerapparaat_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "WORKZONE Stekkerdoos",
+    "brand": "WORKZONE",
+    "deal": "OP=OP",
+    "price": "8.99",
+    "url": "https://www.aldi.nl/product/stekkerdoos-1238352.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1238352_main_cms_13_nl_nl_stekkerdoos_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "LIVE IN STYLE Laptop- of elektronicahoes",
+    "brand": "LIVE IN STYLE",
+    "deal": "OP=OP",
+    "price": "6.99",
+    "url": "https://www.aldi.nl/product/laptop-of-elektronicahoes-1240839.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240839_main_cms_18_nl_nl_laptop_of_elektronicahoes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "NOVITESSE Rug- of zitkussen",
+    "brand": "NOVITESSE",
+    "deal": "OP=OP",
+    "price": "8.99",
+    "url": "https://www.aldi.nl/product/rug-of-zitkussen-1226501.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1226501_main_cms_9_nl_nl_rug_of_zitkussen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "EXPERTIZ A4-papier",
+    "brand": "EXPERTIZ",
+    "deal": "OP=OP",
+    "price": "3.99",
+    "url": "https://www.aldi.nl/product/a4-papier-1239017.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1239017_main_cms_2_nl_nl_a4_papier_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "HOME CREATION Inklapbaar droogrek",
+    "brand": "HOME CREATION",
+    "deal": "OP=OP",
+    "price": "24.99",
+    "url": "https://www.aldi.nl/product/inklapbaar-droogrek-1240826.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240826_main_cms_1_nl_nl_inklapbaar_droogrek_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "HOME CREATION Wasmand",
+    "brand": "HOME CREATION",
+    "deal": "OP=OP",
+    "price": "3.99",
+    "url": "https://www.aldi.nl/product/wasmand-1240806.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240806_main_cms_9_nl_nl_wasmand_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "HOME CREATION Wasmand",
+    "brand": "HOME CREATION",
+    "deal": "OP=OP",
+    "price": "3.99",
+    "url": "https://www.aldi.nl/product/wasmand-1236763.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1236763_main_cms_80_nl_nl_wasmand_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "HOME CREATION Wasaccesoires",
+    "brand": "HOME CREATION",
+    "deal": "OP=OP",
+    "price": "2.99",
+    "url": "https://www.aldi.nl/product/wasaccesoires-1240810.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240810_main_cms_6_nl_nl_wasaccesoires_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "HOME CREATION Wasmiddelorganizers",
+    "brand": "HOME CREATION",
+    "deal": "OP=OP",
+    "price": "3.99",
+    "url": "https://www.aldi.nl/product/wasmiddelorganizers-1235852.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1235852_main_cms_4_nl_nl_wasmiddelorganizers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "HOME CREATION Vacuüm opbergzakken",
+    "brand": "HOME CREATION",
+    "deal": "OP=OP",
+    "price": "1.99",
+    "url": "https://www.aldi.nl/product/vacuum-opbergzakken-1240997.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240997_main_cms_11_nl_nl_vacuum_opbergzakken_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "UP2FASHION Polojurk",
+    "brand": "UP2FASHION",
+    "deal": "OP=OP",
+    "price": "7.99",
+    "url": "https://www.aldi.nl/product/polojurk-1240819.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240819_main_cms_14_nl_nl_polojurk_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "UP2FASHION Broek",
+    "brand": "UP2FASHION",
+    "deal": "OP=OP",
+    "price": "4.99",
+    "url": "https://www.aldi.nl/product/broek-1240811.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240811_main_cms_18_nl_nl_broek_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "UP2FASHION T-shirt",
+    "brand": "UP2FASHION",
+    "deal": "OP=OP",
+    "price": "4.99",
+    "url": "https://www.aldi.nl/product/t-shirt-1240817.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240817_main_cms_15_nl_nl_t_shirt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "UP2FASHION Sweatshirt",
+    "brand": "UP2FASHION",
+    "deal": "OP=OP",
+    "price": "8.99",
+    "url": "https://www.aldi.nl/product/sweatshirt-1240818.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240818_main_cms_11_nl_nl_sweatshirt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "UP2FASHION Cardigan",
+    "brand": "UP2FASHION",
+    "deal": "OP=OP",
+    "price": "9.99",
+    "url": "https://www.aldi.nl/product/cardigan-1240870.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240870_main_cms_1_nl_nl_cardigan_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "PIERRE CARDIN 2-pack boxershorts",
+    "brand": "PIERRE CARDIN",
+    "deal": "OP=OP",
+    "price": "7.99",
+    "url": "https://www.aldi.nl/product/2-pack-boxershorts-1235365.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1235365_main_cms_11_nl_nl_2_pack_boxershorts_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "NOVITESSE 2-in-1 dekbed",
+    "brand": "NOVITESSE",
+    "deal": "VANAF",
+    "price": "9.99",
+    "url": "https://www.aldi.nl/product/2-in-1-dekbed-91240836.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/91240836_wk18?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "NOVITESSE Dekbed",
+    "brand": "NOVITESSE",
+    "deal": "OP=OP",
+    "price": "21.99",
+    "url": "https://www.aldi.nl/product/dekbed-1240804.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240804_main_cms_18_nl_nl_dekbed_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "NOVITESSE Satijnen hoeslaken",
+    "brand": "NOVITESSE",
+    "deal": "VANAF",
+    "price": "7.99",
+    "url": "https://www.aldi.nl/product/satijnen-hoeslaken-91233347.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/91233347_wk18?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "NOVITESSE Hoofdkussen",
+    "brand": "NOVITESSE",
+    "deal": "OP=OP",
+    "price": "11.99",
+    "url": "https://www.aldi.nl/product/hoofdkussen-1240815.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240815_main_cms_1_nl_nl_hoofdkussen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "NOVITESSE Ergonomisch kussen",
+    "brand": "NOVITESSE",
+    "deal": "OP=OP",
+    "price": "14.99",
+    "url": "https://www.aldi.nl/product/ergonomisch-kussen-1240816.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240816_main_cms_16_nl_nl_ergonomisch_kussen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Aldi",
+    "name": "CASALUX Accu-tafellamp",
+    "brand": "CASALUX",
+    "deal": "OP=OP",
+    "price": "9.99",
+    "url": "https://www.aldi.nl/product/accu-tafellamp-1241016.html",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1241016_main_cms_12_nl_nl_accu_tafellamp_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "scraped_date": "2026-04-30"
   }
 ]

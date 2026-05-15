@@ -46,25 +46,83 @@ class DataIngestor:
             store_name = item.get('store', store_name)
             scraped_date = item.get('scraped_date', None)
             product_name = item.get('name', 'Unknown Product')
-            raw_deal = item.get('deal', '')
+            raw_deal = item.get('deal', '') or ''
             explicit_price = item.get('price')  # Aldi and Lidl use this
+
+            # Skip pure promotional items with no price-related content
+            # (e.g. "Gratis bezorging bij...", "Care Giftsets")
+            promo_only = (
+                not explicit_price
+                and not item.get('discount_price')
+                and raw_deal == ''
+                and not any(p in product_name.lower() for p in [
+                    'van ', 'voor ', 'gratis', 'korting', '%', 'halve'
+                ])
+            )
+            if promo_only:
+                continue
 
             # 2. Normalize the Deal
             normalized_math = self.normalizer.normalize(raw_deal, explicit_price)
             deal_window = self.date_calc.calculate_deal_window(store_name, scraped_date)
 
+            # AH embeds prices in the name: "AH Avocado Los van 4.17 voor 2.99"
+            # when deal/price fields are empty. Extract them here.
+            item_disc_price = item.get('discount_price')
+            item_orig_price = item.get('original_price')
+            if not item_disc_price and not explicit_price:
+                import re as _re
+                m = _re.search(r'van\s+([\d,.]+)\s+voor\s+([\d,.]+)', product_name)
+                if m:
+                    item_orig_price = item_orig_price or m.group(1).replace(',', '.')
+                    item_disc_price = m.group(2).replace(',', '.')
+                else:
+                    # "voor X.XX" pattern (single price)
+                    m2 = _re.search(r'\bvoor\s+([\d,.]+)', product_name)
+                    if m2:
+                        item_disc_price = m2.group(1).replace(',', '.')
+
             # 3. Construct the canonical record for the database
+            # normalize_deal returns: deal_type, unit_price, bundle_price, bundle_qty, discount_pct, free_qty
+            # deal_price = the consumer-facing price (bundle total or unit price)
+            deal_price = (
+                item_disc_price                          # AH name-extracted
+                or item.get('deal_price')                # set by harmonizer adapters
+                or normalized_math.get('bundle_price')   # "2 voor 3.49" → 3.49
+                or normalized_math.get('unit_price')     # FIXED_PRICE or PERCENTAGE with price_raw
+                or explicit_price                        # Aldi/Lidl/Plus price field (last resort)
+            )
+            # original_price: prefer AH-extracted, then item field
+            original_price = (
+                item_orig_price
+                or item.get('original_price')
+            )
+            # Convert to float safely
+            def _safe_float(v):
+                try:
+                    return float(v) if v is not None else None
+                except (TypeError, ValueError):
+                    return None
+
+            import json as _json
+            deal_options_raw = item.get('deal_options', [])
+
             canonical_record = {
                 "store_name": store_name,
                 "product_name": product_name,
-                "brand": item.get('brand', None),  # Mostly Aldi provides this
+                "brand": item.get('brand', None),
                 "original_deal_string": raw_deal,
-                "deal_type": normalized_math.get('type'),
-                "quantity_required": normalized_math.get('quantity'),
-                "deal_price": normalized_math.get('deal_price'),
-                "unit_price": normalized_math.get('unit_price'),
-                "discount_percentage": normalized_math.get('discount_percentage'),
+                "deal_type": normalized_math.get('deal_type'),
+                "quantity_required": normalized_math.get('bundle_qty'),
+                "deal_price": _safe_float(deal_price),
+                "original_price": _safe_float(original_price),
+                "unit_price": _safe_float(normalized_math.get('unit_price')),
+                "unit_label": item.get('unit_label') or item.get('example'),
+                "description": item.get('description'),
+                "deal_options": _json.dumps(deal_options_raw) if deal_options_raw else None,
+                "discount_percentage": normalized_math.get('discount_pct'),
                 "url": item.get('url', ''),
+                "image_url": item.get('image') or item.get('image_url'),
                 "start_date": deal_window["start_date"],
                 "end_date": deal_window["end_date"]
             }
@@ -98,16 +156,47 @@ class DataIngestor:
                 # The Discount schema has no Product FK — it stores a string ID.
                 master_product_id = item['product_name'].lower().replace(' ', '_')[:100]
 
-                discount = Discount(
-                    master_product_id=master_product_id,
-                    store_id=store.id,
-                    deal_type=item['deal_type'],
-                    deal_price=item['deal_price'],
-                    unit_price=item['unit_price'],
-                    start_date=item['start_date'],
-                    end_date=item['end_date'],
-                )
-                self.db.add(discount)
+                existing = self.db.query(Discount).filter(
+                    Discount.master_product_id == master_product_id,
+                    Discount.store_id == store.id
+                ).first()
+
+                if existing:
+                    # Always update deal_type and dates
+                    existing.deal_type = item['deal_type']
+                    existing.start_date = item['start_date']
+                    existing.end_date = item['end_date']
+                    existing.unit_label = item.get('unit_label') or existing.unit_label
+                    existing.image_url = item.get('image_url') or existing.image_url
+                    # Always overwrite description and deal_options (richer data)
+                    if item.get('description'):
+                        existing.description = item['description']
+                    if item.get('deal_options'):
+                        existing.deal_options = item['deal_options']
+                    # Only overwrite prices if the new value is non-None and non-zero
+                    if item['deal_price']:
+                        existing.deal_price = item['deal_price']
+                    if item.get('original_price'):
+                        existing.original_price = item['original_price']
+                    if item['unit_price']:
+                        existing.unit_price = item['unit_price']
+                else:
+                    discount = Discount(
+                        master_product_id=master_product_id,
+                        store_id=store.id,
+                        deal_type=item['deal_type'],
+                        deal_price=item['deal_price'],
+                        original_price=item.get('original_price'),
+                        unit_price=item['unit_price'],
+                        unit_label=item.get('unit_label'),
+                        description=item.get('description'),
+                        deal_options=item.get('deal_options'),
+                        image_url=item.get('image_url'),
+                        start_date=item['start_date'],
+                        end_date=item['end_date'],
+                    )
+                    self.db.add(discount)
+                
                 inserted += 1
 
             self.db.commit()

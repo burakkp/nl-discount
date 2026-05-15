@@ -1,1393 +1,1572 @@
 [
   {
-    "name": "Alle Bonduelle 255-400 gram en diepvriesgroenten van 5.55 voor 3.99",
+    "name": "AH Snoepgroente tomaat 500 gram 2 stuks van 6.58 voor 3.29",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777427?week=16",
+    "url": "https://www.ah.nl/bonus/groep/789801?week=18",
+    "description": "AH Snoepgroente tomaat 500 gram 2 stuks 1+1 gratis 3. 29 6.58",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_43545239393033383533?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle AH Gekoelde bakaardappelen 600 gram van 1.19 voor 0.99",
+    "name": "Alle AH Gekoelde aardappelen 600 gram Bijv. aardappelschijfjes - 2 stuks van 2.38 voor 1.78",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777402?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780836?week=18",
+    "description": "Alle AH Gekoelde aardappelen 600 gram Bijv. aardappelschijfjes - 2 stuks 2e halve prijs 1. 78 2.38",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167713_AH_NL_WK18_ALLE_AH_GEKOELDE_AARDAPPELEN_600_GRAM?rendition=200px&fileType=binary&version=035O9TWrPqo-s_jcW4KEsw",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Biologisch komkommer Los van 3.58 voor 2.49",
+    "name": "AH Avocado Los van 4.17 voor 2.99",
     "deal": null,
-    "example": null,
+    "example": "3 stuks",
     "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/786832?week=16",
+    "discount_price": "2.99",
+    "url": "https://www.ah.nl/bonus/groep/789802?week=18",
+    "description": "AH Avocado Los 3 voor 2.99 2. 99 4.17",
+    "deal_options": [
+      {
+        "qty": 3,
+        "price": 2.99
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_65667643744f624252722d5a38426563756a53376a41?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle AH Mediterraanse verspakketten Bijv. verspakket pita gyros - Per stuk van 6.99 voor 5.99",
+    "name": "AH Geschrapte worteltjes grootverpakking van 3.58 voor 1.79",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777524?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780838?week=18",
+    "description": "AH Geschrapte worteltjes grootverpakking 1+1 gratis 1. 79 3.58",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313832353038?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle AH Wokgroenten 400 gram van 4.78 voor 3.99",
+    "name": "AH Buitenbeentjes Nederlandse witte asperges 750 gram van 7.99 voor 5.59",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777447?week=16",
+    "url": "https://www.ah.nl/bonus/groep/789258?week=18",
+    "description": "AH Buitenbeentjes Nederlandse witte asperges 750 gram 30% korting 5. 59 7.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_305034454f533278514b4f42625f2d6d6f6f387a5351?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Sperziebonen 500 gram voor 1.99",
+    "name": "AH Rucola 85 gram van 1.09 voor 0.89",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/786831?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780837?week=18",
+    "description": "AH Rucola 85 gram voor 0.89 0. 89 1.09",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313738383431?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Rucola 85 gram van 1.09 voor 0.99",
+    "name": "Alle Kesbeke tafelzuren Bijv. kimchi - 2 potten à 385 gram van 4.5 voor 3.37",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777344?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780258?week=18",
+    "description": "Alle Kesbeke tafelzuren Bijv. kimchi - 2 potten à 385 gram 2e halve prijs 3. 37 4.50",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167275_AH_NL_WK18_ALLE_KESBEKE_TAFELZUREN?rendition=200px&fileType=binary&version=3-HXJjNX3PFP9O0zKb-SwQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Nederlandse witte asperges 500 gram voor 5.99",
+    "name": "AH Sweet Palermo rode puntpaprika 500 gram voor 2.49",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/786833?week=16",
+    "url": "https://www.ah.nl/bonus/groep/789800?week=18",
+    "description": "AH Sweet Palermo rode puntpaprika 500 gram voor 2.49 2. 49",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130303939363833?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Amaizin Bijv. chickpeas - Blik 400 gram van 1.99 voor 0.99",
+    "name": "AH Groene asperges 350 gram van 4.99 voor 3.49",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777303?week=16",
+    "url": "https://www.ah.nl/bonus/groep/790168?week=18",
+    "description": "AH Groene asperges 350 gram 30% korting 3. 49 4.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_514863656a696e34525075536944705458726d344777?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
     "name": "Alle AH Rauwkost van 4.98 voor 4",
     "deal": null,
-    "example": null,
+    "example": "2 stuks",
     "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777476?week=16",
+    "discount_price": "4.0",
+    "url": "https://www.ah.nl/bonus/groep/786238?week=18",
+    "description": "Alle AH Rauwkost 2 voor 4.00 4. 00 4.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 4.0
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_171779_AH_NL_WK18_ALLE_AH_RAUWKOST?rendition=200px&fileType=binary&version=JvXtmAKXxOvCMTxrT5qfiw",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Witte druiven pitloos 500 gram en Sable pitloze druiven 400 gram van 5.18 voor 3.99",
+    "name": "AH Blauwe bessen 300 gram van 4.89 voor 2.93",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/786836?week=16",
+    "url": "https://www.ah.nl/bonus/groep/789803?week=18",
+    "description": "AH Blauwe bessen 300 gram uitgelicht 40% korting 2. 93 4.89",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_43545239383832393636?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Nederlandse aardbeien 400 gram van 5.99 voor 3.99",
+    "name": "AH Nederlandse aardbeien 400 gram van 10.98 voor 5.99",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "5.99",
+    "url": "https://www.ah.nl/bonus/groep/789805?week=18",
+    "description": "AH Nederlandse aardbeien 400 gram 2 voor 5.99 5. 99 10.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 5.99
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4c486d4d51334962524b574575612d6b6e33334f7051?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "AH Zoete kleine appeltjes zak 1 kilo en conference peren schaal 4 stuks voor 3.99",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "3.99",
+    "url": "https://www.ah.nl/bonus/groep/789807?week=18",
+    "description": "AH Zoete kleine appeltjes zak 1 kilo en conference peren schaal 4 stuks 2 voor 3.99 3. 99",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 3.99
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_175137_AH_NL_WK18_AH_ZOETE_KLEINE_APPELTJES_ZAK_1_KILO_EN_CONFERENCE_PEREN_SCHAAL_4_STUKS?rendition=200px&fileType=binary&version=FfQHTY5Y1_NHB3a1OiGIVQ",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "AH Mango eetrijp 2 stuks voor 2.99",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "2.99",
+    "url": "https://www.ah.nl/bonus/groep/789806?week=18",
+    "description": "AH Mango eetrijp 2 stuks voor 2.99 2. 99",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 2.99
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_43545239393339323935?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "AH Verse ananas 250 gram van 5.58 voor 3.49",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "3.49",
+    "url": "https://www.ah.nl/bonus/groep/785978?week=18",
+    "description": "AH Verse ananas 250 gram 2 voor 3.49 3. 49 5.58",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 3.49
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_43545239393131313033?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "AH Frambozen 225 gram van 4.49 voor 3.49",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/786837?week=16",
+    "url": "https://www.ah.nl/bonus/groep/789804?week=18",
+    "description": "AH Frambozen 225 gram €1 korting 3. 49 4.49",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_43545239393131393031?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "AH Mandarijnen 1 kilo en mandarijnen met blad 650 gram voor 3.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/786834?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "AH Blauwe bessen 300 gram van 4.89 voor 3.42",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/786835?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "AH Conference peren 4 stuks voor 1.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/786840?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Kanzi appels schaal 4 stuks of zak 1 kilo voor 2.69",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/786838?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
     "name": "Alle AH Verse sappen en smoothies 250 ml van 5.97 voor 5",
     "deal": null,
-    "example": null,
+    "example": "3 stuks",
     "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/782328?week=16",
+    "discount_price": "5.0",
+    "url": "https://www.ah.nl/bonus/groep/785954?week=18",
+    "description": "Alle AH Verse sappen en smoothies 250 ml 3 voor 5.00 5. 00 5.97",
+    "deal_options": [
+      {
+        "qty": 3,
+        "price": 5.0
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_171447_AH_NL_WK18_ALLE_AH_VERSE_SAPPEN_EN_SMOOTHIES_250_ML?rendition=200px&fileType=binary&version=Gf2XvYffrocURllE5DHs2Q",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle AH Salades van de versafdeling van 6.78 voor 3.99",
+    "name": "Alle AH Salade Erbij van 7.98 voor 7",
     "deal": null,
-    "example": null,
+    "example": "2 stuks",
     "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777420?week=16",
+    "discount_price": "7.0",
+    "url": "https://www.ah.nl/bonus/groep/780154?week=18",
+    "description": "Alle AH Salade Erbij 2 voor 7.00 7. 00 7.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 7.0
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_68645f6c6f465453536d364a56533959757a78435451?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle AH Focaccia van 2.69 voor 1.49",
+    "name": "Alle AH Stoommaaltijden en -soepen van 14.98 voor 9.99",
     "deal": null,
-    "example": null,
+    "example": "2 stuks",
     "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777485?week=16",
+    "discount_price": "9.99",
+    "url": "https://www.ah.nl/bonus/groep/780239?week=18",
+    "description": "Alle AH Stoommaaltijden en -soepen 2 voor 9.99 9. 99 14.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 9.99
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167256_AH_NL_WK18_ALLE_AH_STOOMMAALTIJDEN_EN_SOEPEN?rendition=200px&fileType=binary&version=O5qkon8ZyOxrE7SOz4I0XA",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle AH Maaltijdsalades* *M.u.v. basis van 10.58 voor 8.75",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777450?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle AH Stamppotten 2-vaks 500 gram van 4.69 voor 3.75",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777489?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
     "name": "Alle AH Verse pinsa's van 11.98 voor 10",
     "deal": null,
-    "example": null,
+    "example": "2 stuks",
     "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777307?week=16",
+    "discount_price": "10.0",
+    "url": "https://www.ah.nl/bonus/groep/780246?week=18",
+    "description": "Alle AH Verse pinsa's 2 voor 10.00 10. 00 11.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 10.0
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167263_AH_NL_WK18_ALLE_AH_VERSE_PINSAS?rendition=200px&fileType=binary&version=JvXtmAKXxOvCMTxrT5qfiw",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle AH Verse soepen 500 gram van 7.18 voor 6",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777370?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle AH Verse maaltijden van 12.98 voor 12",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777382?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
     "name": "Alle AH Verse pizza's van 13.98 voor 12",
     "deal": null,
-    "example": null,
+    "example": "2 stuks",
     "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777394?week=16",
+    "discount_price": "12.0",
+    "url": "https://www.ah.nl/bonus/groep/780262?week=18",
+    "description": "Alle AH Verse pizza's 2 voor 12.00 12. 00 13.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 12.0
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167279_AH_NL_WK18_ALLE_AH_VERSE_PIZZAS?rendition=200px&fileType=binary&version=TUF1-YrFmkcZxz3kmAw0nQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
     "name": "Alle AH Pureersoepen van 8.98 voor 7",
     "deal": null,
-    "example": null,
+    "example": "2 stuks",
     "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/784940?week=16",
+    "discount_price": "7.0",
+    "url": "https://www.ah.nl/bonus/groep/784943?week=18",
+    "description": "Alle AH Pureersoepen 2 voor 7.00 7. 00 8.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 7.0
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_170434_AH_NL_WK18_ALLE_AH_PUREERSOEPEN?rendition=200px&fileType=binary&version=RGdEoEGwmb0C2vYgMmJurg",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Scharrelkipfiletblokjes 300 gram of kalkoenfiletblokjes 250 gram Bijv. kipfiletblokjes - Per stuk van 5.49 voor 4.49",
+    "name": "Alle AH Verse soepen 500 gram van 7.18 voor 6",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "6.0",
+    "url": "https://www.ah.nl/bonus/groep/786717?week=18",
+    "description": "Alle AH Verse soepen 500 gram 2 voor 6.00 6. 00 7.18",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 6.0
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_172162_AH_NL_WK18_ALLE_AH_VERSE_SOEPEN_500_GRAM?rendition=200px&fileType=binary&version=JvXtmAKXxOvCMTxrT5qfiw",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Alle AH Verse maaltijden van 12.98 voor 12",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "12.0",
+    "url": "https://www.ah.nl/bonus/groep/786718?week=18",
+    "description": "Alle AH Verse maaltijden 2 voor 12.00 12. 00 12.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 12.0
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_172163_AH_NL_WK18_ALLE_AH_VERSE_MAALTIJDEN?rendition=200px&fileType=binary&version=JvXtmAKXxOvCMTxrT5qfiw",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "AH Scharrelkipfilet 2 stuks en -kipfilethaasjes van 9.98 voor 7.99",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "7.99",
+    "url": "https://www.ah.nl/bonus/groep/780215?week=18",
+    "description": "AH Scharrelkipfilet 2 stuks en -kipfilethaasjes 2 voor 7.99 7. 99 9.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 7.99
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167232_AH_NL_WK18_AH_SCHARRELKIPFILET_2_STUKS_EN_KIPFILETHAASJES?rendition=200px&fileType=binary&version=B9wkZYyOg7v8qgOIHFJW_Q",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Alle AH Scharrelkipburgers 2 stuks Bijv. kipburger naturel - 2 schalen van 250 gram van 7.18 voor 5.38",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777470?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780847?week=18",
+    "description": "Alle AH Scharrelkipburgers 2 stuks Bijv. kipburger naturel - 2 schalen van 250 gram 2e halve prijs 5. 38 7.18",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167724_AH_NL_WK18_ALLE_AH_SCHARRELKIPBURGERS_2_STUKS?rendition=200px&fileType=binary&version=9xuGNvwZi8D_kmSbJU41Bg",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Varkensschnitzels 2 stuks van 7.98 voor 5.49",
+    "name": "Alle AH Excellent burgers en AH Terra plantaardige burgers 2 stuks Bijv. Excellent black angus - 2 pakken van 6.98 voor 3.49",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777459?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780839?week=18",
+    "description": "Alle AH Excellent burgers en AH Terra plantaardige burgers 2 stuks Bijv. Excellent black angus - 2 pakken 1+1 gratis 3. 49 6.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167716_AH_NL_WK18_ALLE_AH_EXCELLENT_BURGERS_EN_AH_TERRA_PLANTAARDIGE_BURGERS_2_STUKS?rendition=200px&fileType=binary&version=TUF1-YrFmkcZxz3kmAw0nQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Speklapjes à la minute Bijv. speklapjes naturel - Per 350 gram van 4.99 voor 3.74",
+    "name": "AH Varkensshoarma 500 gram van 4.99 voor 3.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777536?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780260?week=18",
+    "description": "AH Varkensshoarma 500 gram €1 korting 3. 99 4.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130303937383737?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Runderhamburger 4 stuks van 5.49 voor 3.99",
+    "name": "AH Schouderkarbonade van 4.27 voor 3.63",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777467?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780152?week=18",
+    "description": "AH Schouderkarbonade 15% korting 3. 63 4.27",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313938333235?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Vakslager uit de diepvries Bijv. Angus diamanthaas - Per 100 gram van 3.49 voor 2.79",
+    "name": "AH Greenfields kogelbiefstuk van 4.41 voor 3.69",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777328?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780143?week=18",
+    "description": "AH Greenfields kogelbiefstuk per 100 gram 3.69 3. 69 4.41",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313434393635?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Greenfields runderlappen van 2.05 voor 1.89",
+    "name": "AH Greenfields biefstuk van 4.06 voor 3.49",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777425?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780128?week=18",
+    "description": "AH Greenfields biefstuk per 100 gram 3.49 3. 49 4.06",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313437393032?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle AH Zalmfilet zonder huid van de versafdeling* Bijv. à la minute - Per 225 gram *M.u.v. Biologisch van 6.13 voor 4.6",
+    "name": "Alle AH Pangasius van de versafdeling Bijv. 2 porties - Per 350 gram van 4.45 voor 3.34",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/785864?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780254?week=18",
+    "description": "Alle AH Pangasius van de versafdeling Bijv. 2 porties - Per 350 gram 25% korting 3. 34 4.45",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313639393833?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle John West 3-packs van 7.59 voor 4.99",
+    "name": "AH Tonijnsteak wit Per 130 gram van 4.33 voor 3.68",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777516?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780218?week=18",
+    "description": "AH Tonijnsteak wit Per 130 gram 15% korting 3. 68 4.33",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130303937393031?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Haring met uitjes van 2.59 voor 1.99",
+    "name": "AH Roodbaars Per 190 gram van 5.53 voor 4.7",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777348?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780238?week=18",
+    "description": "AH Roodbaars Per 190 gram 15% korting 4. 70 5.53",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313539353136?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Vivera 150-200 gram van 6.38 voor 5.49",
+    "name": "AH Doradefilet Per 160 gram van 5.89 voor 5.01",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777515?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780276?week=18",
+    "description": "AH Doradefilet Per 160 gram 15% korting 5. 01 5.89",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313539353135?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Alpro kokos-desserts 120 gram van 1.49 voor 0.74",
+    "name": "AH Terra Plantaardige filet americain van 2.39 voor 2.15",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777431?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780862?week=18",
+    "description": "AH Terra Plantaardige filet americain 10% korting 2. 15 2.39",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313034373937?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Alpro biologische drinks 1 liter Bijv. almond no sugars - Per pak van 3.49 voor 1.74",
+    "name": "AH Filet americain 130- 150 gram van de versafdeling van 3.19 voor 2.49",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777316?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780259?week=18",
+    "description": "AH Filet americain 130- 150 gram van de versafdeling voor 2.49 2. 49 3.19",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313433323539?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alpro Kids soja yoghurt aardbei 4-pack van 2.99 voor 1.49",
+    "name": "Alle AH Yorkham van de versafdeling van 3.17 voor 2.39",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777354?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780211?week=18",
+    "description": "Alle AH Yorkham van de versafdeling per 100 gram 2.39 2. 39 3.17",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_43545239393233353331?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Gelderse gekookte worst van 1.99 voor 1.49",
+    "name": "AH Slagers gekookte worst of Scharrelkipfilet van 3.69 voor 3.32",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777453?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780256?week=18",
+    "description": "AH Slagers gekookte worst of Scharrelkipfilet 10% korting 3. 32 3.69",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_464d5278477a6a5254414b5f574c5671354d454e5267?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Vleeswaren van de versafdeling Bijv. gebraden gehakt - Per 100 gram van 2.29 voor 2.06",
+    "name": "Alle AH Stukjes worst van de versafdeling Bijv. grillworst Zaanlander van 4.79 voor 3.59",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777484?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780169?week=18",
+    "description": "Alle AH Stukjes worst van de versafdeling Bijv. grillworst Zaanlander 25% korting 3. 59 4.79",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167186_AH_NL_WK18_AH_STUKJES_WORST_VAN_DE_VERSAFDELING?rendition=200px&fileType=binary&version=qfmoNJA3D8sJv2PQbxGdnQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle AH Scharrelkipfiletvleeswaren van de versafdeling van 2.95 voor 2.39",
+    "name": "Alle AH Grillworst van de versafdeling van 2.14 voor 1.69",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777411?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780140?week=18",
+    "description": "Alle AH Grillworst van de versafdeling per 100 gram 1.69 1. 69 2.14",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313539383934?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "AH Leverworst in plakjes van de versafdeling van 1.99 voor 1.49",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777452?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Streeckgenoten ham Bijv. Limburgse achterham - Per 100 gram van 3.59 voor 2.69",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777474?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
     "name": "AH Paté kleinverpakking van 3.38 voor 2.5",
     "deal": null,
-    "example": null,
+    "example": "2 stuks",
     "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777390?week=16",
+    "discount_price": "2.5",
+    "url": "https://www.ah.nl/bonus/groep/780115?week=18",
+    "description": "AH Paté kleinverpakking 2 voor 2.50 2. 50 3.38",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 2.5
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167132_AH_NL_WK18_AH_PATE_KLEINVERPAKKING?rendition=200px&fileType=binary&version=dbflH-ayL1qeai4f6sjSrg",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle AH Zaanlander in stukken Bijv. jong belegen 48+ - 2 stukken van 435 gram van 15.78 voor 7.89",
+    "name": "Alle Président of Leerdammer Bijv. Président le brie 60+ van de zelfbedieningsafdeling van 3.29 voor 2.47",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777500?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780833?week=18",
+    "description": "Alle Président of Leerdammer Bijv. Président le brie 60+ van de zelfbedieningsafdeling 25% korting 2. 47 3.29",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167710_AH_NL_WK18_ALLE_PRESIDENT_OF_LEERDAMMER?rendition=200px&fileType=binary&version=9xuGNvwZi8D_kmSbJU41Bg",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Biologisch kaas Bijv. cottage cheese - Per stuk van 1.49 voor 1.34",
+    "name": "Alle AH Goudse kaas van de versafdeling Bijv. jong 48+ in plakken - 2 verpakkingen van 4.19 voor 3.14",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/781825?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780194?week=18",
+    "description": "Alle AH Goudse kaas van de versafdeling Bijv. jong 48+ in plakken - 2 verpakkingen 25% korting 3. 14 4.19",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167211_AH_NL_WK18_ALLE_AH_GOUDSE_KAAS_VAN_DE_VERSAFDELING?rendition=200px&fileType=binary&version=TUF1-YrFmkcZxz3kmAw0nQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Milner in plakken 150 gram Bijv. jong belegen - 2 pakken van 6.5 voor 4.87",
+    "name": "Alle AH Zaanlander van de zelfbedieningsafdeling Bijv. jong belegen - Pak 150 gram van 2.65 voor 1.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777443?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780177?week=18",
+    "description": "Alle AH Zaanlander van de zelfbedieningsafdeling Bijv. jong belegen - Pak 150 gram 25% korting 1. 99 2.65",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4e474b7157536e6952394b486d3477754b6c43666e67?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle WildWestLand Bijv. smeerkees naturel - Kuipje 170 gram van 3.49 voor 1.74",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777300?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
     "name": "AH Specialiteitenrasp van 5.58 voor 5",
     "deal": null,
-    "example": null,
+    "example": "2 stuks",
     "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777438?week=16",
+    "discount_price": "5.0",
+    "url": "https://www.ah.nl/bonus/groep/780196?week=18",
+    "description": "AH Specialiteitenrasp 2 voor 5.00 5. 00 5.58",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 5.0
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167213_AH_NL_WK18_AH_SPECIALITEITENRASP?rendition=200px&fileType=binary&version=Gf2XvYffrocURllE5DHs2Q",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
     "name": "Alle AH Borrelkaasjes van de versafdeling van 8.97 voor 6",
     "deal": null,
-    "example": null,
+    "example": "3 stuks",
     "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777442?week=16",
+    "discount_price": "6.0",
+    "url": "https://www.ah.nl/bonus/groep/780233?week=18",
+    "description": "Alle AH Borrelkaasjes van de versafdeling 3 voor 6.00 6. 00 8.97",
+    "deal_options": [
+      {
+        "qty": 3,
+        "price": 6.0
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167250_AH_NL_WK18_ALLE_AH_BORRELKAASJES_VAN_DE_VERSAFDELING?rendition=200px&fileType=binary&version=KBAMfAMZetKR7655VRhyxQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Skyr",
-    "deal": "Alpro",
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/FREE1626_E?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Arla Skyr",
-    "deal": "Lurpak",
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/FREE1626_G?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Melkunie Breaker van 1.59 voor 0.99",
+    "name": "Alle Campina Langlekker literpakken Bijv. halfvol - 2 pakken van 3.78 voor 1.89",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777422?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780195?week=18",
+    "description": "Alle Campina Langlekker literpakken Bijv. halfvol - 2 pakken uitgelicht 1+1 gratis 1. 89 3.78",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167212_AH_NL_WK18_ALLE_CAMPINA_LANGLEKKER_LITERPAKKEN?rendition=200px&fileType=binary&version=TUF1-YrFmkcZxz3kmAw0nQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle A-merk probiotica of kefir zuivel Bijv. Activia muesli - Set 4 stuks à 125 gram van 2.89 voor 2.02",
+    "name": "Alle Flower Farm Bijv. smeren zonder palmolie - 2 kuipjes à 375 gram van 6.98 voor 3.49",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777456?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780197?week=18",
+    "description": "Alle Flower Farm Bijv. smeren zonder palmolie - 2 kuipjes à 375 gram 1+1 gratis 3. 49 6.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_67345a684d5a4d31545475732d6a46675263776c7051?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Almhof Bijv. room-yoghurt Spaanse sinaasappel - Beker van 2.59 voor 1.94",
+    "name": "Alle Zuivelhoeve 120-450 gram van 3.78 voor 2.49",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "2.49",
+    "url": "https://www.ah.nl/bonus/groep/780216?week=18",
+    "description": "Alle Zuivelhoeve 120-450 gram 2 voor 2.49 2. 49 3.78",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 2.49
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167233_AH_NL_WK18_ALLE_ZUIVELHOEVE_120450_GRAM?rendition=200px&fileType=binary&version=9xuGNvwZi8D_kmSbJU41Bg",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Alle Dodoni eetzuivel Bijv. Griekse yoghurt 5% vet - Bak 1 kilo van 4.99 voor 3.74",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777497?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780203?week=18",
+    "description": "Alle Dodoni eetzuivel Bijv. Griekse yoghurt 5% vet - Bak 1 kilo 25% korting 3. 74 4.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4c53784339436d5551372d35516e6e5a66364f6d5267?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Becel Bijv. light - Kuipje 550 gram van 3.75 voor 2.81",
+    "name": "Alle XXL Nutrition zuivel van 3.98 voor 2.99",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "2.99",
+    "url": "https://www.ah.nl/bonus/groep/780263?week=18",
+    "description": "Alle XXL Nutrition zuivel 2 voor 2.99 2. 99 3.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 2.99
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_2d4b746c573936485452794653664572343034494541?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Alle Néstle desserts van 5.98 voor 2.99",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "2.99",
+    "url": "https://www.ah.nl/bonus/groep/785946?week=18",
+    "description": "Alle Néstle desserts 2 voor 2.99 2. 99 5.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 2.99
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4d79713975557a3953734333786f6441737531473967?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Campina Langlekker dozen Bijv. Langlekker halfvolle melk 12-pack van 45.36 voor 22.68",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777436?week=16",
+    "url": "https://www.ah.nl/bonus/groep/771693?week=18",
+    "description": "Campina Langlekker dozen Bijv. Langlekker halfvolle melk 12-pack 1+1 gratis 22. 68 45.36",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313238303939?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Melkunie pap 500 gram van 1.49 voor 0.99",
+    "name": "Alle AH Bakkersbrood tijgerbrood heel van 1.99 voor 1.69",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777373?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780210?week=18",
+    "description": "Alle AH Bakkersbrood tijgerbrood heel voor 1.69 1. 69 1.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4b4642465f6e71365445363856365062377873317877?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Optimel vezels Bijv. drinkyogurt mango-ananas - Pak 1 liter van 2.29 voor 1.14",
+    "name": "Alle Bolletje knäckebröd Bijv. oerknäck robuust volkoren - 3 pakken van 7.47 voor 4.98",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777363?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780208?week=18",
+    "description": "Alle Bolletje knäckebröd Bijv. oerknäck robuust volkoren - 3 pakken 2+1 gratis 4. 98 7.47",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4f7171542d746d385139712d3032724f6a6a43694667?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Optimel extra proteïne 330 ml van 1.89 voor 0.94",
+    "name": "Alle AH Speltbroden heel Vers uit onze oven van 3.19 voor 2.49",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777353?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780168?week=18",
+    "description": "Alle AH Speltbroden heel Vers uit onze oven voor 2.49 2. 49 3.19",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313833353133?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Milka chocolademelk Bijv. fles 250 ml van 1.59 voor 0.79",
+    "name": "Alle AH Luxe banket van de bakkerij Bijv. stroopwafels - Pak 8 stuks van 2.69 voor 2.02",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777340?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780731?week=18",
+    "description": "Alle AH Luxe banket van de bakkerij Bijv. stroopwafels - Pak 8 stuks 25% korting 2. 02 2.69",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167615_AH_NL_WK18_ALLE_AH_LUXE_BANKET_VAN_DE_BAKKERIJ?rendition=200px&fileType=binary&version=qfmoNJA3D8sJv2PQbxGdnQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Nescafé ijskoffie van 1.99 voor 0.99",
+    "name": "Online only: AH Muffins van de bakkerij van 4.71 voor 2.35",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777375?week=16",
+    "url": "https://www.ah.nl/bonus/groep/785937?week=18",
+    "description": "Online only: AH Muffins van de bakkerij 50% korting 2. 35 4.71",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_434d50323433323934?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Stroopwafelvla 1 liter van 1.79 voor 0.99",
+    "name": "Alle AH Muffins van de bakkerij Bijv. vanille met chocoladestukjes - 2 stuks Alleen in de winkel van 2.38 voor 1.19",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777462?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780175?week=18",
+    "description": "Alle AH Muffins van de bakkerij Bijv. vanille met chocoladestukjes - 2 stuks 1+1 gratis Alleen in de winkel 1. 19 2.38",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167192_AH_NL_WK18_ALLE_AH_MUFFINS_VAN_DE_BAKKERIJ?rendition=200px&fileType=binary&version=CmYvTA5SZrNG6gjlIqhEeQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Bakkersbrood rond wit sesam of volkoren heel van 1.89 voor 0.99",
+    "name": "AH Tijgerbollen Vers uit onze oven Alleen in de winkel van 0.7 voor 0.59",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "0.59",
+    "url": "https://www.ah.nl/bonus/groep/780848?week=18",
+    "description": "AH Tijgerbollen Vers uit onze oven 2 voor 0.59 Alleen in de winkel 0. 59 0.70",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 0.59
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_6264355f716279545351536a437342334b324d4b5377?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Online only: AH Muffin rozijn amandel hazelnoot van 6.76 voor 3.38",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777501?week=16",
+    "url": "https://www.ah.nl/bonus/groep/787901?week=18",
+    "description": "Online only: AH Muffin rozijn amandel hazelnoot 1+1 gratis 3. 38 6.76",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_49646b6558757143544a755631555251615748514251?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle AH Speltbroden heel van 3.19 voor 2.49",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777455?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle AH Cookies en muffins van de bakkerij Bijv. muffin vanille-choco - 2 stuks van 2.38 voor 1.19",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/781174?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "AH Kaas stroopwafel Alleen in de winkel van 1.39 voor 0.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/786334?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Online only: AH OerDesem uit de diepvries Bijv. Allinson gesneden - Per stuk van 2.69 voor 2.02",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/785201?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Online only: AH Muffins van de Bakkerij van 4.71 voor 2.35",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777330?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "AH Roomboter appelflappen Vers uit onze oven Alleen in de winkel van 1.78 voor 0.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777506?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "AH Kaasbroodje Vers uit onze oven Alleen in de winkel van 0.99 voor 0.69",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777454?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
     "name": "AH Petit Patisserie banket van 6.98 voor 6",
     "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "6.0",
+    "url": "https://www.ah.nl/bonus/groep/785983?week=18",
+    "description": "AH Petit Patisserie banket 2 voor 6.00 6. 00 6.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 6.0
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_171507_AH_NL_WK18_AH_PETIT_PATISSERIE_BANKET?rendition=200px&fileType=binary&version=edQkbNq7ic5iLVwBD-Rc6w",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Doritos",
+    "deal": "Duyvis",
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777509?week=16",
+    "url": "https://www.ah.nl/bonus/groep/FREE1826_C?week=18",
+    "description": "Doritos, Duyvis, Quaker: gratis bezorging bij 12 euro hele week gratis bezorging bij 12 euro",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_INC-FREE1826_C_AH_NL_WK18_LAYS?rendition=200px&fileType=binary&version=QqdqiLW--n1WxCQnwVUxsA",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle AH Glutenvrije koekjes 45 gram van 3.87 voor 3",
+    "name": "Alle AH Borrelhapjes t/m 210 gram van de versafdeling* *M.u.v. kleintjes van 8.97 voor 5.99",
+    "deal": null,
+    "example": "3 stuks",
+    "original_price": null,
+    "discount_price": "5.99",
+    "url": "https://www.ah.nl/bonus/groep/785792?week=18",
+    "description": "Alle AH Borrelhapjes t/m 210 gram van de versafdeling* *M.u.v. kleintjes uitgelicht 3 voor 5.99 5. 99 8.97",
+    "deal_options": [
+      {
+        "qty": 3,
+        "price": 5.99
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_171268_AH_NL_WK18_ALLE_AH_BORRELHAPJES_TM_210_GRAM_VAN_DE_VERSAFDELING?rendition=200px&fileType=binary&version=qfmoNJA3D8sJv2PQbxGdnQ",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Alle Cheetos 100-125 gram",
+    "deal": "Lay's Hamka's en Bugles 125 gram van 4.38 voor 2.99",
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "2.99",
+    "url": "https://www.ah.nl/bonus/groep/780867?week=18",
+    "description": "Alle Cheetos 100-125 gram, Lay's Hamka's en Bugles 125 gram uitgelicht 2 voor 2.99 2. 99 4.38",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 2.99
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167744_AH_NL_WK18_ALLE_CHEETOS_LAYS_HAMKAS_EN_BUGLES_100125_GRAM?rendition=200px&fileType=binary&version=3EXwZZZq7k7piP9MFmMmjg",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "AH Excellent droge worst van 8.58 voor 6.25",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "6.25",
+    "url": "https://www.ah.nl/bonus/groep/780227?week=18",
+    "description": "AH Excellent droge worst 2 voor 6.25 6. 25 8.58",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 6.25
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_3643716e53537933514e616c4b573261533658696667?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "AH Salade specialiteiten van 2.99 voor 2.69",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/784724?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780230?week=18",
+    "description": "AH Salade specialiteiten voor 2.69 2. 69 2.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313630333432?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Duyvis",
-    "deal": "Lay's",
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/FREE1626_A?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Lay's",
-    "deal": "Cheetos en Doritos value- en partypacks van 5.98 voor 3.99",
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777444?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "BiFi chicken 3-pack van 2.29 voor 1.14",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777471?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Unox gehaktballetjes in saus van 4.49 voor 2.24",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/781192?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
     "name": "AH Borrel kleintjes van 4.47 voor 3",
     "deal": null,
-    "example": null,
+    "example": "3 stuks",
     "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777409?week=16",
+    "discount_price": "3.0",
+    "url": "https://www.ah.nl/bonus/groep/780193?week=18",
+    "description": "AH Borrel kleintjes 3 voor 3.00 3. 00 4.47",
+    "deal_options": [
+      {
+        "qty": 3,
+        "price": 3.0
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167210_AH_NL_WK18_AH_BORREL_KLEINTJES?rendition=200px&fileType=binary&version=TUF1-YrFmkcZxz3kmAw0nQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "AH Multimix van 4.95 voor 4",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777430?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
     "name": "AH Scrocchi",
     "deal": "Picos en Borreltoast van 4.78 voor 4",
-    "example": null,
+    "example": "2 stuks",
     "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777435?week=16",
+    "discount_price": "4.0",
+    "url": "https://www.ah.nl/bonus/groep/780204?week=18",
+    "description": "AH Scrocchi, Picos en Borreltoast 2 voor 4.00 4. 00 4.78",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 4.0
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167221_AH_NL_WK18_AH_SCROCCHI_PICOS_EN_BORRELTOAST?rendition=200px&fileType=binary&version=edQkbNq7ic5iLVwBD-Rc6w",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle AH Krokante groente en zeewier van 5.98 voor 5",
+    "name": "AH Multimix van 4.95 voor 4",
+    "deal": null,
+    "example": "3 stuks",
+    "original_price": null,
+    "discount_price": "4.0",
+    "url": "https://www.ah.nl/bonus/groep/785939?week=18",
+    "description": "AH Multimix 3 voor 4.00 4. 00 4.95",
+    "deal_options": [
+      {
+        "qty": 3,
+        "price": 4.0
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_171427_AH_NL_WK18_AH_MULTIMIX?rendition=200px&fileType=binary&version=edQkbNq7ic5iLVwBD-Rc6w",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Alle Honig droge mixen* *M.u.v. voordeelverpakkingen van 7.96 voor 5.99",
+    "deal": null,
+    "example": "4 stuks",
+    "original_price": null,
+    "discount_price": "5.99",
+    "url": "https://www.ah.nl/bonus/groep/780265?week=18",
+    "description": "Alle Honig droge mixen* *M.u.v. voordeelverpakkingen 4 voor 5.99 5. 99 7.96",
+    "deal_options": [
+      {
+        "qty": 4,
+        "price": 5.99
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313339383339?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Alle Calvé Bijv. mayonaise - 2 potten à 650 ml van 8.98 voor 6.73",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777458?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780228?week=18",
+    "description": "Alle Calvé Bijv. mayonaise - 2 potten à 650 ml 2e halve prijs 6. 73 8.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4a6d6369614c7350535457386b46794845674c486677?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Hellmann's",
-    "deal": "Knorr en Calvé: gratis bezorging bij 15 euro hele week",
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/FREE1626_C?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Heinz basistomatenproducten 350-500 gram van 1.39 voor 0.99",
+    "name": "Alle Unox soep in zak Bijv. romige tomatensoep - 2 zakken à 570 ml van 6.9 voor 3.45",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777529?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780735?week=18",
+    "description": "Alle Unox soep in zak Bijv. romige tomatensoep - 2 zakken à 570 ml 1+1 gratis 3. 45 6.90",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167620_AH_NL_WK18_ALLE_UNOX_SOEP_IN_ZAK?rendition=200px&fileType=binary&version=QnSSnFe1y6YHhxQGX-mYjw",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Conimex kroepoek van 1.69 voor 0.99",
+    "name": "Alle Lu en Liga Bijv. Lu Bastogne original - 2 pakken à 260 gram van 6.57 voor 4.38",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777461?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780252?week=18",
+    "description": "Alle Lu en Liga Bijv. Lu Bastogne original - 2 pakken à 260 gram uitgelicht 2+1 gratis 4. 38 6.57",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167269_AH_NL_WK18_ALLE_LU_EN_LIGA?rendition=200px&fileType=binary&version=KBAMfAMZetKR7655VRhyxQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Verstegen: gratis bezorging bij 3 stuks hele week",
+    "name": "Alle Haribo 135-160 gram Bijv. zure bommen - 2 zakken à 160 gram van 2.58 voor 1.29",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/FREE1626_B?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780869?week=18",
+    "description": "Alle Haribo 135-160 gram Bijv. zure bommen - 2 zakken à 160 gram 1+1 gratis 1. 29 2.58",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_596e326634764c5553574f434935774758355f654967?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Unox soep in zak",
-    "deal": "Knorr Good snacks en Cup-a-Soup Bijv. Unox soep in zak romige tomaat - 2 zakken à 570 ml van 6.9 voor 3.45",
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/780945?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Go-Tan sweet chili sauce 30% less sugar van 3.29 voor 1.64",
+    "name": "Alle Smint Bijv. mints sugarfree 2-pack van 2.49 voor 1.87",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777341?week=16",
+    "url": "https://www.ah.nl/bonus/groep/785986?week=18",
+    "description": "Alle Smint Bijv. mints sugarfree 2-pack 25% korting 1. 87 2.49",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_6d4f495f725f4367537a796532413465594158736167?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Santa Maria black pepper tellicherry kruiden van 4.99 voor 2.49",
+    "name": "Alle Côte d'Or 180-200 gram Bijv. melk - 2 repen à 100 gram van 8.98 voor 6.73",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777321?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780237?week=18",
+    "description": "Alle Côte d'Or 180-200 gram Bijv. melk - 2 repen à 100 gram 2e halve prijs 6. 73 8.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167254_AH_NL_WK18_ALLE_COTE_DOR_180200_GRAM?rendition=200px&fileType=binary&version=4am9OG15XhffYmGdmpPrHQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Tic Tac en Kinder: gratis bezorging bij 10 euro hele week",
+    "name": "Alle Zonnatura ontbijtgranen en thee Bijv. muesli rijkgevuld - 2 zakken à 500 gram van 6.18 voor 3.09",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/FREE1626_D?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780729?week=18",
+    "description": "Alle Zonnatura ontbijtgranen en thee Bijv. muesli rijkgevuld - 2 zakken à 500 gram 1+1 gratis 3. 09 6.18",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167613_AH_NL_WK18_ALLE_ZONNATURA_ONTBIJTGRANEN_EN_THEE?rendition=200px&fileType=binary&version=qfmoNJA3D8sJv2PQbxGdnQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Stimorol: 2 euro korting op bezorging bij 2 stuks hele week",
+    "name": "Alle AH Biologisch zaden Bijv. chiazaad - Zak 275 gram van 3.99 voor 2.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/FREE1626_H?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780185?week=18",
+    "description": "Alle AH Biologisch zaden Bijv. chiazaad - Zak 275 gram 25% korting 2. 99 3.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_72723175462d4e5452422d64564c4230587166464f67?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Verkade Bijv. Nizza kokos - 2 pakken à 240 gram van 5.67 voor 3.78",
+    "name": "Vakslager en Visspecialist: gratis bezorging bij 1 stuk hele week",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777480?week=16",
+    "url": "https://www.ah.nl/bonus/groep/FREE1826_F?week=18",
+    "description": "Vakslager en Visspecialist: gratis bezorging bij 1 stuk hele week gratis bezorging bij 1 stuk",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_INC-FREE1826_F_AH_NL_WK18_VLEES?rendition=200px&fileType=binary&version=mVCUBE4gy9yXX2G8--Ul4w",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Venco en Red Band stazakken 200-245 gram van 5.38 voor 3.99",
+    "name": "Alle Magnum ijs Bijv. almond - Doos 6 stuks van 13.98 voor 6.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777451?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780733?week=18",
+    "description": "Alle Magnum ijs Bijv. almond - Doos 6 stuks uitgelicht 1+1 gratis 6. 99 13.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167618_AH_NL_WK18_ALLE_MAGNUM_IJS?rendition=200px&fileType=binary&version=O5qkon8ZyOxrE7SOz4I0XA",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Milka 87-100 gram van 1.75 voor 1.39",
+    "name": "Alle Kwekkeboom oven- & airfryersnacks Bijv. rundvlees croquetten - 2 zakken à 280 gram van 9.18 voor 4.59",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777479?week=16",
+    "url": "https://www.ah.nl/bonus/groep/785871?week=18",
+    "description": "Alle Kwekkeboom oven- & airfryersnacks Bijv. rundvlees croquetten - 2 zakken à 280 gram 1+1 gratis 4. 59 9.18",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_171351_AH_NL_WK18_ALLE_KWEKKEBOOM_OVEN_AIRFRYERSNACKS?rendition=200px&fileType=binary&version=QnSSnFe1y6YHhxQGX-mYjw",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Venco dropsport van 1.99 voor 0.99",
+    "name": "Alle AH Oven&airfryer kaasbitterballen en -sticks Bijv. biterballen - 2 pakken à 300 gram van 4.98 voor 3.73",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777333?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780281?week=18",
+    "description": "Alle AH Oven&airfryer kaasbitterballen en -sticks Bijv. biterballen - 2 pakken à 300 gram 2e halve prijs 3. 73 4.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167298_AH_NL_WK18_ALLE_AH_OVENAIRFRYER_KAASBITTERBALLEN_EN_STICKS?rendition=200px&fileType=binary&version=O5qkon8ZyOxrE7SOz4I0XA",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Daelmans stroopwafels Bijv. melkchocolade - Pak 4 stuks van 3.39 voor 1.69",
+    "name": "Kitkat",
+    "deal": "Nescafé",
+    "example": null,
+    "original_price": null,
+    "discount_price": null,
+    "url": "https://www.ah.nl/bonus/groep/FREE1826_A?week=18",
+    "description": "Kitkat, Nescafé, Bonzo, Rolo, Smarties, Nuts en One: gratis bezorging bij 12 euro hele week gratis bezorging bij 12 euro",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_INC-FREE1826_A_AH_NL_WK18_KITKAT?rendition=200px&fileType=binary&version=OcvNwJO3L6izrx6zGS6PLA",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Alle Perla Superiore en Biologisch capsules voor Nespresso Bijv. Superiore Finest intenso lungo capsules - 2 doosjes à 10 stuks van 13.98 voor 6.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777324?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780214?week=18",
+    "description": "Alle Perla Superiore en Biologisch capsules voor Nespresso Bijv. Superiore Finest intenso lungo capsules - 2 doosjes à 10 stuks 1+1 gratis 6. 99 13.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167231_AH_NL_WK18_ALLE_PERLA_SUPERIORE_EN_BIOLOGISCH_CAPSULES_VOOR_NESPRESSO?rendition=200px&fileType=binary&version=9xuGNvwZi8D_kmSbJU41Bg",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Céréal choco delight puur van 3.59 voor 1.79",
+    "name": "Alle Perla koffiebonen Bijv. Huisblends aroma - 2 zakken à 500 gram van 8.99 voor 6.74",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777362?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780865?week=18",
+    "description": "Alle Perla koffiebonen Bijv. Huisblends aroma - 2 zakken à 500 gram 25% korting 6. 74 8.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167742_AH_NL_WK18_ALLE_PERLA_KOFFIEBONEN?rendition=200px&fileType=binary&version=Wo13CcVt_Ky8UGQ0DujHdg",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Sportlife sour van 2.99 voor 1.49",
+    "name": "Alle Perla capsules voor Dolce Gusto van 13.47 voor 8.99",
+    "deal": null,
+    "example": "3 stuks",
+    "original_price": null,
+    "discount_price": "8.99",
+    "url": "https://www.ah.nl/bonus/groep/780864?week=18",
+    "description": "Alle Perla capsules voor Dolce Gusto 3 voor 8.99 8. 99 13.47",
+    "deal_options": [
+      {
+        "qty": 3,
+        "price": 8.99
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167741_AH_NL_WK18_ALLE_PERLA_CAPSULES_VOOR_DOLCE_GUSTO?rendition=200px&fileType=binary&version=qfmoNJA3D8sJv2PQbxGdnQ",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Red Bull: gratis bezorging bij 12 euro hele week",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777531?week=16",
+    "url": "https://www.ah.nl/bonus/groep/FREE1826_D?week=18",
+    "description": "Red Bull: gratis bezorging bij 12 euro hele week gratis bezorging bij 12 euro",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_INC-FREE1826_D_AH_NL_WK18_REDBULL?rendition=200px&fileType=binary&version=iMbMK1Fdur6wm81_Z87lRg",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle AH Dunne maïswafels 4-packs van 1.35 voor 1.19",
+    "name": "Spa fruit: gratis bezorging bij 5 stuks hele week",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777412?week=16",
+    "url": "https://www.ah.nl/bonus/groep/FREE1826_E?week=18",
+    "description": "Spa fruit: gratis bezorging bij 5 stuks hele week gratis bezorging bij 5 stuks",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_INC-FREE1826_E_AH_NL_WK18_SPA?rendition=200px&fileType=binary&version=d3cV85H_lJuEgzxaAIdg0w",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Bolletje beschuit Bijv. echte beschuit - 2 pakken à 13 stuks van 1.8 voor 1.35",
+    "name": "Alle Coca-Cola en Fanta 8-packs 250 ml",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777408?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780272?week=18",
+    "description": "Alle Coca-Cola en Fanta 8-packs 250 ml 3 sets 10.99 2 sets 7.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167289_AH_NL_WK18_ALLE_COCACOLA_EN_FANTA_8PACKS_250_ML?rendition=200px&fileType=binary&version=B9wkZYyOg7v8qgOIHFJW_Q",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Fuel10k Bijv. granola protein chocolate chunks - Pak 400 gram van 3.99 voor 1.99",
+    "name": "Alle Royal Club",
+    "deal": "Pepsi en 7UP literflessen Bijv. Pepsi zero sugar - 2 stuks van 4.58 voor 2.29",
+    "example": null,
+    "original_price": null,
+    "discount_price": null,
+    "url": "https://www.ah.nl/bonus/groep/780284?week=18",
+    "description": "Alle Royal Club, Pepsi en 7UP literflessen Bijv. Pepsi zero sugar - 2 stuks 1+1 gratis 2. 29 4.58",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167301_AH_NL_WK18_ALLE_ROYAL_CLUB_PEPSI_EN_7UP_LITERFLESSEN?rendition=200px&fileType=binary&version=TUF1-YrFmkcZxz3kmAw0nQ",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Alle Fuze Tea 1.25-1.5 liter van 5.5 voor 3.99",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "3.99",
+    "url": "https://www.ah.nl/bonus/groep/780856?week=18",
+    "description": "Alle Fuze Tea 1.25-1.5 liter 2 voor 3.99 3. 99 5.50",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 3.99
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167733_AH_NL_WK18_ALLE_FUZE_TEA_12515_LITER?rendition=200px&fileType=binary&version=XXZiO0A8uL-40myetUA5aw",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Coca-Cola en Fanta 250 ml 4-pack voor 10.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777322?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780273?week=18",
+    "description": "Coca-Cola en Fanta 250 ml 4-pack 6 sets 10.99 4 sets 7.99 10. 99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_7577484c6b6f794254705348444c3942434151435677?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Pindakaas squeezer van 3.29 voor 2.99",
+    "name": "Alle Summit cola 1.5 liter van 3.98 voor 1.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/782477?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780113?week=18",
+    "description": "Alle Summit cola 1.5 liter 1+1 gratis 1. 99 3.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_44413562444e70745468616e42494145397235772d41?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle AH Pindakaas emmers Bijv. Terra 100% met stukjes van 5.29 voor 3.97",
+    "name": "Alle Italiaanse wijnen 0.75 liter Bijv. piersanti verdicchio classico - Fles 0.75 liter van 5.99 voor 4.49",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777400?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780873?week=18",
+    "description": "Alle Italiaanse wijnen 0.75 liter Bijv. piersanti verdicchio classico - Fles 0.75 liter 25% korting 4. 49 5.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167750_AH_NL_WK18_ALLE_ITALIAANSE_WIJNEN_075_LITER?rendition=200px&fileType=binary&version=9xuGNvwZi8D_kmSbJU41Bg",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Delicata broodbeleg Bijv. hagelslag puur - Pak 200 gram van 2.49 voor 1.87",
+    "name": "Alle Grolsch",
+    "deal": "Bavaria",
+    "example": null,
+    "original_price": null,
+    "discount_price": null,
+    "url": "https://www.ah.nl/bonus/groep/785558?week=18",
+    "description": "Alle Grolsch, Bavaria, Birra Morreti, of Stella Artois multipacks of kratten* Bijv. Birra Moretti - Set 6 blikjes à 0.33 liter *M.u.v. gekoeld 25% korting 5. 99 7.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_171029_AH_NL_WK18_ALLE_GROLSCH_BAVARIA_BIRRA_MORRETI_OF_STELLA_ARTOIS_MULTIPACKS_OF_KRATTEN?rendition=200px&fileType=binary&version=O5qkon8ZyOxrE7SOz4I0XA",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Alle Affligem of Texels multipacks* Bijv. Texels Skuumkoppe - Set 6 flesjes à 0.3 liter *M.u.v. gekoeld van 9.99 voor 7.49",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777323?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780868?week=18",
+    "description": "Alle Affligem of Texels multipacks* Bijv. Texels Skuumkoppe - Set 6 flesjes à 0.3 liter *M.u.v. gekoeld 25% korting 7. 49 9.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167745_AH_NL_WK18_ALLE_AFFLIGEM_OF_TEXELS_MULTIPACKS?rendition=200px&fileType=binary&version=9xuGNvwZi8D_kmSbJU41Bg",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Hero B'tween protein zero van 2.39 voor 1.19",
+    "name": "Alle Leffe of Tripel Karmeliet multipacks of kratten* Bijv. Tripel Karmeliet - Set 4 flesjes à 0.33 liter *M.u.v. gekoeld van 9.49 voor 7.12",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777505?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780730?week=18",
+    "description": "Alle Leffe of Tripel Karmeliet multipacks of kratten* Bijv. Tripel Karmeliet - Set 4 flesjes à 0.33 liter *M.u.v. gekoeld 25% korting 7. 12 9.49",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167614_AH_NL_WK18_ALLE_LEFFE_OF_TRIPEL_KARMELIET_MULTIPACKS_OF_KRATTEN?rendition=200px&fileType=binary&version=TUF1-YrFmkcZxz3kmAw0nQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Holie's Chewy Bars van 3.29 voor 1.64",
+    "name": "Alle Undurraga of Aliwen Bijv. Undurraga merlot - Fles 0.75 liter van 5.29 voor 3.97",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777352?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780872?week=18",
+    "description": "Alle Undurraga of Aliwen Bijv. Undurraga merlot - Fles 0.75 liter 25% korting 3. 97 5.29",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167749_AH_NL_WK18_ALLE_UNDURRAGA_OF_ALIWEN?rendition=200px&fileType=binary&version=3EXwZZZq7k7piP9MFmMmjg",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Fit Piggy martini proteïne reep van 2.99 voor 1.79",
+    "name": "Alle Andrélon en Gliss shampoo en conditioner van 19.35 voor 10.99",
+    "deal": null,
+    "example": "3 stuks",
+    "original_price": null,
+    "discount_price": "10.99",
+    "url": "https://www.ah.nl/bonus/groep/771807?week=18",
+    "description": "Alle Andrélon en Gliss shampoo en conditioner 3 voor 10.99 10. 99 19.35",
+    "deal_options": [
+      {
+        "qty": 3,
+        "price": 10.99
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_159764_AH_NL_WK18_ALLE_ANDRELON_EN_GLISS_SHAMPOO_EN_CONDITIONER?rendition=200px&fileType=binary&version=KBAMfAMZetKR7655VRhyxQ",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Alle Dove",
+    "deal": "Axe en Rexona Bijv. Axe Africa deodorant spray - 4 bussen à 150 ml van 29.96 voor 14.98",
+    "example": null,
+    "original_price": null,
+    "discount_price": null,
+    "url": "https://www.ah.nl/bonus/groep/780870?week=18",
+    "description": "Alle Dove, Axe en Rexona Bijv. Axe Africa deodorant spray - 4 bussen à 150 ml 2+2 gratis 14. 98 29.96",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167747_AH_NL_WK18_ALLE_DOVE_AXE_EN_REXONA?rendition=200px&fileType=binary&version=9xuGNvwZi8D_kmSbJU41Bg",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Alle Aquafresh en Prodent Bijv. Prodent cool mint - 2 tubes à 75 ml van 7.4 voor 3.7",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777292?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780250?week=18",
+    "description": "Alle Aquafresh en Prodent Bijv. Prodent cool mint - 2 tubes à 75 ml 2+2 gratis 3. 70 7.40",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167267_AH_NL_WK18_ALLE_AQUAFRESH_EN_PRODENT?rendition=200px&fileType=binary&version=O5qkon8ZyOxrE7SOz4I0XA",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Goodies strawberry & date fruit bars van 2.79 voor 1.39",
+    "name": "Alle Nivea en Ambre Solaire zonbescherming Bijv. Nivea Sun protect & hydrate spray SPF 50+ - 2 flacons à 200 ml van 53.98 voor 26.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777374?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780727?week=18",
+    "description": "Alle Nivea en Ambre Solaire zonbescherming Bijv. Nivea Sun protect & hydrate spray SPF 50+ - 2 flacons à 200 ml 1+1 gratis 26. 99 53.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167611_AH_NL_WK18_ALLE_NIVEA_EN_AMBRE_SOLAIRE_ZONBESCHERMING?rendition=200px&fileType=binary&version=3EXwZZZq7k7piP9MFmMmjg",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Ben & Jerry's of Hertog mini-pints van 2.29 voor 0.99",
+    "name": "Care Giftsets",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777449?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780164?week=18",
+    "description": "Care Giftsets Bonus",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_5644744b516e555f5272325a38323673695f6a737251?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Wagner airfryer snacks Diepvries van 2.89 voor 1.44",
+    "name": "Alle Biodermal Bijv. gevoelige huid zonnecreme gezicht spf50 - 2 stuks van 55.98 voor 27.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777317?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780178?week=18",
+    "description": "Alle Biodermal Bijv. gevoelige huid zonnecreme gezicht spf50 - 2 stuks 1+1 gratis 27. 99 55.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_43545239373037373533?revLabel=2&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Kwekkeboom Old Amsterdam jalapeño bitterballen Diepvries van 5.29 voor 2.64",
+    "name": "Biore van 23.99 voor 11.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777319?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780146?week=18",
+    "description": "Biore 50% korting 11. 99 23.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313938303631?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Itsu king prawn gyoza Diepvries van 5.39 voor 2.69",
+    "name": "Bondi Sands van 19.49 voor 14.62",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777513?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780141?week=18",
+    "description": "Bondi Sands 25% korting 14. 62 19.49",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4b693136556461465358534b517152442d3647795a41?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Wagner pizzeria style Diepvries Alleen in de winkel van 4.49 voor 2.24",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777314?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Clipper thee 20 stuks Bijv. lemon & ginger organic infusion - 2 doosjes van 7.58 voor 3.79",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777419?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Nescafé en Starbucks Dolce Gusto 12-16 capsules van 12.98 voor 6.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777413?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Lavazza Bijv. qualità oro snelfiltermaling - 2 pakken à 250 gram van 7.59 voor 5.69",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777326?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Nescafé espresso concentrate van 6.49 voor 3.24",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777295?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Coca-Cola zero en light 1.5 literflessen Bijv. zero - 2 flessen van 5.5 voor 2.75",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777356?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Karvan Cévitam van 8.58 voor 5.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777507?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Taksi 1.5 literpakken van 1.99 voor 0.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777406?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Fanta of Sprite 1.5 literflessen van 2.75 voor 1.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777535?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle DubbelFrisss Boost 1.5 literpakken van 1.99 voor 0.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777389?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle AA Drink 330 - 500 ml* *M.u.v. gekoeld van 1.29 voor 0.89",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777391?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Pepsi zero Strawberries 'n' Cream van 0.99 voor 0.49",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777313?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Sprite zero sugar chill mint van 0.85 voor 0.42",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777299?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle San Pellegrino CIAO! Biv. lime - Blikje 440 ml van 1.15 voor 0.57",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777305?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Addmoore van 1.19 voor 0.89",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777395?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "AA Drink 12-pack van 15.39 voor 10.68",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777386?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Corona",
-    "deal": "Hertog Jan en Leffe: gratis bezorging bij 2 stuks hele week",
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/FREE1626_F?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Heineken",
-    "deal": "Birra Moretti",
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777405?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle 0.0 Heineken en Texels multipacks of kratten* Bijv. Heineken premium pilsener 0.0 - 2 sets van 6 blikjes à 0.33 liter *M.u.v. gekoeld van 13.1 voor 6.55",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777440?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Lindeman's South Africa 0.75 liter van 5.29 voor 3.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777508?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Affligem of Texels multipacks* Bijv. Texels Skuumkoppe - Set 6 flesjes à 0.3 liter *M.u.v. 0.0 en gekoeld van 9.99 voor 7.49",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777465?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Concha y Toro of Frontera wijnen Bijv. Frontera Sauvignon Blanc-Pedro Jiménez van 4.99 voor 3.74",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777523?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Fantini van 5.99 voor 4.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777534?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle A-merk bad-",
-    "deal": "douche- en haarproducten en deodorant Bijv. Andrélon iedere dag shampoo - 2 flessen à 400 ml van 13.58 voor 6.79",
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/784831?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Sensodyne en Parodontax Bijv. Parodontax original - 4 tubes à 75 ml van 21.16 voor 10.58",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777539?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Colgate tandpasta in tubes 75 ml van 2.69 voor 0.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777468?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle A-merk zonnebrand en aftersun Bijv. Nivea Sun protect & hydrate spray SPF 50+ - 2 tubes van 53.98 voor 26.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777457?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Care Bijv. Berry blush shower gel giftset voor 7.49",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/781827?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
     "name": "Alle Care vitamines",
@@ -1395,129 +1574,152 @@
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777418?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780225?week=18",
+    "description": "Alle Care vitamines, mineralen en supplementen 2+1 gratis 4. 98 7.47",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167242_AH_NL_WK18_ALLE_CARE_VITAMINES_MINERALEN_EN_SUPPLEMENTEN?rendition=200px&fileType=binary&version=edQkbNq7ic5iLVwBD-Rc6w",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Witte Reus toiletblokken Bijv. blauw actief hygiëne - 6 pakken van 26.94 voor 8.98",
+    "name": "GRATIS bij 2 artikelen Ariel",
+    "deal": "Lenor en Dreft vaatwascapsules: Dreft 3in1 power spray citroen Voeg het artikel zelf toe aan je mandje!",
+    "example": null,
+    "original_price": null,
+    "discount_price": null,
+    "url": "https://www.ah.nl/bonus/groep/780212?week=18",
+    "description": "GRATIS bij 2 artikelen Ariel, Lenor en Dreft vaatwascapsules: Dreft 3in1 power spray citroen Voeg het artikel zelf toe aan je mandje! uitgelicht Bonus",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_617a72397832327751306d4e6e37476f7a78434a6451?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Alle Ariel",
+    "deal": "Lenor en Dreft vaatwascapsules Bijv. Ariel 4-in-1 pods color - 2 stuks à 30 wasbeurten van 49.98 voor 24.99",
+    "example": null,
+    "original_price": null,
+    "discount_price": null,
+    "url": "https://www.ah.nl/bonus/groep/785314?week=18",
+    "description": "Alle Ariel, Lenor en Dreft vaatwascapsules Bijv. Ariel 4-in-1 pods color - 2 stuks à 30 wasbeurten uitgelicht 1+1 gratis 24. 99 49.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_170785_AH_NL_WK18_ALLE_ARIEL_LENOR_EN_DREFT_VAATWASCAPSULES?rendition=200px&fileType=binary&version=B9wkZYyOg7v8qgOIHFJW_Q",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Alle A-merk schoonmaaksprays en allesreinigers Bijv. Ajax allesreiniger eucalyptus - 3 flessen van 7.47 voor 4.98",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777385?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780725?week=18",
+    "description": "Alle A-merk schoonmaaksprays en allesreinigers Bijv. Ajax allesreiniger eucalyptus - 3 flessen 2+1 gratis 4. 98 7.47",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167609_AH_NL_WK18_ALLE_AMERK_SCHOONMAAKSPRAYS_EN_ALLESREINIGERS?rendition=200px&fileType=binary&version=qfmoNJA3D8sJv2PQbxGdnQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Keukenpapier sterk & absorberend 2=3 rollen van 5.98 voor 3.99",
+    "name": "AH Extra zacht & sterk toiletpapier 4-laags 12=18 rollen van 16.7 voor 13.99",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "13.99",
+    "url": "https://www.ah.nl/bonus/groep/780200?week=18",
+    "description": "AH Extra zacht & sterk toiletpapier 4-laags 12=18 rollen 2 voor 13.99 13. 99 16.70",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 13.99
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313532323930?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Alle Witte Reus toiletblokken van 17.96 voor 5.99",
+    "deal": null,
+    "example": "4 stuks",
+    "original_price": null,
+    "discount_price": "5.99",
+    "url": "https://www.ah.nl/bonus/groep/780240?week=18",
+    "description": "Alle Witte Reus toiletblokken 4 voor 5.99 5. 99 17.96",
+    "deal_options": [
+      {
+        "qty": 4,
+        "price": 5.99
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167257_AH_NL_WK18_ALLE_WITTE_REUS_TOILETBLOKKEN?rendition=200px&fileType=binary&version=035O9TWrPqo-s_jcW4KEsw",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Alle Nalys keukenpapier Bijv. vochtvangers megapack - Per pak à 8 rollen van 11.29 voor 5.64",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777530?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780217?week=18",
+    "description": "Alle Nalys keukenpapier Bijv. vochtvangers megapack - Per pak à 8 rollen 50% korting 5. 64 11.29",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_674a574b4d702d6d52574b7075706268467139353741?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Edet 16 en 24 rollen en Nalys Bijv. Edet ultra soft toiletpapier stro - 2 pakken à 16 stuks van 33.98 voor 16.99",
+    "name": "Alle Finish Bijv. ultimate plus vaatwascapsules - 5 zakken à 24 stuks van 84.95 voor 33.98",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777448?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780219?week=18",
+    "description": "Alle Finish Bijv. ultimate plus vaatwascapsules - 5 zakken à 24 stuks 2+3 gratis 33. 98 84.95",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167236_AH_NL_WK18_ALLE_FINISH?rendition=200px&fileType=binary&version=TUF1-YrFmkcZxz3kmAw0nQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Page vochtig toiletpapier 38 stuks van 2.19 voor 0.99",
+    "name": "Nutrilon en Olvarit: gratis bezorging bij 10 euro hele week",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777537?week=16",
+    "url": "https://www.ah.nl/bonus/groep/FREE1826_B?week=18",
+    "description": "Nutrilon en Olvarit: gratis bezorging bij 10 euro hele week gratis bezorging bij 10 euro",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_INC-FREE1826_B_AH_NL_WK18_NUTRILON?rendition=200px&fileType=binary&version=cAD4B6VauWXVTgNWBu3nMw",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Dreft vaatwascapsules Bijv. Platinum Miracle citroen - 2 zakken à 20 stuks van 39.98 voor 19.99",
+    "name": "Alle Pampers luiers Bijv. Premium protection maat 5 - 5 pakken à 23 stuks van 72.45 voor 43.47",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/781828?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780173?week=18",
+    "description": "Alle Pampers luiers Bijv. Premium protection maat 5 - 5 pakken à 23 stuks 3+2 gratis 43. 47 72.45",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_6b564a3468467073514e61334771446c3565487a5a41?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Ariel pods+ en vloeibaar+ Bijv. pods+ Unstoppables wascapsules - 5 dozen van 79.95 voor 31.98",
+    "name": "Online only: Pampers grootverpakkingen van 57.79 voor 40.45",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777511?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780189?week=18",
+    "description": "Online only: Pampers grootverpakkingen online Bonus 40. 45 57.79",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_564d665a446e6e37547a4f487a5777486136507a5341?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Ajax en Dubro Bijv. Ajax allesreiniger eucalyptus - 2 flessen à 1.25 liter van 4.98 voor 2.49",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777441?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Finish Bijv. ultimate plus vaatwascapsules - 3 zakken à 24 stuks van 50.97 voor 16.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777488?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Reus wasmiddelen t/m 77 wasbeurten en Fleuril Bijv. Color Reus gel XXL - 2 stuks à 77 wasbeurten van 43.96 voor 21.98",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777469?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Olvarit potten van 1.79 voor 0.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777365?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alle Organix knijpzakjes van 1.45 voor 0.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777463?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Online only: Pampers grootverpakkingen Bijv. Baby-dry maat 4 van 57.29 voor 34.37",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/782307?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
     "name": "AH Biologisch knijpfruit van 5.94 voor 4.95",
@@ -1525,139 +1727,142 @@
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777464?week=16",
+    "url": "https://www.ah.nl/bonus/groep/780165?week=18",
+    "description": "AH Biologisch knijpfruit 5+1 gratis 4. 95 5.94",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167182_AH_NL_WK18_AH_BIOLOGISCH_KNIJPFRUIT?rendition=200px&fileType=binary&version=JvXtmAKXxOvCMTxrT5qfiw",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Alle Sheba of Cesar Bijv. Sheba mini-filets kip kalkoen - Pakje van 0.95 voor 0.66",
+    "name": "Alle Felix maaltijdzakjes",
+    "deal": "snacks en droogvoer 800 gram Bijv. Elke Dag Feest countryside selectie in gelei - 2 dozen à 12 zakjes van 13.78 voor 10.33",
+    "example": null,
+    "original_price": null,
+    "discount_price": null,
+    "url": "https://www.ah.nl/bonus/groep/780247?week=18",
+    "description": "Alle Felix maaltijdzakjes, snacks en droogvoer 800 gram Bijv. Elke Dag Feest countryside selectie in gelei - 2 dozen à 12 zakjes 2e halve prijs 10. 33 13.78",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_167264_AH_NL_WK18_ALLE_FELIX_MAALTIJDZAKJES_SNACKS_EN_DROOGVOER_800_GRAM?rendition=200px&fileType=binary&version=035O9TWrPqo-s_jcW4KEsw",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "AH Lavendel in pot Alleen in de winkel van 3.5 voor 2.5",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777520?week=16",
+    "url": "https://www.ah.nl/bonus/groep/787716?week=18",
+    "description": "AH Lavendel in pot €1 korting Alleen in de winkel 2. 50 3.50",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_173182_AH_NL_WK18_ALLE_AH_LAVENDEL?rendition=200px&fileType=binary&version=7S1iOft-Z8EsmXcSfrBLiw",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Gourmet Soup Royale kip",
-    "deal": "rund en kalkoen van 3.49 voor 1.74",
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777286?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Tutti by Mistral Home bedtextiel op=op",
+    "name": "AH Seizoensmix large Alleen in de winkel van 7.5 voor 6.5",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777434?week=16",
+    "url": "https://www.ah.nl/bonus/groep/787712?week=18",
+    "description": "AH Seizoensmix large €1 korting Alleen in de winkel 6. 50 7.50",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_5063532d316747545354474762745854357570477167?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Perkgoed potmaat 12 cm Alleen in de winkel van 8 voor 4",
+    "name": "Grill Fanatics BBQ accessoires",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/784708?week=16",
+    "url": "https://www.ah.nl/bonus/groep/779097?week=18",
+    "description": "Grill Fanatics BBQ accessoires Bonus",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130303536343438?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Koningsdag artikelen bijv. schminkstick - Per stuk voor 1.49",
+    "name": "AH BBQ accessoires",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/777426?week=16",
+    "url": "https://www.ah.nl/bonus/groep/779107?week=18",
+    "description": "AH BBQ accessoires Bonus",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_65626373764f4f4f524e32722d714f314c5064334241?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Roos kort en Gerbera mini Alleen in de winkel van 6 voor 5",
+    "name": "Weber BBQ accessoires",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/786217?week=16",
+    "url": "https://www.ah.nl/bonus/groep/779600?week=18",
+    "description": "Weber BBQ accessoires Bonus",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4b506859416a6534527a476431385f48446457334951?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Perkgoed- of fuchsiahanger Bijv. fuchsiahanger - Per stuk Alleen in de winkel van 8.5 voor 6.5",
+    "name": "Grill Guru Houtskool 10 kilo van 25.95 voor 18.95",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/786216?week=16",
+    "url": "https://www.ah.nl/bonus/groep/779602?week=18",
+    "description": "Grill Guru Houtskool 10 kilo voor 18.95 18. 95 25.95",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130303538303631?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "AH Terrashortensia",
-    "deal": "struikmargriet of vaste planten Bijv. terrashortensia - Per stuk Alleen in de winkel van 10 voor 7.5",
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/786215?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Tuindeals",
+    "name": "Grill Guru BBQ accessoires",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/784878?week=16",
+    "url": "https://www.ah.nl/bonus/groep/779606?week=18",
+    "description": "Grill Guru BBQ accessoires 25% korting",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130303538303632?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "BBQ-deals",
+    "name": "OP=OP Let op: kies eerst een bestelmoment om te zien of we voor jouw bezorglocatie nog voorraad hebben. - AH Excellent Roomboter paashaas ongezouten van 2.49 voor 1.62",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/786791?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21679?week=18",
+    "description": "OP=OP Let op: kies eerst een bestelmoment om te zien of we voor jouw bezorglocatie nog voorraad hebben. - AH Excellent Roomboter paashaas ongezouten online Bonus 1. 62 2.49",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21679_AH_NL_WK18_OPISOP?rendition=200px&fileType=binary&version=57ajV8d9zfS8ZhVAzlmh8w",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "OP=OP Bijv. Mojito mango van 2.49 voor 1.25",
+    "name": "Weekenddeal Nieuw-Zeeland Bijv. Clearwater Cove Sauvignon Blanc - Fles van 22.58 voor 16.93",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21618?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21551?week=18",
+    "description": "Weekenddeal Nieuw-Zeeland Bijv. Clearwater Cove Sauvignon Blanc - Fles 2e halve prijs 16. 93 22.58",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21551_GALL_NL_WK18_WEEKENDDEAL_NIEUWZEELAND?rendition=200px&fileType=binary&version=eKz1SLDJ6skVtkeUyVlb0A",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Weekenddeal Zuid-Afrika Bijv. Kanonkop Kadette - Fles van 26.58 voor 19.93",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21422?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Riporta Bijv. Riporta Primitivo - Fles van 15.98 voor 11.98",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21423?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
     "name": "La Palma Bijv. La Palma Chardonnay - Fles van 13.3 voor 9.98",
@@ -1665,279 +1870,454 @@
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21424?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21553?week=18",
+    "description": "La Palma Bijv. La Palma Chardonnay - Fles 2e halve prijs 9. 98 13.30",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21553_GALL_NL_WK18_LA_PALMA?rendition=200px&fileType=binary&version=6QONnnX84rKkSAvqyg261Q",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Arrogant Frog Bijv. Arrogant Frog Chardonnay Viognier - Fles van 16.78 voor 12.58",
+    "name": "Mucho Más Bijv. Mucho Más Tinto - Fles van 15.58 voor 11.78",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "11.78",
+    "url": "https://www.ah.nl/bonus/groep/-21554?week=18",
+    "description": "Mucho Más Bijv. Mucho Más Tinto - Fles 2 voor 11.78 11. 78 15.58",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 11.78
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21554_GALL_NL_WK18_MUCHO_MAS?rendition=200px&fileType=binary&version=eKz1SLDJ6skVtkeUyVlb0A",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Ogio Bijv. Ogio Pinot Grigio - Fles van 14.58 voor 10.94",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21425?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21555?week=18",
+    "description": "Ogio Bijv. Ogio Pinot Grigio - Fles 2e halve prijs 10. 94 14.58",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21555_GALL_NL_WK18_OGIO?rendition=200px&fileType=binary&version=eKz1SLDJ6skVtkeUyVlb0A",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Biologische wijn Bijv. Torres Viña Sol Bio - Fles van 13.3 voor 9.98",
+    "name": "Valcatrina Bijv. Valcatrina Branco - Fles van 14.58 voor 10.94",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21426?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21556?week=18",
+    "description": "Valcatrina Bijv. Valcatrina Branco - Fles 2e halve prijs 10. 94 14.58",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21556_GALL_NL_WK18_VALCATRINA?rendition=200px&fileType=binary&version=eKz1SLDJ6skVtkeUyVlb0A",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Baumgartner Grüner Veltliner Bijv.Chianti Castiglioni - Fles van 13.98 voor 11.98",
+    "name": "Winzer Krems Kremstal Grüner Veltliner bijv. Grüner Veltliner Sandgrube - fles van 17.98 voor 13.58",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "13.58",
+    "url": "https://www.ah.nl/bonus/groep/-21617?week=18",
+    "description": "Winzer Krems Kremstal Grüner Veltliner bijv. Grüner Veltliner Sandgrube - fles 2 voor 13.58 13. 58 17.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 13.58
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_43545239383037373835?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "You Are Bijv. You Are Chardonnay - Fles van 13.3 voor 9.98",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21427?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21558?week=18",
+    "description": "You Are Bijv. You Are Chardonnay - Fles 2e halve prijs 9. 98 13.30",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21558_GALL_NL_WK18_YOU_ARE?rendition=200px&fileType=binary&version=eKz1SLDJ6skVtkeUyVlb0A",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Frescobaldi Castiglioni Chianti Bijv.Grüner Veltliner - Fles van 20.58 voor 15.98",
+    "name": "Overige wijnaanbiedingen Bijv. Les Esperons Chardonnay - Fles van 15.98 voor 11.98",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21428?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21559?week=18",
+    "description": "Overige wijnaanbiedingen Bijv. Les Esperons Chardonnay - Fles 2e halve prijs 11. 98 15.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21559_GALL_NL_WK18_OVERIGE_WIJNAANBIEDINGEN?rendition=200px&fileType=binary&version=eKz1SLDJ6skVtkeUyVlb0A",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Overige wijnaanbiedingen Bijv. Cune Rueda Verdejo - Fles van 17.3 voor 12.98",
+    "name": "Colle del Principe Prosecco Bijv. Colle del Principe Prosecco - fles van 22.58 voor 17.98",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "17.98",
+    "url": "https://www.ah.nl/bonus/groep/-21560?week=18",
+    "description": "Colle del Principe Prosecco Bijv. Colle del Principe Prosecco - fles 2 voor 17.98 17. 98 22.58",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 17.98
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4436586266565363514d536f4532426a6e7470685951?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Veuve Amiot Bijv. Veuve Amiot Demi-Sec - Fles van 27.98 voor 21.98",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "21.98",
+    "url": "https://www.ah.nl/bonus/groep/-21561?week=18",
+    "description": "Veuve Amiot Bijv. Veuve Amiot Demi-Sec - Fles 2 voor 21.98 21. 98 27.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 21.98
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21561_GALL_NL_WK18_VEUVE_AMIOT?rendition=200px&fileType=binary&version=6QONnnX84rKkSAvqyg261Q",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Ca' Marina Prosecco Bijv. Ca' Marina Prosecco - fles van 26.58 voor 20.98",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "20.98",
+    "url": "https://www.ah.nl/bonus/groep/-21562?week=18",
+    "description": "Ca' Marina Prosecco Bijv. Ca' Marina Prosecco - fles 2 voor 20.98 20. 98 26.58",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 20.98
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_6678735966426373526c79796e4462557a5958545541?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Pongrácz Brut Bijv. Pongrácz Sparkling brut - fles van 29.98 voor 25.98",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "25.98",
+    "url": "https://www.ah.nl/bonus/groep/-21563?week=18",
+    "description": "Pongrácz Brut Bijv. Pongrácz Sparkling brut - fles 2 voor 25.98 25. 98 29.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 25.98
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313837323237?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Pongrácz Rosé Bijv. Pongrácz Rosé - fles van 29.98 voor 23.98",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "23.98",
+    "url": "https://www.ah.nl/bonus/groep/-21564?week=18",
+    "description": "Pongrácz Rosé Bijv. Pongrácz Rosé - fles 2 voor 23.98 23. 98 29.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 23.98
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313838353633?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "De Chanceny Vouvray Excellence Bijv. De Chanceny Vouvray Brut Excellence - fles van 27.98 voor 23.98",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "23.98",
+    "url": "https://www.ah.nl/bonus/groep/-21565?week=18",
+    "description": "De Chanceny Vouvray Excellence Bijv. De Chanceny Vouvray Brut Excellence - fles 2 voor 23.98 23. 98 27.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 23.98
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313931343434?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Barros port Bijv. Barros Tawny Port - Fles van 21.3 voor 16.98",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "16.98",
+    "url": "https://www.ah.nl/bonus/groep/-21566?week=18",
+    "description": "Barros port Bijv. Barros Tawny Port - Fles 2 voor 16.98 16. 98 21.30",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 16.98
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21566_GALL_NL_WK18_BARROS_PORT?rendition=200px&fileType=binary&version=eKz1SLDJ6skVtkeUyVlb0A",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Dow's port Bijv. Dow's Fine Tawny - Fles van 23.98 voor 18.98",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "18.98",
+    "url": "https://www.ah.nl/bonus/groep/-21567?week=18",
+    "description": "Dow's port Bijv. Dow's Fine Tawny - Fles 2 voor 18.98 18. 98 23.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 18.98
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21567_GALL_NL_WK18_DOWS_PORT?rendition=200px&fileType=binary&version=eKz1SLDJ6skVtkeUyVlb0A",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Yealands Sauvignon Blanc Bijv. Yealands Sauvignon Blanc - fles van 22.58 voor 17.98",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "17.98",
+    "url": "https://www.ah.nl/bonus/groep/-21568?week=18",
+    "description": "Yealands Sauvignon Blanc Bijv. Yealands Sauvignon Blanc - fles G&G Premium 2 voor 17.98 17. 98 22.58",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 17.98
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_43545239383937303530?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Valdivieso Winemaker's Reserva Chardonnay Bijv. Valdivieso Chardonnay winemaker Reserva van 14.58 voor 11.66",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "11.66",
+    "url": "https://www.ah.nl/bonus/groep/-21569?week=18",
+    "description": "Valdivieso Winemaker's Reserva Chardonnay Bijv. Valdivieso Chardonnay winemaker Reserva G&G Premium 2 voor 11.66 11. 66 14.58",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 11.66
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4354523130313838393335?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Domaine de l'Amaurigue Rosé Bijv. Dom de l'Amaurigue Rosé - fles van 22.98 voor 17.98",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "17.98",
+    "url": "https://www.ah.nl/bonus/groep/-21570?week=18",
+    "description": "Domaine de l'Amaurigue Rosé Bijv. Dom de l'Amaurigue Rosé - fles G&G Premium 2 voor 17.98 17. 98 22.98",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 17.98
+      }
+    ],
+    "image_url": "https://static.ah.nl/dam/product/AHI_6743642d3935503453414b35735a664e335859454777?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Cune Bijv. Cune Rueda Verdejo - Fles van 17.3 voor 12.98",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21429?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21571?week=18",
+    "description": "Cune Bijv. Cune Rueda Verdejo - Fles G&G Premium 2e halve prijs 12. 98 17.30",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21571_GALL_NL_WK18_CUNE?rendition=200px&fileType=binary&version=eKz1SLDJ6skVtkeUyVlb0A",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Champagne Pannier Bijv. Champagne Pannier Brut - Fles van 59.98 voor 49.98",
+    "name": "Tokara Bijv. Tokara Chardonnay - Fles van 23.98 voor 17.98",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21430?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21572?week=18",
+    "description": "Tokara Bijv. Tokara Chardonnay - Fles G&G Premium 2e halve prijs 17. 98 23.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21572_GALL_NL_WK18_TOKARA?rendition=200px&fileType=binary&version=eKz1SLDJ6skVtkeUyVlb0A",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Ca' Marina Prosecco Bijv.Ca' Marina Prosecco - Fles van 26.58 voor 20.98",
+    "name": "Kanonkop Bijv. Kanonkop Kadette - Fles van 26.58 voor 19.93",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21431?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21573?week=18",
+    "description": "Kanonkop Bijv. Kanonkop Kadette - Fles G&G Premium 2e halve prijs 19. 93 26.58",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21573_GALL_NL_WK18_KANONKOP?rendition=200px&fileType=binary&version=eKz1SLDJ6skVtkeUyVlb0A",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Colle del Principe Prosecco Bijv. Colle del Principe Prosecco - Fles van 22.58 voor 17.98",
+    "name": "Gall&Gall - Overige wijnaanbiedingen kaart 18 - 2026 Bijv. La Capitana Gran Reserva Carmenère - Fles van 18.58 voor 13.93",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21432?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21574?week=18",
+    "description": "Gall&Gall - Overige wijnaanbiedingen kaart 18 - 2026 Bijv. La Capitana Gran Reserva Carmenère - Fles G&G Premium 2e halve prijs 13. 93 18.58",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21574_GALL_NL_WK18_GALLGALL_OVERIGE_WIJNAANBIEDINGEN_KAART_18_2026?rendition=200px&fileType=binary&version=6QONnnX84rKkSAvqyg261Q",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Veuve Amiot Bijv. Veuve Amiot Brut - Fles van 27.38 voor 21.98",
+    "name": "Heel veel baby- en mamaverzorging Bijv. Etos Mijn baby wattenstaafjes - 2 x 60 stuks van 1.98 voor 1.49",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21433?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21506?week=18",
+    "description": "Heel veel baby- en mamaverzorging Bijv. Etos Mijn baby wattenstaafjes - 2 x 60 stuks 2e halve prijs 1. 49 1.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21506_ETOS_NL_WK17_HEEL_VEEL_BABY_EN_MAMAVERZORGING?rendition=200px&fileType=binary&version=0962N1bvYQwvnWpjlC8nGQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Prosecco Bijv. Masottina Prosecco - Fles van 22.58 voor 16.94",
+    "name": "Etos luiers Bijv. Etos Luierbroek soft & protect mt 6 - 19st van 7.49 voor 5.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21434?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21499?week=18",
+    "description": "Etos luiers Bijv. Etos Luierbroek soft & protect mt 6 - 19st 20% korting 5. 99 7.49",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21499_ETOS_NL_WK17_ETOS_LUIERS?rendition=200px&fileType=binary&version=0962N1bvYQwvnWpjlC8nGQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Pongrácz Brut Bijv. Pongrácz Brut - Fles van 29.98 voor 22.98",
+    "name": "A-merk baby accessoires Bijv. Munchkin Miracle 360 Trainer Cup - 2 x 1st van 25.9 voor 12.95",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21435?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21489?week=18",
+    "description": "A-merk baby accessoires Bijv. Munchkin Miracle 360 Trainer Cup - 2 x 1st 1+1 gratis 12. 95 25.90",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21489_ETOS_NL_WK17_AMERK_BABY_ACCESSOIRES?rendition=200px&fileType=binary&version=W1y-e9vs7hzqe81JcGMICw",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Pongrácz Rosé Bijv. Pongrácz Rosé - Fles van 29.98 voor 23.98",
+    "name": "Weleda bad & douche Bijv. Weleda Skin food body butter - 150 ml van 14.99 voor 11.24",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21436?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21515?week=18",
+    "description": "Weleda bad & douche Bijv. Weleda Skin food body butter - 150 ml 25% korting 11. 24 14.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21515_ETOS_NL_WK17_WELEDA_BAD_DOUCHE?rendition=200px&fileType=binary&version=W1y-e9vs7hzqe81JcGMICw",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Dow's Aged 10 Years Tawny Bijv. Old tawny port 10 years - Fles van 50.58 voor 39.98",
+    "name": "Philips Oneblade Bijv. Philips OneBlade pro 360 - 1 stuks van 69.99 voor 49.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21437?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21513?week=18",
+    "description": "Philips Oneblade Bijv. Philips OneBlade pro 360 - 1 stuks €20 korting 49. 99 69.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21513_ETOS_NL_WK17_PHILIPS_ONEBLADE?rendition=200px&fileType=binary&version=0962N1bvYQwvnWpjlC8nGQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Barros Port Bijv. Barros Tawny Port - Fles van 21.3 voor 15.98",
+    "name": "Odorex en Therme deodorant Bijv. Odorex Marine fris deoroller - 4 x 55 ml van 17.96 voor 8.98",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21438?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21511?week=18",
+    "description": "Odorex en Therme deodorant Bijv. Odorex Marine fris deoroller - 4 x 55 ml 2+2 gratis 8. 98 17.96",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21511_ETOS_NL_WK17_ODOREX_EN_THERME_DEODORANT?rendition=200px&fileType=binary&version=0962N1bvYQwvnWpjlC8nGQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Clearwater Cove Sauvignon Blanc Bijv. Clearwater Cove Sauvignon Blanc - Fles van 22.58 voor 17.98",
+    "name": "Durex Bijv. Durex Glijmiddel  waterbasis - 2 x 100 ml van 24.58 voor 18.44",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21439?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21495?week=18",
+    "description": "Durex Bijv. Durex Glijmiddel waterbasis - 2 x 100 ml 2e halve prijs 18. 44 24.58",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21495_ETOS_NL_WK17_DUREX?rendition=200px&fileType=binary&version=_N7bUVvWwy5Vmbi-5aUDXw",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Lavis Classici Pinot Grigio Bijv. Lavis Classici Pinot Grigio - Fles van 21.3 voor 15.98",
+    "name": "Dermolin en Sebamed handzeep Bijv. Sebamed Wastablet - 2 x 150 gram van 9.98 voor 4.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21440?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21494?week=18",
+    "description": "Dermolin en Sebamed handzeep Bijv. Sebamed Wastablet - 2 x 150 gram 1+1 gratis 4. 99 9.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21494_ETOS_NL_WK17_DERMOLIN_EN_SEBAMED_HANDZEEP?rendition=200px&fileType=binary&version=HY8muwDgpF1QAdP9zZkNww",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Valdivieso Winemaker's Reserva Bijv. Valdivieso Winemaker's Reserva - Fles van 14.58 voor 11.58",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21441?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Fattoria Del Cerro Vermentino di Toscana Bijv. Fattoria Del Cerro Vermentino - Fles van 21.3 voor 15.98",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21442?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Tokara Reserve Collection Chardonnay Bijv. Tokara Reserve Collection Chardonnay - Fles van 37.3 voor 27.98",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21443?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Alasia Moscato D'Asti Bijv. Alasia Moscato D'Asti - Fles van 17.98 voor 13.48",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21444?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Etos Soft & Protect luiers maat 1 en 2 Bijv. Etos Mini soft & prot luiers mt 2 - 2 x 48st van 14.98 voor 7.49",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21458?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Etos Soft & Protect luiers Bijv. Etos Luierbroekjes soft & prot mt 6 - 19st van 7.49 voor 6.37",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21457?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Therme Bijv. Therme Finn sauna shower gel - 2x200ml van 19.98 voor 12.5",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21471?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Stim-u-dent tandenstokers Bijv. Stim-u-dent Original tandenstokers - 100 st van 3.09 voor 1.85",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21470?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Etos bad & douche Bijv. Etos Arganoil & silk 2-in-1 foam - 2x200ml van 5.98 voor 2.24",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21453?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Etos Babyneusspray 15 ml van 3.59 voor 2.86",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21452?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Dermolin Bijv. Dermolin Bad & douche gel - 200 ml van 9.89 voor 7.42",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21448?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
     "name": "Lucovitaal Bijv. Vitamine D3 75mcg - 2 stuks van 19.99 voor 9.99",
@@ -1945,159 +2325,238 @@
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-19385?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-19385?week=18",
+    "description": "Lucovitaal Bijv. Vitamine D3 75mcg - 2 stuks 1+1 gratis 9. 99 19.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-19385_ETOS_NL_WK43_LUCOVITAAL?rendition=200px&fileType=binary&version=oLBSRfxag0QWUtQ5Yx920g",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Valdispert en Shiepz Bijv. Valdispert Slaap en nacht advanced - 2x30st van 42.98 voor 32.24",
+    "name": "Purol Lippenstick 5 gram van 2.99 voor 2.24",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21472?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21514?week=18",
+    "description": "Purol Lippenstick 5 gram 25% korting 2. 24 2.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_4f755759574c374e5346534b5f596e317a734a773777?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Etos Vitamine Bijv. Etos Vitamine C 1500 bruistabl citr - 2x20st van 5.98 voor 4.49",
+    "name": "Philips First shave 1 stuks van 55.98 voor 41.98",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21460?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21512?week=18",
+    "description": "Philips First shave 1 stuks 2e halve prijs 41. 98 55.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_34564e2d326f6b4253446d50364c47596f7677465777?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Etos tandenborstel 1 stuks van 3.38 voor 2.54",
+    "name": "Multi-Gyn Bijv. Multi-Gyn Flora plus",
+    "deal": "tube - 5 stuks van 18.49 voor 16.99",
+    "example": null,
+    "original_price": null,
+    "discount_price": null,
+    "url": "https://www.ah.nl/bonus/groep/-21510?week=18",
+    "description": "Multi-Gyn Bijv. Multi-Gyn Flora plus, tube - 5 stuks €1.50 korting 16. 99 18.49",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21510_ETOS_NL_WK17_MULTIGYN?rendition=200px&fileType=binary&version=W1y-e9vs7hzqe81JcGMICw",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Maja Bijv. Maja Soap - 140 gram van 4.79 voor 3.83",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21459?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21508?week=18",
+    "description": "Maja Bijv. Maja Soap - 140 gram 20% korting 3. 83 4.79",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21508_ETOS_NL_WK17_MAJA?rendition=200px&fileType=binary&version=W1y-e9vs7hzqe81JcGMICw",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Etos oog- en oorverzorging Bijv. Etos Brilpoetsdoekjes - 2 x 30 stuks van 1.9 voor 1.43",
+    "name": "Hansaplast Bijv. Hansaplast Anti-eelt creme - 2 x 75 ml van 19.98 voor 14.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21456?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21505?week=18",
+    "description": "Hansaplast Bijv. Hansaplast Anti-eelt creme - 2 x 75 ml 2e halve prijs 14. 99 19.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21505_ETOS_NL_WK17_HANSAPLAST?rendition=200px&fileType=binary&version=_N7bUVvWwy5Vmbi-5aUDXw",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Etos Vitamine Bijv. Etos Vitamine C 1500 bruis citroen - 2x20st van 5.98 voor 4.49",
+    "deal": null,
+    "example": null,
+    "original_price": null,
+    "discount_price": null,
+    "url": "https://www.ah.nl/bonus/groep/-21501?week=18",
+    "description": "Etos Vitamine Bijv. Etos Vitamine C 1500 bruis citroen - 2x20st 2e halve prijs 4. 49 5.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21501_ETOS_NL_WK17_ETOS_VITAMINE?rendition=200px&fileType=binary&version=0962N1bvYQwvnWpjlC8nGQ",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Etos tandenborstel 1 stuks van 3.38 voor 2.53",
+    "deal": null,
+    "example": null,
+    "original_price": null,
+    "discount_price": null,
+    "url": "https://www.ah.nl/bonus/groep/-21500?week=18",
+    "description": "Etos tandenborstel 1 stuks 2e halve prijs 2. 53 3.38",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_43545239373131373539?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
   },
   {
     "name": "Etos lenzen Bijv. Etos Daglenzen -1",
     "deal": "50 - 2 x 15 stuks van 17.7 voor 14",
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "14.0",
+    "url": "https://www.ah.nl/bonus/groep/-21498?week=18",
+    "description": "Etos lenzen Bijv. Etos Daglenzen -1,50 - 2 x 15 stuks 2 voor 14.00 14. 00 17.70",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 14.0
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21498_ETOS_NL_WK17_ETOS_LENZEN?rendition=200px&fileType=binary&version=0wAtQyWPHvkOeHWKvnM0dA",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Davitamon",
+    "deal": "Dagravit",
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21455?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21493?week=18",
+    "description": "Davitamon, Dagravit, Roter, Shiepz en Valdispert Bijv. Davitamon Junior kauw3-12 jaar - 2 x 120 st 1+1 gratis 23. 49 46.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21493_ETOS_NL_WK17_DAVITAMON?rendition=200px&fileType=binary&version=0962N1bvYQwvnWpjlC8nGQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Davitamon Bijv. Davitamon Vitamine D 50+ - 2 x 250 stuks van 24.58 voor 12.29",
+    "name": "Bausch & Lomb en Ohropax Bijv. Ohropax Soft - 2 x 10 stuks van 8.98 voor 6.74",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21447?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21491?week=18",
+    "description": "Bausch & Lomb en Ohropax Bijv. Ohropax Soft - 2 x 10 stuks 2e halve prijs 6. 74 8.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21491_ETOS_NL_WK17_BAUSCH_LOMB_EN_OHROPAX?rendition=200px&fileType=binary&version=0962N1bvYQwvnWpjlC8nGQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "A-merk wond en voetverzorging Bijv. Hansaplast Sensitive XXL pleister - 2x5st van 12.78 voor 9.59",
+    "name": "A-merk voetverzorging Bijv. Scholl Kalknagel behandelset - 1 stuks van 19.99 voor 14.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21446?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21490?week=18",
+    "description": "A-merk voetverzorging Bijv. Scholl Kalknagel behandelset - 1 stuks 25% korting 14. 99 19.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21490_ETOS_NL_WK17_AMERK_VOETVERZORGING?rendition=200px&fileType=binary&version=W1y-e9vs7hzqe81JcGMICw",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "A.Vogel Echinaforce Bijv. A.Vogel Echinaforce jr + vit c tabl - 2x80st van 24.58 voor 18.44",
+    "name": "Weleda gezichtsververzorging Bijv. Weleda Amandel gezichtscreme - 2 x 30 ml van 35.98 voor 26.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21445?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21516?week=18",
+    "description": "Weleda gezichtsververzorging Bijv. Weleda Amandel gezichtscreme - 2 x 30 ml 2e halve prijs 26. 99 35.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21516_ETOS_NL_WK17_WELEDA_GEZICHTSVERVERZORGING?rendition=200px&fileType=binary&version=0962N1bvYQwvnWpjlC8nGQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Poly Palette haarkleuring Bijv. Poly Palette donkerbruin - 2 x 115 ml van 19.98 voor 12",
+    "name": "Maybelline",
+    "deal": "L'Oréal en Rimmel oog make-up Bijv. Maybelline New York Lashsky masc - 2 x 7 ml van 43.98 voor 21.99",
+    "example": null,
+    "original_price": null,
+    "discount_price": null,
+    "url": "https://www.ah.nl/bonus/groep/-21509?week=18",
+    "description": "Maybelline, L'Oréal en Rimmel oog make-up Bijv. Maybelline New York Lashsky masc - 2 x 7 ml 1+1 gratis 21. 99 43.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21509_ETOS_NL_WK17_MAYBELLINE_LOREAL_EN_RIMMEL_OOG_MAKEUP?rendition=200px&fileType=binary&version=W1y-e9vs7hzqe81JcGMICw",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "L'Oréal Paris gezichtsverzorging Bijv. L'Oreal Revitalift SPF30 dagcreme - 50 ml van 24.99 voor 12.5",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21468?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21507?week=18",
+    "description": "L'Oréal Paris gezichtsverzorging Bijv. L'Oreal Revitalift SPF30 dagcreme - 50 ml 50% korting 12. 50 24.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21507_ETOS_NL_WK17_L'ORE%CC%81AL%20PARIS%20GEZICHTSVERZORGING?rendition=200px&fileType=binary&version=0962N1bvYQwvnWpjlC8nGQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Maybelline New York en Max Factor make-up Bijv. Maybelline New York Lash sensmasc - 2 x 7 ml van 41.98 voor 20.99",
+    "name": "Gliss Kur",
+    "deal": "Got2b",
+    "example": null,
+    "original_price": null,
+    "discount_price": null,
+    "url": "https://www.ah.nl/bonus/groep/-21504?week=18",
+    "description": "Gliss Kur, Got2b, Poly Palette en Schwarzkopf Bijv. Gliss Kur Oil nutritive shampoo - 2 x 250 ml 1+1 gratis 6. 99 13.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21504_ETOS_NL_WK17_GLISS_KUR_GOT2B_POLY_PALETTE_EN_SCHWARZKOPF?rendition=200px&fileType=binary&version=_N7bUVvWwy5Vmbi-5aUDXw",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Gillette Mach 3 scheersysteem 1 stuks van 33.98 voor 16.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21466?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21503?week=18",
+    "description": "Gillette Mach 3 scheersysteem 1 stuks 1+1 gratis 16. 99 33.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/dam/product/AHI_43545239393235333133?revLabel=1&rendition=400x400_JPG_Q85&fileType=binary",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "L'Oréal Paris Bijv. L'Oréal Revitalift SPF30 dagcrème - 2x50ml van 49.98 voor 24.99",
+    "name": "Garnier en Bio-Oil Bijv. Garnier Skin Naturals micellair - 2 x 400 ml van 17.98 voor 8.99",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21465?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21502?week=18",
+    "description": "Garnier en Bio-Oil Bijv. Garnier Skin Naturals micellair - 2 x 400 ml 1+1 gratis 8. 99 17.98",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21502_ETOS_NL_WK17_GARNIER_EN_BIOOIL?rendition=200px&fileType=binary&version=0962N1bvYQwvnWpjlC8nGQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Gliss en Got2B haarverzorging Bijv. Gliss Kur Oil nutritive shampoo - 2 x 250 ml van 13.98 voor 6.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21464?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Gillette Mach 3 scheersysteem en Wilkinson Intuition Bijv. Gillette Mach 3 scheersysteem turb 2 - 2x1st van 33.98 voor 16.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21463?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Gillette Fusion5 proglide power scheermesjes 8 stuks van 53.49 voor 28",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21462?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Garnier Bijv. Garnier Skin Naturals sol mic wtr - 2x400ml van 17.98 voor 8.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21461?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
     "name": "Etos gezichtsverzorging Bijv. Etos Eye make-up remover lotion - 2 x 150 ml van 3.9 voor 2.93",
@@ -2105,38 +2564,42 @@
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21454?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21497?week=18",
+    "description": "Etos gezichtsverzorging Bijv. Etos Eye make-up remover lotion - 2 x 150 ml 2e halve prijs 2. 93 3.90",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21497_ETOS_NL_WK17_ETOS_GEZICHTSVERZORGING?rendition=200px&fileType=binary&version=W1y-e9vs7hzqe81JcGMICw",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   },
   {
-    "name": "Elnett haarlak Bijv. Elnett Haarlak extra sterk - 2 x 400 ml van 24.38 voor 12.19",
+    "name": "Elnett haarlak Bijv. Elnett Haarlak extra sterk - 2 x 400 ml van 24.38 voor 15",
+    "deal": null,
+    "example": "2 stuks",
+    "original_price": null,
+    "discount_price": "15.0",
+    "url": "https://www.ah.nl/bonus/groep/-21496?week=18",
+    "description": "Elnett haarlak Bijv. Elnett Haarlak extra sterk - 2 x 400 ml 2 voor 15.00 15. 00 24.38",
+    "deal_options": [
+      {
+        "qty": 2,
+        "price": 15.0
+      }
+    ],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21496_ETOS_NL_WK17_ELNETT_HAARLAK?rendition=200px&fileType=binary&version=W1y-e9vs7hzqe81JcGMICw",
+    "store": "Albert Heijn",
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "name": "Biodermal gezichts- en bodyverzorging Bijv. Biodermal Dag- & nachtcreme - 50 ml van 29.99 voor 15",
     "deal": null,
     "example": null,
     "original_price": null,
     "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21451?week=16",
+    "url": "https://www.ah.nl/bonus/groep/-21492?week=18",
+    "description": "Biodermal gezichts- en bodyverzorging Bijv. Biodermal Dag- & nachtcreme - 50 ml 50% korting 15. 00 29.99",
+    "deal_options": [],
+    "image_url": "https://static.ah.nl/mam/bonus/COMBIBEELD_OO-21492_ETOS_NL_WK17_BIODERMAL_GEZICHTS_EN_BODYVERZORGING?rendition=200px&fileType=binary&version=0962N1bvYQwvnWpjlC8nGQ",
     "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Drs Leenarts Bijv. Drs. Leenarts Dag & nachtcrème - 2 x 50 ml van 31.98 voor 23.99",
-    "deal": null,
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21450?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "name": "Dr. van der Hoog",
-    "deal": "Weleda",
-    "example": null,
-    "original_price": null,
-    "discount_price": null,
-    "url": "https://www.ah.nl/bonus/groep/-21449?week=16",
-    "store": "Albert Heijn",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-05-01"
   }
 ]

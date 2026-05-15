@@ -2,250 +2,218 @@
   {
     "store": "Jumbo",
     "name": "Combikorting groente",
-    "deal": "Combikorting | 2 voor 3,00",
-    "url": "https://www.jumbo.com/aanbiedingen/combikorting-groente/3017065",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_06.png",
-    "scraped_date": "2026-04-17"
+    "deal": "Combikorting | 2 voor 3,50",
+    "url": "https://www.jumbo.com/aanbiedingen/combikorting-groente/3017414",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_06.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Appels op schaal",
+    "deal": "2 voor 4,00",
+    "url": "https://www.jumbo.com/aanbiedingen/appels-op-schaal/3017426",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_01.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
     "name": "Combikorting fruit",
     "deal": "Combikorting | 2 voor 4,50",
-    "url": "https://www.jumbo.com/aanbiedingen/combikorting-fruit/3017066",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_07.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/combikorting-fruit/3017483",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_07.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Jumbo ovenaardappelen in schaal of ovengroente",
-    "deal": "2 voor 4,00",
-    "url": "https://www.jumbo.com/aanbiedingen/jumbo-ovenaardappelen-in-schaal-of-ovengroente/3015696",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_38.png",
-    "scraped_date": "2026-04-17"
+    "name": "Biologische komkommer of biologische rode paprika",
+    "deal": "2 voor 2,29",
+    "url": "https://www.jumbo.com/aanbiedingen/biologische-komkommer-of-biologische-rode-paprika/3017622",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_04.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Jumbo gesneden bloemkool, broccoli of kool",
+    "deal": "2 voor 3,00",
+    "url": "https://www.jumbo.com/aanbiedingen/jumbo-gesneden-bloemkool-broccoli-of-kool/3016246",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_27.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
     "name": "Conference peren",
     "deal": "voor 1,69",
-    "url": "https://www.jumbo.com/aanbiedingen/conference-peren/3016977",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_05.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/conference-peren/3017399",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_05.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Courgette",
-    "deal": "voor 0,79",
-    "url": "https://www.jumbo.com/aanbiedingen/courgette/3016994",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_02.png",
-    "scraped_date": "2026-04-17"
+    "name": "Witte asperges",
+    "deal": "voor 4,99",
+    "url": "https://www.jumbo.com/aanbiedingen/witte-asperges/3017448",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_02.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
     "name": "Nederlandse aardbeien",
     "deal": "voor 3,49",
-    "url": "https://www.jumbo.com/aanbiedingen/nederlandse-aardbeien/3017050",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_03.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/nederlandse-aardbeien/3017467",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_03.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Witte asperges",
-    "deal": "voor 5,99",
-    "url": "https://www.jumbo.com/aanbiedingen/witte-asperges/3017102",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_04.png",
-    "scraped_date": "2026-04-17"
+    "name": "Jumbo verse friet",
+    "deal": "voor 1,99",
+    "url": "https://www.jumbo.com/aanbiedingen/jumbo-verse-friet/3016155",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_28.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Blauwe bessen",
+    "name": "Snackgroente tomaatjes",
+    "deal": "Super Friday Korting | Bij 2 stuks",
+    "url": "https://www.jumbo.com/aanbiedingen/snackgroente-tomaatjes/wa17_dgpsnacktomaat",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Marketing/DGP/packshots_wobblers_PNGexport11.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Alle ongekoelde maaltijdpakketten",
     "deal": "voor 2,99",
-    "url": "https://www.jumbo.com/aanbiedingen/blauwe-bessen/3017049",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_01.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/alle-ongekoelde-maaltijdpakketten/3016315",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_11.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Wortelen, groentenmix met wortel of lentemix",
+    "name": "Alle airfryer & oven maaltijden",
+    "deal": "25% korting",
+    "url": "https://www.jumbo.com/aanbiedingen/alle-airfryer-oven-maaltijden/3016166",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_08.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Alle ovenschotels",
+    "deal": "25% korting",
+    "url": "https://www.jumbo.com/aanbiedingen/alle-ovenschotels/3016189",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_33.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Alle pasta-, couscous- of krielsalades",
+    "deal": "25% korting",
+    "url": "https://www.jumbo.com/aanbiedingen/alle-pasta-couscous-of-krielsalades/3016190",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_36.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "BBQ",
+    "deal": "4 voor 10,00",
+    "url": "https://www.jumbo.com/aanbiedingen/bbq/3016562",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Kies%20en%20Mix/km_bbq2026.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Vivera vleesvervangers",
     "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/wortelen-groentenmix-met-wortel-of-lentemix/3015811",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_53.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/vivera-vleesvervangers/3016257",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_44.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Johma rauwkostsalades",
-    "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/johma-rauwkostsalades/3015829",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_35.png",
-    "scraped_date": "2026-04-17"
+    "name": "Hamburgers 8 stuks",
+    "deal": "voor 8,50",
+    "url": "https://www.jumbo.com/aanbiedingen/hamburgers-8-stuks/3016360",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_23.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Alle gekoelde maaltijdpakketten",
-    "deal": "voor 3,99",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-gekoelde-maaltijdpakketten/3015791",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_12.png",
-    "scraped_date": "2026-04-17"
+    "name": "Jumbo gebakken kibbeling, lekkerbek of kabeljauwburger",
+    "deal": "25% korting",
+    "url": "https://www.jumbo.com/aanbiedingen/jumbo-gebakken-kibbeling-lekkerbek-of-kabeljauwburger/3016301",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_26.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Alle Oma's vleesvervangers",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-omas-vleesvervangers/3017639",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_132.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Oma's vleesvervangers",
-    "deal": "1,00 korting",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-omas-vleesvervangers/3015694",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_132.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Garden Gourmet vleesvervangers",
-    "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-garden-gourmet-vleesvervangers/3015823",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_11.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Roerbakgarnalen XXL",
-    "deal": "voor 6,50",
-    "url": "https://www.jumbo.com/aanbiedingen/roerbakgarnalen-xxl/3015841",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_48.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Biefstuk",
-    "deal": "2,69 per 100 gram",
-    "url": "https://www.jumbo.com/aanbiedingen/biefstuk/3016144",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_23.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Campina kwark of yoghurt",
-    "deal": "2 voor 3,00",
-    "url": "https://www.jumbo.com/aanbiedingen/campina-kwark-of-yoghurt/3015884",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_24.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Campina vla specials",
+    "name": "Campina vla",
     "deal": "2 voor 3,50",
-    "url": "https://www.jumbo.com/aanbiedingen/campina-vla-specials/3015914",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_25.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/campina-vla/3016405",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_13.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
     "name": "Chocomel of Fristi",
-    "deal": "2 voor 3,50",
-    "url": "https://www.jumbo.com/aanbiedingen/chocomel-of-fristi/3015294",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Seizoensaanbiedingen/SA04/Chocomel-Fristi.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Optimel drinkyoghurt",
     "deal": "2 voor 3,00",
-    "url": "https://www.jumbo.com/aanbiedingen/optimel-drinkyoghurt/3015368",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Seizoensaanbiedingen/SA04/Optimel.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/chocomel-of-fristi/3016441",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_16.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Arla biologisch of lactofree",
-    "deal": "voor 1,50",
-    "url": "https://www.jumbo.com/aanbiedingen/arla-biologisch-of-lactofree/3015869",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_21.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "The Flower Farm",
-    "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/the-flower-farm/3015930",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_50.png",
-    "scraped_date": "2026-04-17"
+    "name": "Danio kwark",
+    "deal": "2 voor 4,00",
+    "url": "https://www.jumbo.com/aanbiedingen/danio-kwark/3016114",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2017/Weekaanbiedingen-Week-17_32.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
     "name": "Arla Skyr",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/arla-skyr/3015733",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_136.png",
-    "scraped_date": "2026-04-17"
+    "deal": "2 voor 2,50",
+    "url": "https://www.jumbo.com/aanbiedingen/arla-skyr/3016146",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2017/Weekaanbiedingen-Week-17_26.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Campina High Protein Greek Style",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/campina-high-protein-greek-style/3015746",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_139.png",
-    "scraped_date": "2026-04-17"
+    "name": "Alle Président roomboter",
+    "deal": "1+1 gratis",
+    "url": "https://www.jumbo.com/aanbiedingen/alle-president-roomboter/3016167",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_37.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "XXL Fit Yoghurt Buckets",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/xxl-fit-yoghurt-buckets/3015788",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_158.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Activia Kefir of Mix & GO",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-activia-kefir-of-mix-go/3015805",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_125.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Campina Extra Protein yoghurt",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/campina-extra-protein-yoghurt/3015806",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_140.png",
-    "scraped_date": "2026-04-17"
+    "name": "Oatly havermelk",
+    "deal": "1+1 gratis",
+    "url": "https://www.jumbo.com/aanbiedingen/oatly-havermelk/3016358",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_32.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
     "name": "Campina, Optimel en Vifit",
-    "deal": "Alleen online | 10% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/campina-optimel-en-vifit/3014033",
+    "deal": "Alleen online | 30% korting",
+    "url": "https://www.jumbo.com/aanbiedingen/campina-optimel-en-vifit/3016716",
     "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Omdozen/Omdoos_Campina.png",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Chocomel, Fristi, Friesche vlag en Campina slagroom",
-    "deal": "Alleen online | 10% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/chocomel-fristi-friesche-vlag-en-campina-slagroom/3014009",
+    "name": "Chocomel, Fristi, Friesche Vlag en Campina Slagroom",
+    "deal": "Alleen online | 30% korting",
+    "url": "https://www.jumbo.com/aanbiedingen/chocomel-fristi-friesche-vlag-en-campina-slagroom/3016784",
     "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Omdozen/Omdoos_Chocomel.png",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Zandvliet grillworst of gekookte Gelderse worst",
-    "deal": "2 voor 3,00",
-    "url": "https://www.jumbo.com/aanbiedingen/zandvliet-grillworst-of-gekookte-gelderse-worst/3015822",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_54.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Stegeman droge worst",
-    "deal": "2 voor 6,00",
-    "url": "https://www.jumbo.com/aanbiedingen/stegeman-droge-worst/3015572",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_155.png",
-    "scraped_date": "2026-04-17"
+    "name": "Jumbo chorizo, kiprollade, bacon of yorkham",
+    "deal": "2 voor 4,50",
+    "url": "https://www.jumbo.com/aanbiedingen/jumbo-chorizo-kiprollade-bacon-of-yorkham/3016156",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_25.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
@@ -253,423 +221,199 @@
     "deal": "2 voor 4,00",
     "url": "https://www.jumbo.com/aanbiedingen/brood-en-toast-salades/3013763",
     "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2024/Kies%20en%20Mix/KM%20brood%20toast%204-24.png",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Parrano",
-    "deal": "voor 1,49",
-    "url": "https://www.jumbo.com/aanbiedingen/parrano/3015752",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_45.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Jumbo Goudse kaas plakken",
-    "deal": "2e halve prijs",
-    "url": "https://www.jumbo.com/aanbiedingen/jumbo-goudse-kaas-plakken/3015843",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_37.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Kaazanova",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/kaazanova/3015941",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_145.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "HAK",
-    "deal": "2e halve prijs",
-    "url": "https://www.jumbo.com/aanbiedingen/hak/3015864",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_33.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Unox Knaks, Hotdogs of Frankfurters",
-    "deal": "2e halve prijs",
-    "url": "https://www.jumbo.com/aanbiedingen/unox-knaks-hotdogs-of-frankfurters/3015949",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_52.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Maggi warme saus",
+    "name": "Alle Maaslander",
     "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/maggi-warme-saus/3015570",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_149.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/alle-maaslander/3016168",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_31.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Oh Na Mi",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/oh-na-mi/3015624",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_152.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "BiFi Kip",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/bifi-kip/3015663",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_137.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Heinz",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/heinz/3016410",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_159.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Knorr Wereldgerechten, trattoria's of maaltijdmixen",
-    "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-knorr-wereldgerechten-trattorias-of-maaltijdmixen/3015828",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_13.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Old el Paso",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-old-el-paso/3015479",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_131.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Faja Lobi",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/faja-lobi/3015520",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_142.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Santa Maria kruiden of specerijen",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-santa-maria-kruiden-of-specerijen/3015538",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_133.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Verstegen spice up",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-verstegen-spice-up/3015583",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_135.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Cornish sea salt",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-cornish-sea-salt/3015586",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_127.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Lassie",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/lassie/3015588",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_147.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "SOUQ",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/souq/3015596",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_154.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Foreway sesamzaadjes",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/foreway-sesamzaadjes/3015641",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_143.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Rummo Maxima",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/rummo-maxima/3015642",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_153.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Jumbo's notenpasta of pindakaas",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-jumbos-notenpasta-of-pindakaas/3016588",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_92.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Kellogg's Trésor Speculoos",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/kelloggs-tresor-speculoos/3015577",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_146.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Dr. Oetker bakversierders",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/dr-oetker-bakversierders/3015609",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_141.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Holie's Crunchy Loops",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-holies-crunchy-loops/3015645",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_129.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Bolletje Tortilla Crackers",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-bolletje-tortilla-crackers/3015665",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_126.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Bolletje Verwenbeschuitjes",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/bolletje-verwenbeschuitjes/3015760",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_138.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Gratis Keukentools bij aankoop van 1 stuk aan deelnemende bakartikelen",
-    "deal": "Alleen online - OP=OP | Gratis Keukentools bij 1 stuk",
-    "url": "https://www.jumbo.com/aanbiedingen/gratis-keukentools-bij-aankoop-van 1-stuk-aan-deelnemende-bakartikelen/pm15_keukentools",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Premiaten/Keukentools.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Croky Tubes of Tortilla",
-    "deal": "2 voor 2,50",
-    "url": "https://www.jumbo.com/aanbiedingen/croky-tubes-of-tortilla/3015753",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_26.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Duyvis",
+    "name": "Heinz of Wijko",
     "deal": "2 voor 4,00",
-    "url": "https://www.jumbo.com/aanbiedingen/duyvis/3015866",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_31.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/heinz-of-wijko/3016193",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_24.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "M&M's of Maltesers",
-    "deal": "2 voor 4,99",
-    "url": "https://www.jumbo.com/aanbiedingen/mms-of-maltesers/3015875",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_42.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Doritos",
-    "deal": "2 voor 3,50",
-    "url": "https://www.jumbo.com/aanbiedingen/doritos/3016496",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_95.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Lay's chips of Lay's Max",
-    "deal": "2 voor 4,00",
-    "url": "https://www.jumbo.com/aanbiedingen/lays-chips-of-lays-max/3016547",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_29.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Jumbo's chocoladerepen",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-jumbos-chocoladerepen/3016626",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_93.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Tony's Milk Rice Crispy",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/tonys-milk-rice-crispy/3015560",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_156.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Verkade koek",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/verkade-koek/3015589",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_157.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Mentos Vibes, Chupa Mads, Look-o-Look Party Tubes of Happy Bites of Klene Cryptomunten",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/mentos-vibes-chupa-mads-look-o-look-party-tubes-of-happy-bites-of-klene-cryptomunten/3015594",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_123.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Haribo Stixx",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/haribo-stixx/3015595",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_122.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Lu Veritable Petit Beurre of Le Petit Lu",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/lu-veritable-petit-beurre-of-le-petit-lu/3015605",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_130.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle The Flower Farm koeken",
-    "deal": "50% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-the-flower-farm-koeken/3015662",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_134.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Hands Off Chunky repen",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-hands-off-chunky-repen/3015872",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_128.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Afprijzing Pasen",
+    "name": "Alle HAK groenteconserven",
     "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/afprijzing-pasen/3017207",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Afprijzingen/afprijzing_pasen%20(1).png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/alle-hak-groenteconserven/3016191",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_22.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Douwe Egberts filterkoffie",
-    "deal": "voor 3,99",
-    "url": "https://www.jumbo.com/aanbiedingen/douwe-egberts-filterkoffie/3015878",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_30.png",
-    "scraped_date": "2026-04-17"
+    "name": "Alle Unox Good noodles, Good pasta, Good patatoes of Knorr Cup-a-Soup",
+    "deal": "2e halve prijs",
+    "url": "https://www.jumbo.com/aanbiedingen/alle-unox-good-noodles-good-pasta-good-patatoes-of-knorr-cup-a-soup/3016263",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_43.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Lipton thee",
-    "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/lipton-thee/3016738",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_97.png",
-    "scraped_date": "2026-04-17"
+    "name": "Unox Good Snacks",
+    "deal": "Alleen online | 25% korting",
+    "url": "https://www.jumbo.com/aanbiedingen/unox-good-snacks/3016182",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Omdozen/UNOX.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Jumbo's koffiepads",
-    "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/jumbos-koffiepads/3015912",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_39.png",
-    "scraped_date": "2026-04-17"
+    "name": "Gratis Hela Drinkfles bij 3 Hela producten",
+    "deal": "Alleen online - OP=OP | Gratis Hela drinkfles",
+    "url": "https://www.jumbo.com/aanbiedingen/gratis hela-drinkfles-bij-3-hela-producten/3017283",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Premiaten/Packshot%20Hela%20Drinkfles%20800%20ml%20280x280%20px.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Alle A-merk capsules voor Nespresso koffiezetapparaat",
-    "deal": "2+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-a-merk-capsules-voor-nespresso-koffiezetapparaat/3015955",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_09.png",
-    "scraped_date": "2026-04-17"
+    "name": "Calvé Mayonaise en Hellmann's",
+    "deal": "Super Friday Korting | Bij 2 stuks",
+    "url": "https://www.jumbo.com/aanbiedingen/calve-mayonaise-en-hellmanns/wa17_dgpcalvehellmanns",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Marketing/DGP/packshots_wobblers_PNGexport6.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Jumbo's koffiebonen",
+    "name": "Unox knaks",
+    "deal": "Super Friday Korting | Bij 2 stuks",
+    "url": "https://www.jumbo.com/aanbiedingen/unox-knaks/wa17_dgpunox",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Marketing/DGP/packshots_wobblers_PNGexport9.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Jumbo's woksauzen of pokebowl sauzen",
     "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/jumbos-koffiebonen/3016589",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_94.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/jumbos-woksauzen-of-pokebowl-sauzen/3016480",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_52.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Buisman",
-    "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/buisman/3016750",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_96.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Local Tea of Tea of Life",
-    "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/local-tea-of-tea-of-life/3016823",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_98.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Nescafé Espresso Concentrate",
+    "name": "Alle Jumbo's pasta of pastasauzen",
     "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/nescafe-espresso-concentrate/3015556",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_151.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/alle-jumbos-pasta-of-pastasauzen/3016661",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_53.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Appelsientje Fruitdrink of Dubbeldrank",
+    "name": "Knorr Wereldgerechten",
+    "deal": "Super Friday Korting | Bij 2 stuks",
+    "url": "https://www.jumbo.com/aanbiedingen/knorr-wereldgerechten/wa17_dgpknorr",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Marketing/DGP/packshots_wobblers_PNGexport7.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Calvé pindakaas",
+    "deal": "Super Friday Korting | Bij 2 stuks",
+    "url": "https://www.jumbo.com/aanbiedingen/calve-pindakaas/wa17_dgpcalvepindakaas",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Marketing/DGP/packshots_wobblers_PNGexport8.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Koopmans",
+    "deal": "Super Friday Korting | Bij 4 stuks",
+    "url": "https://www.jumbo.com/aanbiedingen/koopmans/wa17_dgpkoopmans",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Marketing/DGP/packshots_wobblers_PNGexport3.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Chio Heartbreakers of POM-BÄR",
     "deal": "2 voor 3,00",
-    "url": "https://www.jumbo.com/aanbiedingen/appelsientje-fruitdrink-of-dubbeldrank/3015797",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_20.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/chio-heartbreakers-of-pom-bar/3016339",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_15%20v2.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Raak siropen",
+    "name": "Ritter Sport",
+    "deal": "2 voor 2,99",
+    "url": "https://www.jumbo.com/aanbiedingen/ritter-sport/3016157",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_38.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Croky chips of Explosions",
+    "deal": "2 voor 3,00",
+    "url": "https://www.jumbo.com/aanbiedingen/croky-chips-of-explosions/3016340",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_18.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Alle Lavazza koffie",
+    "deal": "25% korting",
+    "url": "https://www.jumbo.com/aanbiedingen/alle-lavazza-koffie/3016407",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_29.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Douwe Egberts Aroma Rood of Premium",
+    "deal": "Super Friday Korting | Bij 1 stuk",
+    "url": "https://www.jumbo.com/aanbiedingen/douwe-egberts-aroma-rood-of-premium/wa17_dgpdouweegberts",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Marketing/DGP/packshots_wobblers_PNGexport10.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Slimpie",
     "deal": "2 voor 5,00",
-    "url": "https://www.jumbo.com/aanbiedingen/raak-siropen/3015798",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_47.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/slimpie/3016404",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_39.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
     "name": "Lipton",
-    "deal": "1+1 gratis​",
-    "url": "https://www.jumbo.com/aanbiedingen/lipton/3015836",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_40.png",
-    "scraped_date": "2026-04-17"
+    "deal": "2 voor 4,50",
+    "url": "https://www.jumbo.com/aanbiedingen/lipton/3016337",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_30.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Coca Cola Original en Fanta Orange",
-    "deal": "Alleen online | 15% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/coca-cola-original-en-fanta-orange/3015883",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Omdozen/CocaColaTray.png",
-    "scraped_date": "2026-04-17"
+    "name": "Coca-Cola smaken",
+    "deal": "1+1 gratis",
+    "url": "https://www.jumbo.com/aanbiedingen/coca-cola-smaken/3016353",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_17.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Dubbelfrisss of Taksi",
+    "deal": "1+1 gratis",
+    "url": "https://www.jumbo.com/aanbiedingen/dubbelfrisss-of-taksi/3016421",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_20.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Spa",
+    "deal": "Alleen online | 10% korting",
+    "url": "https://www.jumbo.com/aanbiedingen/spa/3016181",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Omdozen/Spa.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Red Bull 4-packs",
+    "deal": "Super Friday Korting | Bij 1 stuk",
+    "url": "https://www.jumbo.com/aanbiedingen/red-bull-4-packs/wa17_dgpredbull",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Marketing/DGP/packshots_wobblers_PNGexport.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
@@ -677,7 +421,7 @@
     "deal": "Alleen online - OP=OP | Gratis blik bij 1 multipack",
     "url": "https://www.jumbo.com/aanbiedingen/ontvang-de-red-bull-spring-edition-bij-je-multipack/3016735",
     "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Premiaten/Premiaatactie_SPRING.png",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
@@ -685,7 +429,7 @@
     "deal": "5+1 gratis",
     "url": "https://www.jumbo.com/aanbiedingen/coca-cola/bk_colafles_c",
     "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Bundels/Colafles-26.png",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
@@ -693,39 +437,55 @@
     "deal": "10+2 gratis",
     "url": "https://www.jumbo.com/aanbiedingen/coca-cola/bk_colablik_c",
     "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Bundels/Colablik26.png",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Jean Balmont",
-    "deal": "3 voor 9,99",
-    "url": "https://www.jumbo.com/aanbiedingen/jean-balmont/3015861",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_34.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Jumbo biologische wijn",
+    "name": "La Fleur Cecile Rose",
     "deal": "voor 3,99",
-    "url": "https://www.jumbo.com/aanbiedingen/jumbo-biologische-wijn/3015792",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_36.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/la-fleur-cecile-rose/3016174",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_45.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Los Gansos",
+    "name": "Tiempo & Tierra Gran Momento Chardonnay of Barton & Guestier Merlot",
     "deal": "voor 4,99",
-    "url": "https://www.jumbo.com/aanbiedingen/los-gansos/3015826",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_41.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/tiempo-tierra-gran-momento-chardonnay-of-barton-guestier-merlot/3016175",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_46.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Nero Oro",
-    "deal": "voor 4,99",
-    "url": "https://www.jumbo.com/aanbiedingen/nero-oro/3015862",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_43.png",
-    "scraped_date": "2026-04-17"
+    "name": "Mount Fishtail Sauvignon Balnc of Terra Pura Single Vineyard Chardonnay",
+    "deal": "voor 6,99",
+    "url": "https://www.jumbo.com/aanbiedingen/mount-fishtail-sauvignon-balnc-of-terra-pura-single-vineyard-chardonnay/3016176",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_49.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Mezzacorona Pinot Grigio of Pinot Grigio Rose, of Gallo Merlot of Moscato",
+    "deal": "voor 5,49",
+    "url": "https://www.jumbo.com/aanbiedingen/mezzacorona-pinot-grigio-of-pinot-grigio-rose-of-gallo-merlot-of-moscato/3016252",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_47.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Bellaccini Prosecco Frizzante Bio of Rose Spumante, Villebois Petit Sauvignon of Francois Martenot Chardonnay",
+    "deal": "voor 5,99",
+    "url": "https://www.jumbo.com/aanbiedingen/bellaccini-prosecco-frizzante-bio-of-rose-spumante-villebois-petit-sauvignon-of-francois-martenot-chardonnay/3016253",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_68.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Trefilari Primitivo",
+    "deal": "voor 7,99",
+    "url": "https://www.jumbo.com/aanbiedingen/trefilari-primitivo/3016283",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_50.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
@@ -733,7 +493,7 @@
     "deal": "Alleen online | voor 18,99",
     "url": "https://www.jumbo.com/aanbiedingen/heineken-00/3015221",
     "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Omdozen/Heineken0.0%20(1).png",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
@@ -741,7 +501,7 @@
     "deal": "Alleen online | voor 18,99",
     "url": "https://www.jumbo.com/aanbiedingen/amstel/3015143",
     "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Omdozen/Amstel.png",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
@@ -749,7 +509,7 @@
     "deal": "Alleen online | voor 19,99",
     "url": "https://www.jumbo.com/aanbiedingen/heineken/3013977",
     "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2025/Omdozen/HeinekenTray.png",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
@@ -757,175 +517,175 @@
     "deal": "Alleen online | voor 23,99",
     "url": "https://www.jumbo.com/aanbiedingen/hertog-jan/3013978",
     "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2024/HJ-tray.png",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Desperados, Apple Bandit, Amstel Radler of Amstel Rosé",
+    "name": "Desperados, Corona of Veltins V+ Curuba",
     "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/desperados-apple-bandit-amstel-radler-of-amstel-rose/3015697",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_28.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/desperados-corona-of-veltins-v+-curuba/3016160",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_40.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Alcoholvrije bieren van Hertog Jan, Leffe, Corona of Tripel Karmeliet",
+    "deal": "50% korting",
+    "url": "https://www.jumbo.com/aanbiedingen/alcoholvrije-bieren-van-hertog-jan-leffe-corona-of-tripel-karmeliet/3016195",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_09.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Texels, Grimbergen, Grolsch speciaalbieren of Grolsch Radler",
+    "deal": "25% korting",
+    "url": "https://www.jumbo.com/aanbiedingen/texels-grimbergen-grolsch-speciaalbieren-of-grolsch-radler/3016227",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_41.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Diverse wijnen",
+    "deal": "2e halve prijs",
+    "url": "https://www.jumbo.com/aanbiedingen/diverse-wijnen/3016249",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_69.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
     "name": "Speciaalbieren van Hertog Jan of Tripel Karmeliet",
     "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/speciaalbieren-van-hertog-jan-of-tripel-karmeliet/3015698",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_51.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/speciaalbieren-van-hertog-jan-of-tripel-karmeliet/3016266",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_42.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Pils van Amstel, Brand of Birra Moretti",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/pils-van-amstel-brand-of-birra-moretti/3015812",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_46.png",
-    "scraped_date": "2026-04-17"
+    "name": "Corona",
+    "deal": "Alleen online | 15% korting",
+    "url": "https://www.jumbo.com/aanbiedingen/corona/3016736",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Omdozen/Corona.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Texels",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/texels/3015842",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_49.png",
-    "scraped_date": "2026-04-17"
+    "name": "Tray Grolsch pils blik",
+    "deal": "Alleen online | 25% korting",
+    "url": "https://www.jumbo.com/aanbiedingen/tray-grolsch-pils-blik/3017443",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Omdozen/Grolsch%20omdoos%20v2.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Enjoy It of Freixenet 0,0%",
-    "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/enjoy-it-of-freixenet-0-0/3016758",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_100.png",
-    "scraped_date": "2026-04-17"
+    "name": "L'Essenza della traditionele Primitivo",
+    "deal": "1,00 korting",
+    "url": "https://www.jumbo.com/aanbiedingen/lessenza-della-traditionele-primitivo/3016138",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2017/Weekaanbiedingen-Week-17_47.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Alle Magnum",
-    "deal": "1+1 gratis​",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-magnum/3015928",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_14.png",
-    "scraped_date": "2026-04-17"
+    "name": "Gris de Pepe Mediterannée Rosé",
+    "deal": "1,00 korting",
+    "url": "https://www.jumbo.com/aanbiedingen/gris-de-pepe-mediterannee-rose/3016185",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2017/Weekaanbiedingen-Week-17_36.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Jumbo's croissants",
-    "deal": "25% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/jumbos-croissants/3016625",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_91.png",
-    "scraped_date": "2026-04-17"
+    "name": "Tussock Jumper Pinot Grigio",
+    "deal": "1,00 korting",
+    "url": "https://www.jumbo.com/aanbiedingen/tussock-jumper-pinot-grigio/3016243",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2017/Weekaanbiedingen-Week-17_59.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Alle TopKing",
+    "name": "Alle Jumbo's vriesverse maaltijden",
+    "deal": "voor 4,50",
+    "url": "https://www.jumbo.com/aanbiedingen/alle-jumbos-vriesverse-maaltijden/3016662",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_51.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Alle Dr. Oetker Suprema",
+    "deal": "Alleen in de winkel | 1+1 gratis",
+    "url": "https://www.jumbo.com/aanbiedingen/alle-dr-oetker-suprema/3016192",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_10.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Alle Ola waterijs",
     "deal": "2e halve prijs",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-topking/3015858",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_18.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/alle-ola-waterijs/3016055",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2017/Weekaanbiedingen-Week-17_16.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Alle Naïf",
-    "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-naif/3015967",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_15.png",
-    "scraped_date": "2026-04-17"
+    "name": "Ben & Jerry's",
+    "deal": "Super Friday Korting | Bij 1 stuk",
+    "url": "https://www.jumbo.com/aanbiedingen/ben-jerrys/wa17_dgpbenjerrys",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Marketing/DGP/packshots_wobblers_PNGexport12.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Dr. Oetker pizza snacks",
+    "deal": "Super Friday Korting | Bij 2 stuks",
+    "url": "https://www.jumbo.com/aanbiedingen/dr-oetker-pizza-snacks/wa17_dgpoetkerpizza",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Marketing/DGP/packshots_wobblers_PNGexport5.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Dr. Oetker Bistro",
+    "deal": "Super Friday Korting | Bij 3 stuks",
+    "url": "https://www.jumbo.com/aanbiedingen/dr-oetker-bistro/wa17_dgpoetkerbistro",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Marketing/DGP/packshots_wobblers_PNGexport4.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
     "name": "Alle Pampers",
+    "deal": "3 voor 29,00",
+    "url": "https://www.jumbo.com/aanbiedingen/alle-pampers/3016235",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_35.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Alle Dove, Axe, Rexona of Vaseline",
     "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-pampers/3015966",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_17.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/alle-dove-axe-rexona-of-vaseline/3016017",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2017/Weekaanbiedingen-Week-17_10.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Alle Andrélon",
+    "name": "Alle Roter of Dagravit vitaminen",
     "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-andrelon/3015643",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_113.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/alle-roter-of-dagravit-vitaminen/3016072",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2017/Weekaanbiedingen-Week-17_20.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Alle A-merk deodorant, bad of douche",
+    "name": "Alle Colgate of Elmex",
     "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-a-merk-deodorant-bad-of-douche/3016825",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_163.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/alle-colgate-of-elmex/3016075",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2017/Weekaanbiedingen-Week-17_09.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Alle Zwitsal of Difrax",
-    "deal": "2e halve prijs",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-zwitsal-of-difrax/3015857",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_19.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Nestlé babyvoeding of Soré",
-    "deal": "2e halve prijs",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-nestle-babyvoeding-of-sore/3015910",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_16.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Tena of Yoni",
-    "deal": "2+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-tena-of-yoni/3015948",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_27.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Ella's Kitchen, Little Maryam of De Kleine Keuken",
-    "deal": "3+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-ellas-kitchen-little-maryam-of-de-kleine-keuken/3015968",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_10.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Gillette",
+    "name": "Alle Head & Shoulders of Taft",
     "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-gillette/3015554",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_114.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Nivea Body, gezicht, scheren of styling",
-    "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/nivea-body-gezicht-scheren-of-styling/3015576",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_116.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Syoss, Schwarzkopf of Schauma",
-    "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/syoss-schwarzkopf-of-schauma/3015591",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_119.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Centrum",
-    "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-centrum/3016757",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_165.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Prodent, Zendium, Oral-B en Sensodyne",
-    "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/prodent-zendium-oral-b-en-sensodyne/3016770",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_164.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/alle-head-shoulders-of-taft/3016095",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2017/Weekaanbiedingen-Week-17_37.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
@@ -933,119 +693,95 @@
     "deal": "1+1 gratis",
     "url": "https://www.jumbo.com/aanbiedingen/zonnebrand/3015860",
     "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Kies%20en%20Mix/Zonnebrand2026.png",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
     "name": "Andrelon, Dove, Axe, Rexona",
-    "deal": "Alleen online | 30% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/andrelon-dove-axe-rexona/3015867",
+    "deal": "Alleen online | 50% korting",
+    "url": "https://www.jumbo.com/aanbiedingen/andrelon-dove-axe-rexona/3016147",
     "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2025/Omdozen/Axe-Dove-Andrelon.png",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Glorix bleek",
-    "deal": "3 voor 5,00",
-    "url": "https://www.jumbo.com/aanbiedingen/glorix-bleek/3015810",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_32.png",
-    "scraped_date": "2026-04-17"
+    "name": "Gratis lepelsetje bij aankoop van Olvarit variatiemenu",
+    "deal": "Alleen online - OP=OP | Gratis lepelsetje",
+    "url": "https://www.jumbo.com/aanbiedingen/gratis-lepelsetje-bij-aankoop-van-olvarit-variatiemenu/3017244",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2025/Premiaten/Olvarit_280.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Page",
-    "deal": "voor 9,99",
-    "url": "https://www.jumbo.com/aanbiedingen/page/3015720",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_44.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Sheba",
-    "deal": "Alleen online | voor 16,99",
-    "url": "https://www.jumbo.com/aanbiedingen/sheba/3015796",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Omdozen/Sheba%20(1).png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Alle Glorix toiletblokken",
+    "name": "Page compleet schoon of vochtig toiletpapier",
     "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-glorix-toiletblokken/3015568",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_115.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/page-compleet-schoon-of-vochtig-toiletpapier/3016298",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_34.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Alle Robijn",
+    "name": "Alle Finish vaatwastabletten",
     "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-robijn/3015514",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_118.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/alle-finish-vaatwastabletten/3016037",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2017/Weekaanbiedingen-Week-17_11.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Dreft, Swiffer, Antikal of Ambi-pur",
+    "name": "Alle Robijn Klein & Krachtig, wasmiddeldoekjes of Quick Wash",
     "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/dreft-swiffer-antikal-of-ambi-pur/3015460",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_121.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/alle-robijn-klein-krachtig-wasmiddeldoekjes-of-quick-wash/3016039",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2017/Weekaanbiedingen-Week-17_19.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Ariel pods of Lenor",
+    "name": "Alle Witte Reus of Fleuril",
     "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/ariel-pods-of-lenor/3015534",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_120.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/alle-witte-reus-of-fleuril/3016088",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2017/Weekaanbiedingen-Week-17_24.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Alle HG",
+    "name": "Alle Sun of Cif",
     "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-hg/3016649",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2015/Weekaanbiedingen-Week-15_162.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.jumbo.com/aanbiedingen/alle-sun-of-cif/3016107",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2017/Weekaanbiedingen-Week-17_22.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Jumbo",
+    "name": "Alle Ariel of Lenor geurparels of fresh air",
+    "deal": "1+1 gratis",
+    "url": "https://www.jumbo.com/aanbiedingen/alle-ariel-of-lenor-geurparels-of-fresh-air/3016425",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2017/Weekaanbiedingen-Week-17_65.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
     "name": "Sun, Glorix en Robijn",
-    "deal": "Alleen online | 30% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/sun-glorix-en-robijn/3015868",
+    "deal": "Alleen online | 50% korting",
+    "url": "https://www.jumbo.com/aanbiedingen/sun-glorix-en-robijn/3016115",
     "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2025/Omdozen/GlorixRobijnSun_SAomdoos1.png",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Alle Duracell",
-    "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-duracell/3016855",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_99.png",
-    "scraped_date": "2026-04-17"
+    "name": "Captain Morgan Rum, Smirnoff Vodka of Gordon's Gin",
+    "deal": "Alleen in de slijterij | 4,00 korting",
+    "url": "https://www.jumbo.com/aanbiedingen/captain-morgan-rum-smirnoff-vodka-of-gordons-gin/3016251",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_14.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
-    "name": "Alle HEMA rustieke kaarsen",
-    "deal": "1+1 gratis",
-    "url": "https://www.jumbo.com/aanbiedingen/alle-hema-rustieke-kaarsen/3017088",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_101.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Aerstone, Monkey Shoulder of Famous Grouse Whisky",
-    "deal": "Alleen in de slijterij | 20% korting",
-    "url": "https://www.jumbo.com/aanbiedingen/aerstone-monkey-shoulder-of-famous-grouse-whisky/3015863",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_08.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Jumbo",
-    "name": "Baileys, Johnnie Walker Whisky, Captain Morgan Rum, Gordon's Gin of Smirnoff Vodka",
-    "deal": "5,00 korting",
-    "url": "https://www.jumbo.com/aanbiedingen/baileys-johnnie-walker-whisky-captain-morgan-rum-gordons-gin-of-smirnoff-vodka/3015813",
-    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2016/Weekaanbiedingen-Week-16_22.png",
-    "scraped_date": "2026-04-17"
+    "name": "Esbjaerg Vodka of Captain Morgan Rum",
+    "deal": "voor 15,99",
+    "url": "https://www.jumbo.com/aanbiedingen/esbjaerg-vodka-of-captain-morgan-rum/3016172",
+    "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2018/Weekaanbiedingen-Week-18_21.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Jumbo",
@@ -1053,6 +789,6 @@
     "deal": "2e halve prijs",
     "url": "https://www.jumbo.com/acties/bieraanbieding",
     "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Bieraanbiedingen/Bierkratten2026.png",
-    "scraped_date": "2026-04-17"
+    "scraped_date": "2026-04-30"
   }
 ]

@@ -1,4 +1,4 @@
-from sqlalchemy import Column, String, Float, Integer, ForeignKey, Boolean, Date
+from sqlalchemy import Column, String, Float, Integer, ForeignKey, Boolean, Date, Text
 from sqlalchemy.orm import declarative_base, relationship
 from geoalchemy2 import Geography
 
@@ -26,7 +26,12 @@ class Discount(Base):
 
     deal_type = Column(String)       # "MULTI_BUY", "PERCENTAGE", etc.
     deal_price = Column(Float)       # 2.49
-    unit_price = Column(Float)       # 1.245
+    original_price = Column(Float)   # 3.99 (the "van" price)
+    unit_price = Column(Float)       # 1.245 (price per unit in bundle)
+    unit_label = Column(String)      # "500g", "per stuk", "per kilo"
+    image_url = Column(String)       # Direct URL to the product image
+    description = Column(Text)       # Full deal description text from card
+    deal_options = Column(Text)      # JSON: [{"qty": 4, "price": 7.99}, ...] for multi-tier deals
 
     start_date = Column(Date)
     end_date = Column(Date)

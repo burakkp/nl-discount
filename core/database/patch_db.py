@@ -10,8 +10,10 @@ def patch_database():
             # Add the new columns directly using SQL
             conn.execute(text("ALTER TABLE discounts ADD COLUMN start_date DATE;"))
             conn.execute(text("ALTER TABLE discounts ADD COLUMN end_date DATE;"))
+            conn.execute(text("ALTER TABLE discounts ADD COLUMN original_price FLOAT;"))
+            conn.execute(text("ALTER TABLE discounts ADD COLUMN unit_label VARCHAR;"))
             conn.commit() # Required in SQLAlchemy 2.0
-            print("✅ Columns 'start_date' and 'end_date' added successfully!")
+            print("✅ Columns 'start_date', 'end_date', 'original_price', and 'unit_label' added successfully!")
         except Exception as e:
             print(f"⚠️ Notice: {e}")
             print("If it says 'column already exists', you are good to go!")

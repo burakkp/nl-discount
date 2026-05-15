@@ -15,6 +15,8 @@ Unified output schema per item:
     "bundle_price":   float | None, # Total price for bundle
     "free_qty":       int | None,   # Free units (e.g. 1 for "1+1 gratis")
     "unit_price":     float | None, # Sale price per unit (from Lidl/Aldi)
+    "unit_label":     str | None,   # e.g. "500g", "per kilo"
+    "original_price": float | None, # The "van" price
     "deal_raw":       str | None,   # Original deal string
     "url":            str | None,
     "image":          str | None,
@@ -97,10 +99,11 @@ def normalize_deal(deal_raw: str | None, price_raw: str | None = None) -> dict:
                 pass
         return base
 
-    # Strip channel prefixes like "Alleen online | " or "Combikorting | "
-    # and "uitgelicht " filler words
-    text = re.sub(r'^(Alleen\s+\w+\s*\|?\s*|Combikorting\s*\|\s*|uitgelicht\s*)',
-                  '', deal_raw, flags=re.IGNORECASE).strip()
+    # Strip channel/store prefixes and filler words
+    text = re.sub(
+        r'^(Alleen\s+\w+[\s\w]*?\|\s*|Combikorting\s*\|\s*|Super\s+Friday\s+Korting\s*\|\s*|uitgelicht\s*)',
+        '', deal_raw, flags=re.IGNORECASE
+    ).strip()
 
     text_lower = text.lower()
 
@@ -175,10 +178,29 @@ def normalize_deal(deal_raw: str | None, price_raw: str | None = None) -> dict:
     pct = re.search(r'(\d+(?:[,.]\d+)?)\s*%', text_lower)
     if pct:
         val = float(pct.group(1).replace(',', '.')) / 100
+        price_val = None
+        if price_raw:
+            try:
+                price_val = _parse_price(price_raw)  # Aldi always has the deal price
+            except ValueError:
+                pass
         base.update({
             "deal_type":    "PERCENTAGE",
             "discount_pct": round(val, 4),
+            "unit_price":   price_val,   # The actual deal price (e.g. Aldi's price=2.99)
         })
+        return base
+
+    # --- "NU VOOR X" or "VANAF X" (Aldi promo with price in price_raw) ---
+    if re.match(r'^(nu voor|vanaf)$', text_lower.strip()) or text_lower.strip() in ('nu voor', 'vanaf'):
+        if price_raw:
+            try:
+                base.update({
+                    "deal_type":  "FIXED_PRICE",
+                    "unit_price": _parse_price(price_raw),
+                })
+            except ValueError:
+                pass
         return base
 
     # --- "voor X,YY" (FIXED_PRICE single item) ---
@@ -292,18 +314,50 @@ def _parse_price(s: str) -> float:
 # Per-store adapters
 # ---------------------------------------------------------------------------
 def adapt_ah(item: dict) -> dict:
-    """Albert Heijn: deal string, no separate price field."""
-    norm = normalize_deal(item.get("deal"))
+    """Albert Heijn: original_price and discount_price are sometimes separate."""
+    name = item.get("name") or item.get("product") or ""
+    orig = item.get('original_price')
+    disc = item.get('discount_price')
+    
+    # AH often puts deal info in the name: "Product van 2.50 voor 1.00"
+    if not orig or not disc:
+        match = re.search(r'van ([\d,.]+) voor ([\d,.]+)', name)
+        if match:
+            if not orig: orig = match.group(1).replace(',', '.')
+            if not disc: disc = match.group(2).replace(',', '.')
+
+    norm = normalize_deal(item.get("deal"), disc or item.get("price"))
+    
+    # Use parsed original price if model field is empty
+    orig_p = None
+    if orig:
+        try:
+            orig_p = _parse_price(orig)
+        except (ValueError, TypeError):
+            pass
+
+    # Parse disc as float if possible
+    disc_float = None
+    if disc:
+        try:
+            disc_float = float(disc)
+        except (ValueError, TypeError):
+            pass
+
     return {
-        "store":        "Albert Heijn",
-        "name":         item.get("name") or item.get("product") or "",
-        "brand":        None,
-        "deal_raw":     item.get("deal"),
+        "store":          "Albert Heijn",
+        "name":           name,
+        "brand":          None,
+        "deal_raw":       item.get("deal") or name,
         **norm,
-        "url":          item.get("url"),
-        "image":        None,
-        "scraped_date": item.get("scraped_date", ""),
-        "source_file":  "ah_bonus.json",
+        # Ensure deal_price is explicitly set from disc so it lands in DB
+        "deal_price":     disc_float or norm.get("bundle_price") or norm.get("unit_price"),
+        "unit_label":     item.get("example"), # "4 x 100 stuks", "500g", etc.
+        "original_price": orig_p,
+        "url":            item.get("url"),
+        "image":          item.get("image_url"),
+        "scraped_date":   item.get("scraped_date", ""),
+        "source_file":    "ah_bonus.json",
     }
 
 
@@ -311,34 +365,40 @@ def adapt_jumbo(item: dict) -> dict:
     """Jumbo: deal string, no separate price field."""
     norm = normalize_deal(item.get("deal"))
     return {
-        "store":        "Jumbo",
-        "name":         item.get("name", ""),
-        "brand":        None,
-        "deal_raw":     item.get("deal"),
+        "store":          "Jumbo",
+        "name":           item.get("name", ""),
+        "brand":          None,
+        "deal_raw":       item.get("deal"),
         **norm,
-        "url":          item.get("url"),
-        "image":        item.get("image"),
-        "scraped_date": item.get("scraped_date", ""),
-        "source_file":  "jumbo_bonus.json",
+        "unit_label":     None,
+        "original_price": None,
+        "url":            item.get("url"),
+        "image":          item.get("image"),
+        "scraped_date":   item.get("scraped_date", ""),
+        "source_file":    "jumbo_bonus.json",
     }
 
 
 def adapt_lidl(item: dict) -> dict:
-    """
-    Lidl: deal field IS the sale price string.
-    description holds unit info ("500 g", "Per stuk").
-    """
-    norm = normalize_deal(item.get("deal"), item.get("price"))
+    deal = item.get('deal', '')
+    unit = item.get('description', '')
+    # Lidl often has "Price — Unit" in the deal field
+    if not unit and ' — ' in deal:
+        unit = deal.split(' — ')[-1]
+
+    norm = normalize_deal(deal, item.get("price"))
     return {
-        "store":        "Lidl",
-        "name":         item.get("name", ""),
-        "brand":        None,
-        "deal_raw":     item.get("deal"),
+        "store":          "Lidl",
+        "name":           item.get('name', ''),
+        "brand":          None,
+        "deal_raw":       deal,
         **norm,
-        "url":          item.get("url"),
-        "image":        item.get("image"),
-        "scraped_date": item.get("scraped_date", ""),
-        "source_file":  "lidl_bonus.json",
+        "unit_label":     unit, # "500g" etc
+        "original_price": None,
+        "url":            item.get('url'),
+        "image":          item.get('image'),
+        "scraped_date":   item.get('scraped_date'),
+        "source_file":    "lidl_bonus.json",
     }
 
 
@@ -353,15 +413,17 @@ def adapt_aldi(item: dict) -> dict:
         except (KeyError, ValueError, TypeError):
             pass
     return {
-        "store":        "Aldi",
-        "name":         item.get("name", ""),
-        "brand":        item.get("brand") or None,
-        "deal_raw":     item.get("deal"),
+        "store":          "Aldi",
+        "name":           item.get("name", ""),
+        "brand":          item.get("brand") or None,
+        "deal_raw":       item.get("deal"),
         **norm,
-        "url":          item.get("url"),
-        "image":        item.get("image"),
-        "scraped_date": item.get("scraped_date", ""),
-        "source_file":  "aldi_bonus.json",
+        "unit_label":     None,
+        "original_price": None,
+        "url":            item.get("url"),
+        "image":          item.get("image"),
+        "scraped_date":   item.get("scraped_date", ""),
+        "source_file":    "aldi_bonus.json",
     }
 
 
@@ -370,15 +432,17 @@ def adapt_plus(item: dict) -> dict:
        price is an optional extracted price string."""
     norm = normalize_deal(item.get("deal"), item.get("price"))
     return {
-        "store":        "Plus",
-        "name":         item.get("name", ""),
-        "brand":        None,
-        "deal_raw":     item.get("deal"),
+        "store":          "Plus",
+        "name":           item.get("name", ""),
+        "brand":          None,
+        "deal_raw":       item.get("deal"),
         **norm,
-        "url":          item.get("url"),
-        "image":        item.get("image"),
-        "scraped_date": item.get("scraped_date", ""),
-        "source_file":  "plus_bonus.json",
+        "unit_label":     None,
+        "original_price": None,
+        "url":            item.get("url"),
+        "image":          item.get("image"),
+        "scraped_date":   item.get("scraped_date", ""),
+        "source_file":    "plus_bonus.json",
     }
 
 

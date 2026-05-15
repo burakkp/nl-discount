@@ -44,6 +44,29 @@ def parse_aria_label(aria_label: str) -> dict:
     return result
 
 
+def extract_deal_options(text: str) -> list[dict]:
+    """
+    Extract multi-tier bundle options from card description text.
+    E.g. "6 stuks voor €10.99 of 4 stuks voor €7.99"
+    Returns a list of dicts: [{"qty": 6, "price": 10.99}, {"qty": 4, "price": 7.99}]
+    """
+    options = []
+    # Pattern: "<qty> stuks voor <price>" or "<qty> voor <price>"
+    pattern = re.finditer(
+        r'(\d+)\s+(?:stuks?\s+)?voor\s+[€]?\s*([\d,\.]+)',
+        text,
+        re.IGNORECASE
+    )
+    for m in pattern:
+        try:
+            qty = int(m.group(1))
+            price = float(m.group(2).replace(',', '.'))
+            options.append({"qty": qty, "price": price})
+        except (ValueError, TypeError):
+            pass
+    return options
+
+
 async def scrape_ah_bonus() -> list[dict]:
     results = []
 
@@ -92,6 +115,45 @@ async def scrape_ah_bonus() -> list[dict]:
 
                     parsed = parse_aria_label(aria_label)
                     parsed["url"] = f"{AH_BASE}{href}" if href else None
+
+                    # --- Extract inner card text for deal description & bundle options ---
+                    try:
+                        inner_text = await card.inner_text(timeout=2_000)
+                        # Collapse whitespace
+                        inner_text = re.sub(r'\s+', ' ', inner_text).strip()
+                        parsed["description"] = inner_text if inner_text else None
+
+                        # Extract multi-tier bundle options (e.g. "6 stuks voor €10.99 of 4 stuks voor €7.99")
+                        deal_options = extract_deal_options(inner_text)
+                        if len(deal_options) > 1:
+                            # Sort by price ascending so cheapest option is shown as unit_price
+                            deal_options.sort(key=lambda x: x["price"])
+                            parsed["deal_options"] = deal_options
+                            # Use the cheapest option as the primary price
+                            cheapest = deal_options[0]
+                            parsed["discount_price"] = str(cheapest["price"])
+                            parsed["example"] = f'{cheapest["qty"]} stuks'
+                        elif len(deal_options) == 1:
+                            parsed["deal_options"] = deal_options
+                            if not parsed.get("discount_price"):
+                                parsed["discount_price"] = str(deal_options[0]["price"])
+                                parsed["example"] = f'{deal_options[0]["qty"]} stuks'
+                        else:
+                            parsed["deal_options"] = []
+                    except Exception:
+                        parsed["description"] = None
+                        parsed["deal_options"] = []
+
+                    # --- Image ---
+                    try:
+                        img_elem = card.locator("img").first
+                        if await img_elem.count() > 0:
+                            parsed["image_url"] = await img_elem.get_attribute("src", timeout=1_000)
+                        else:
+                            parsed["image_url"] = None
+                    except Exception:
+                        parsed["image_url"] = None
+
                     parsed["store"] = "Albert Heijn"
                     parsed["scraped_date"] = date.today().isoformat()
 
@@ -124,5 +186,7 @@ if __name__ == "__main__":
     print("\nSample (first 5):", flush=True)
     for item in data[:5]:
         deal_str = item["deal"] or "?"
-        price_str = f"  (was {item['original_price']}, now {item['discount_price']})" if item["discount_price"] else ""
-        print(f"  🔥 {item['name']} — {deal_str}{price_str}", flush=True)
+        price_str = f"  (was {item['original_price']}, now {item['discount_price']})" if item.get("discount_price") else ""
+        opts = item.get("deal_options", [])
+        opts_str = f" Options: {opts}" if opts else ""
+        print(f"  🔥 {item['name']} — {deal_str}{price_str}{opts_str}", flush=True)

@@ -1,362 +1,202 @@
 [
   {
     "store": "Lidl",
-    "name": "Pistachenoten gezouten",
-    "deal": "2.49 — 250 g",
-    "description": "",
-    "price": "2.49",
-    "url": "https://www.lidl.nl/p/pistachenoten-gezouten/p10024680",
-    "image": "https://imgproxy-retcat.assets.schwarz/TkWf84-O7k9eB2WFTMTRewG7y2W1rc5o7OLlGpCZl2A/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzlCMzFENUNFREFDNEMxMTM1RDNCNDAzNT/U1M0RGQTYxMTdDM0IzQTFDMkM3N0RCQTQ5RTlGRkFDNTQwQzJDNDQucG5n.png",
-    "scraped_date": "2026-04-17"
+    "name": "Alle Coca-Cola zero",
+    "deal": "1.69 — 1,5 l",
+    "description": "Nieuw",
+    "price": "1.69",
+    "url": "https://www.lidl.nl/p/alle-coca-cola-zero/p10027013",
+    "image": "https://imgproxy-retcat.assets.schwarz/lQWDnb1iMdaC42Dfy3WqfQBGJq-faIgXNJKqDmBw_JI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9CRDlBOEJGMTBBMTU0NkJEQ0E4Njg3MTA/0QjM2OEVFRUExNzM3QUJEMjY3NjM4QTg0NTZGRkZFMkNDNzlFMzg3LnBuZw.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Lidl",
-    "name": "Kipkrokantschnitzels",
-    "deal": "7.99 — 750 g",
+    "name": "Corte Mura Chianti Riserva",
+    "deal": "4.49 — 0,75 l",
     "description": "",
-    "price": "7.99",
-    "url": "https://www.lidl.nl/p/kipkrokantschnitzels/p10024401",
-    "image": "https://imgproxy-retcat.assets.schwarz/I_DmmZyzdXRGbYhuvgOfSz6fufz41G06r_gIQSTdVt8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0RCMEM0QTY0MDlDQzQ3QzkwNjJDQjJFMj/A4MzNCNEM1MkFEQkFBQUNGNjQxOUVFM0JFQzFFODJCRDAzRkIxODMucG5n.png",
-    "scraped_date": "2026-04-17"
+    "price": "4.49",
+    "url": "https://www.lidl.nl/p/corte-mura-chianti-riserva/p10026335",
+    "image": "https://imgproxy-retcat.assets.schwarz/6y0LBb1PGEyH7z8eL_eq5NXZn9CA5zKTsolu59xv5P0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzNDQ0UxMjk3NkFGRDBBQ0I0N0Y2MzcyMj/I1RkNCMkZFOTA4OEM5MUFFMDAzOUU3RjNFQTE5QzI2MTFBNEI3RjcucG5n.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Lidl",
-    "name": "NESCAFÉ Koffie",
-    "deal": "1.99 — 8-10 stuks",
-    "description": "",
-    "price": "1.99",
-    "url": "https://www.lidl.nl/p/nescafe-koffie/p10025344",
-    "image": "https://imgproxy-retcat.assets.schwarz/Kg_y0-HIJICCHnhKTjogZdySob4HahLGslXFa1dGcKw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzVEMEI1OTIzNDk4MjBBNDE0OTA3QzM0RT/U3NThGRTRGRjQ5QUMwQzNCODYxMEQxMEE1QTg5MUFFNzEyMDIxNjUucG5n.png",
-    "scraped_date": "2026-04-17"
+    "name": "Angus Striploin",
+    "deal": "9.99 — 250 g",
+    "description": "32 dagen gerijpt",
+    "price": "9.99",
+    "url": "https://www.lidl.nl/p/angus-striploin/p10026337",
+    "image": "https://imgproxy-retcat.assets.schwarz/BuDE7O0Y6_swxQegSIzxpji5llBIVyDnbRC0auJcE44/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9CM0JCQjBBNjQ4OTUxRkNDQzY5QThEN0U/zRjAwNDhBNTkwQjI4QzRBNjZGQjBGQjYyRTk5QTY4RjBGMUVGRkQxLnBuZw.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Lidl",
-    "name": "Knakworsten",
-    "deal": "0.99 — 400 g",
-    "description": "",
-    "price": "0.99",
-    "url": "https://www.lidl.nl/p/knakworsten/p10025346",
-    "image": "https://imgproxy-retcat.assets.schwarz/OJpzUNGIAe_dqFQPUsvz2vBE1_CWagmHaD9OYVketRs/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS8wOEVEQzBCNjFDNTQ1MkRDREZEQzNFMTI/5RTVFRjc3MzhGMEYxMjRFOTUzQzBENjQzQjIwNUY3OUY5NTAwREQ5LnBuZw.png",
-    "scraped_date": "2026-04-17"
+    "name": "Angus entrecote steak",
+    "deal": "5.99 — 200 g",
+    "description": "32 dagen gerijpt",
+    "price": "5.99",
+    "url": "https://www.lidl.nl/p/angus-entrecote-steak/p10026339",
+    "image": "https://imgproxy-retcat.assets.schwarz/TuZT0NZNhbDpoh4gpWNOd-yzKCSsWU9IqDCkkfxaluM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS84QTMyRkY4ODc5QkM2RjJEREEwMjBGREM/yOUIyMDg5NDRCMEEzOEUwNTgyNEI0M0UzRkY2MkMwNEQwODBEQUUzLnBuZw.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Lidl",
-    "name": "Zalmfilets op huid",
-    "deal": "4.99 — 250 g",
+    "name": "Angus ossenhaas",
+    "deal": "11.99 — 200 g",
+    "description": "30 dagen gerijpt",
+    "price": "11.99",
+    "url": "https://www.lidl.nl/p/angus-ossenhaas/p10026341",
+    "image": "https://imgproxy-retcat.assets.schwarz/ekcjyG9GH16KPFfNqS9FndIXAKFis7LW478MOFJPmW0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS80QzI4MTAxOEExQjQ4OTkxQTJFREQzMUV/GN0REOEYxNTAyNkVBRERGNUMxMEFERUZDNjY2MTdDRjBDRTk0MkZCLnBuZw.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Lidl",
+    "name": "Pistachenoten",
+    "deal": "4.99",
     "description": "",
     "price": "4.99",
-    "url": "https://www.lidl.nl/p/zalmfilets-op-huid/p10025348",
-    "image": "https://imgproxy-retcat.assets.schwarz/6wYVHbMAkoHQ0M75rR4r8jnDi5fmsZdmLPyq17rs1Yo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzkxOURBRDIxMzZGMTE3Njk4NkZCQTEyRj/A3NDgyQTE5RkVEODA5NTc4NzJDNTk5RDVDOUM3RTVDMjhFRjY5RTQucG5n.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.lidl.nl/p/pistachenoten/p10026343",
+    "image": "https://imgproxy-retcat.assets.schwarz/FiZ2LQRW6hp3CaAU90rHhmCHHg5rHMo-Lx96TcJBVjQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzdFOEU5MjRCOTI0Q0ZEQUI3RkVBMTYxOU/IwMkZBNjQ1NkNFNjJBNEE2RkYxQTA2QUJFNzY3QjA5RDcyODk2RUQucG5n.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Lidl",
-    "name": "Goudse kaasplakken",
-    "deal": "2.59 — 400 g\nPrijsvoorbeeld: Jonge kaasplakken. Jong belegen kaasplakken van 3,89 voor 2,89",
-    "description": "In de varianten jong en jong belegen",
-    "price": "2.59",
-    "url": "https://www.lidl.nl/p/goudse-kaasplakken/p10025350",
-    "image": "https://imgproxy-retcat.assets.schwarz/5XK_EnyxBeivky2S_K0bmO9NNv4vh_UBAUDg7BKO9WQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0ZCMjVCQ0I3OEE4MDIxMDRDNEYxRjI0ND/RDREU2MzMxNUVBMDA1RUFENEQzRUEwRUNCMUIwQUM2NDI1QTUxRkMucG5n.png",
-    "scraped_date": "2026-04-17"
+    "name": "Koffie rood",
+    "deal": "8.99",
+    "description": "",
+    "price": "8.99",
+    "url": "https://www.lidl.nl/p/koffie-rood/p10026345",
+    "image": "https://imgproxy-retcat.assets.schwarz/ic84FaMWxVIaktoDfP1XUTC1PThLm18-ApVwjzO9_U8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0VDNkE1MzVDMTZEOTlBQzU0NzkyN0E1QT/NBQzEzNzNBODAwMzBGRDQ3NzU1MkJENzQ2Q0U2RjQ5RTE5ODVBRkEucG5n.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Lidl",
-    "name": "KNORR Wereldgerechten",
-    "deal": "1.99 — 228-326 g",
-    "description": "In verschillende varianten",
-    "price": "1.99",
-    "url": "https://www.lidl.nl/p/knorr-wereldgerechten/p10025352",
-    "image": "https://imgproxy-retcat.assets.schwarz/wDG1qiSVEFkjqY8I2Fm8cQRtDFwM9M3R-MymbE2rCfE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9CNzA0NEU5MkFEMzY5MzJGQjU5NThEQkE/zRjQ4M0U5MkJBQTg4NTdCNUYxQzVFM0RENEM5NkY1MTkxQzlCNTcxLnBuZw.png",
-    "scraped_date": "2026-04-17"
+    "name": "Pinot Grigio rosé",
+    "deal": "2.99 — 0,75 l",
+    "description": "",
+    "price": "2.99",
+    "url": "https://www.lidl.nl/p/pinot-grigio-rose/p10026347",
+    "image": "https://imgproxy-retcat.assets.schwarz/3UHZUvPMwZShgdm3zOhXTMJmeOm5qw6cIjsgffPB1zk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0U3MEJBQ0VBQUFDQUFEMjg4RTBDQzAxRD/gzRkFBNzJEMkZCMUQ2NDRENjVGNTFFMTEwOENBQUVEMURFRThENDMucG5n.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Lidl",
-    "name": "OMO Wasmiddel",
-    "deal": "8.88 — 3,75l / 3,83kg\nDe adviesprijs is de prijs geadviseerd door de fabrikant",
-    "description": "In verschillende varianten",
-    "price": "8.88",
-    "url": "https://www.lidl.nl/p/omo-wasmiddel/p10025354",
-    "image": "https://imgproxy-retcat.assets.schwarz/B5lBZIcNSN5ZObXjTq35BPU9TvUCcSdKXsIH5Xw1IQ4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS8wMDEzNDQ4NkMyRTI3MDg0NjQyNTcxMkI/wRDdCMzc4NEU3NTUyNjNCQzdGQTg3OEUxODJDRDMzNTQ3MDNEMzVELnBuZw.png",
-    "scraped_date": "2026-04-17"
+    "name": "HEINEKEN",
+    "deal": "16.99",
+    "description": "",
+    "price": "16.99",
+    "url": "https://www.lidl.nl/p/heineken/p10026349",
+    "image": "https://imgproxy-retcat.assets.schwarz/_x_2CCx6VPHV60e6sj3wbXMnmDyk0DBju2uaI-myez0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS81QUEyMzA5MDI4NjZENzIxQ0M3NDhDMUE/wMjA5M0IyNzg0QzE4QUE1MTg5QzA5MDg4MEQyOEQ1N0U0MjExRUJDLnBuZw.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Lidl",
-    "name": "Trostomaten",
-    "deal": "1.69 — Per kg",
+    "name": "Snacktomaten",
+    "deal": "3.19",
+    "description": "",
+    "price": "3.19",
+    "url": "https://www.lidl.nl/p/snacktomaten/p10026351",
+    "image": "https://imgproxy-retcat.assets.schwarz/7zwyUQyb9XUqamLlGeniQQH6UGp7gzhkrn56sG3-UR8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzRDMTZCRDY2QUQyNzJBNjNDRjFDNUIwMD/Q5NDkzNzEyNUIyRjc0NjNERjRCODA3NkVBNTZCNTYzRDc4QkRBMUMucG5n.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Lidl",
+    "name": "Sperziebonen",
+    "deal": "1.69 — Zak 500 g",
     "description": "",
     "price": "1.69",
-    "url": "https://www.lidl.nl/p/trostomaten/p10025356",
-    "image": "https://imgproxy-retcat.assets.schwarz/D5vbd_HBxHpY7urzVmZl3Vd9cyBKiT5iEtmBhEdZZbA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzA4NDlDQjlFMkJFQ0E1RDAzMjkwQzY1ND/M0MTQwQTIxMzg1NzMzOTY2RUNFODlGNjJFNDdFMkNGREMxMjkwMDgucG5n.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.lidl.nl/p/sperziebonen/p10026353",
+    "image": "https://imgproxy-retcat.assets.schwarz/tYR2ypJJv0lIwHNgtiTEszefa7zcbqVozwf9nlymXAM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzYyMERCMzczMEExRDVGMEQxQUUwMjc2OD/dEMjdEQjI5RjRBOUQxQURDMjcxMDUwMzI3NUVCRTJCQ0QyMThDMjQucG5n.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Lidl",
-    "name": "Bio fairtrade bananen",
-    "deal": "1.39 — Per kg",
+    "name": "Avocado's",
+    "deal": "1.99 — Net 700 g",
     "description": "",
-    "price": "1.39",
-    "url": "https://www.lidl.nl/p/bio-fairtrade-bananen/p10025358",
-    "image": "https://imgproxy-retcat.assets.schwarz/kBqQQyPrWjWzwx9utOBQzZdspU8MgdRfEJy2wm2oOZI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50Lzg0NTcyNjRBNzdFMTExQUJBNTBGNjc3ND/A2QTlBN0YxODk5OTM1Nzg4M0Y5MTlBRkQ5RkU1NjFCNTVEOTlENzgucG5n.png",
-    "scraped_date": "2026-04-17"
+    "price": "1.99",
+    "url": "https://www.lidl.nl/p/avocado-s/p10026495",
+    "image": "https://imgproxy-retcat.assets.schwarz/Y4qfQC53ySD7kbADgtvMnYNXBHLVoaOH7AjeKQy4Sp4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzQ5MzlENzAzOTEzNjZEOTNGRTNDNTM1Qz/gzN0M5M0Y2NDU3MjI0NUEwNTNDRDQ0NjlGN0RCQkYwMjZCMzVERkYucG5n.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Lidl",
-    "name": "Bio aardappelen kruimig",
-    "deal": "2.49 — 3 kilo",
-    "description": "",
-    "price": "2.49",
-    "url": "https://www.lidl.nl/p/bio-aardappelen-kruimig/p10025360",
-    "image": "https://imgproxy-retcat.assets.schwarz/VputjxcGqpO6YQTu0ujIFicVcq4Gh9HbGyjuQFcAiIk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzUzRkJEOThBRjBGQzNBRjJGMDBCOEUyND/U2MDM1RDEwMjE5OEZCNDgyRDBCNDg3RDAyMTU5NUFEOEIxNDZEOEMucG5n.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "Conference peren",
-    "deal": "1.29 — Per kg",
-    "description": "",
-    "price": "1.29",
-    "url": "https://www.lidl.nl/p/conference-peren/p10025362",
-    "image": "https://imgproxy-retcat.assets.schwarz/Nw3TH2-RK9QqzU85qOb80fCuTOdprCZOa5-oHA4Av4s/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzBDNEUwMTIzOTBBREZDNTk2Qjg5M0ZFQj/dENTIyRTJGRTI3MkQzMEFFRTI3RDYwODY5RkY2MjMwNkU1RTYwNzYucG5n.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "Hollandse aardbeien",
-    "deal": "3.49 — 500 g",
-    "description": "",
-    "price": "3.49",
-    "url": "https://www.lidl.nl/p/hollandse-aardbeien/p10024887",
-    "image": "https://imgproxy-retcat.assets.schwarz/YWGLxpXUwJ3slKx0izA8t3QcGoPIdJbNNgvpRKBCDjk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0JGMjU0NjE5MjNBMjJEMjJDMDMxM0I5Qj/lBRjYxMTI5NTA4OUYyQjU2OTdCNkU1OTRBQ0Y4ODY4OUNFOEE0NTYucG5n.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "Spinazie",
-    "deal": "1.19 — 450 g",
-    "description": "",
-    "price": "1.19",
-    "url": "https://www.lidl.nl/p/spinazie/p10025364",
-    "image": "https://imgproxy-retcat.assets.schwarz/--W2UmNwOLUbMKtZotbOzNO61SUAheVeinJJBePLDOY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0RGNjU4NTI3OTExQ0QzQ0VEQzNGNzA3Qk/JBRUI0OTc5RTk2NTQ0MDgzRTM2ODg5QkQ3MUM1QjREMDM2RjAxNDYucG5n.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "Radijs",
-    "deal": "0.69 — 250 g",
-    "description": "",
-    "price": "0.69",
-    "url": "https://www.lidl.nl/p/radijs/p10025366",
-    "image": "https://imgproxy-retcat.assets.schwarz/vWfPPnCDf-h9L5iipcLh-S7tso9Y93DpqrAHIhWD0Y0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0MyREE4OTNBQTFFM0VFMDRFNkQzOEU5Mj/RDMzJBNEJGOTM5REFENTYzOTBCNzYyRUQ4NUNBREYzOEMxRTFGMUIucG5n.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "Witlof",
-    "deal": "0.99 — 500 g",
+    "name": "Mango",
+    "deal": "0.99 — Per stuk",
     "description": "",
     "price": "0.99",
-    "url": "https://www.lidl.nl/p/witlof/p10025368",
-    "image": "https://imgproxy-retcat.assets.schwarz/Osp-udxOfEF96rQEGd-4atcu-adQwTG5kC5-xdFRhv0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0NERkNDNzMwQTc1QTkyNzVGQzgyRUI5QT/ZGQkE2ODJCM0Y5NDA4MEU3MjY5QzBDODU2RkYwQzZBOERBNTMxNjEucG5n.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.lidl.nl/p/mango/p10024877",
+    "image": "https://imgproxy-retcat.assets.schwarz/qjtzAg2mZtWiinivlJTN6hD_44-D0lg2PaSk4uXoOqs/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzY1NjY5NTE5REY5MzRDRTMyODM3M0Y2MD/hDODIzREMzQUUxRkU1MEI1RjBEMUVDNUM5RjdGQjlCMTQ3MDRCOTAucG5n.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Lidl",
-    "name": "Snack worteltjes",
-    "deal": "0.49 — 150 g",
+    "name": "Rode puntpaprika's",
+    "deal": "1.99 — Zak 500 g",
     "description": "",
-    "price": "0.49",
-    "url": "https://www.lidl.nl/p/snack-worteltjes/p10025370",
-    "image": "https://imgproxy-retcat.assets.schwarz/y8QANU5Rl11ZS9m3X-ZEjEVbhzV5V1wvmIz7PdXwAQE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzQwM0YyOUIzRkE3QzU3MkNEOTM0QUQzQk/E5N0U4N0MyOEI0OTg4REYwREIzMzQ2MEQ3NUVGM0JGODNGMjQxRUUucG5n.png",
-    "scraped_date": "2026-04-17"
+    "price": "1.99",
+    "url": "https://www.lidl.nl/p/rode-puntpaprika-s/p10026355",
+    "image": "https://imgproxy-retcat.assets.schwarz/mJWaZHsq4CTgRyiDcZ8Ema5Qdvg0CMHPGMTSXcs-Uq4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9DNTlFM0E5NzU0NkZFMjVGNzEwRUM0MTM/wNTk4MjYyREFFMDY1MUJBMTQ4MEE5NDRCREYzMDY3ODY2M0QyRUEyLmpwZw.jpg",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Lidl",
-    "name": "Alle mini-krieltjes",
-    "deal": "0.74 — 500-700 g\nPrijsvoorbeeld: Actieprijzen variëren van €0,74 - €1,04",
+    "name": "Groene asperges of aspergetips",
+    "deal": "3.99 — Zak 300/500 gram",
     "description": "",
-    "price": "0.74",
-    "url": "https://www.lidl.nl/p/alle-mini-krieltjes/p10025372",
-    "image": "https://imgproxy-retcat.assets.schwarz/3a41e2Lr17dLe6G70ZfDQ03vMeAj2kwExINKX9qIrnI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50Lzc3QzA2RDg5M0RGOTg4OTAzMTYzRjQzRT/hFRjJBMEEwNTQ4NDYzQzM5RTY0Q0I4MjA1NjgyNkExQkYzOEZBOTUucG5n.png",
-    "scraped_date": "2026-04-17"
+    "price": "3.99",
+    "url": "https://www.lidl.nl/p/groene-asperges-of-aspergetips/p10026357",
+    "image": "https://imgproxy-retcat.assets.schwarz/rGgXB5xMc_-nv3u3NUaekdVW-AClMHJLAJKyMYOf2tA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzBENkQ4NjY1RjhENDlDMkQ5Q0UwMjc1Qz/ExMTlGQTk2QkQ1MDk5NjUxOUE0RjgyNkZENjhDRUY5NjYyNUU4OEMucG5n.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Lidl",
-    "name": "Roerbakmix Chinees of Thais",
+    "name": "Xenia peren",
+    "deal": "1.89 — 4 stuks",
+    "description": "",
+    "price": "1.89",
+    "url": "https://www.lidl.nl/p/xenia-peren/p10026359",
+    "image": "https://imgproxy-retcat.assets.schwarz/2fNidX0YLlqhNqCv4RGsCiSe29kooCzz-b1tono9bxY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzkzMzk3OTBERTUxREIxRkQzODlBQTlEMT/MyNjc5RDNCOUFEMTZBRTExNDhFNzM3MkFGNjZGMzFGMUI2MUMyOUUucG5n.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Lidl",
+    "name": "Roerbakmix",
+    "deal": "1.69 — 400 g",
+    "description": "In de varianten Italiaanse, Hollandse of Chinese",
+    "price": "1.69",
+    "url": "https://www.lidl.nl/p/roerbakmix/p10026361",
+    "image": "https://imgproxy-retcat.assets.schwarz/CV3rLifhvA4tYo0AM8bAzvmL8HAij3ETKEyOmEFlB8A/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzgyMEY2REI3RDBERjFCM0NENjQ5MEIyQz/FBMENENjYwNjBCMTEzNTk3RkM0MTE2MUIyMURCQkIwNTlDMUNBNTMucG5n.png",
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "store": "Lidl",
+    "name": "Zoete aardappelfriet",
     "deal": "1.49 — 400 g",
     "description": "",
     "price": "1.49",
-    "url": "https://www.lidl.nl/p/roerbakmix-chinees-of-thais/p10025374",
-    "image": "https://imgproxy-retcat.assets.schwarz/kqvzeAzDPsQ5t2F7ZL-m5i11bBUPCy9CypBO3CdDl9M/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzRBQ0YyRkNCODExNDQ3RUIzNjEwQzg0Mk/U0ODM5NkY3Qjk0QzlBRjUzNERDQ0I5MjU3Njk3ODE4OTgxMjVDRUEucG5n.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.lidl.nl/p/zoete-aardappelfriet/p10026363",
+    "image": "https://imgproxy-retcat.assets.schwarz/0BufvetX1ReiO6dtR71KJRDY6gvtG2Y-ZXY-In1KZ_I/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0MxRkVGOUJGRDc2NzM1QUQxNDE4QUU2N0/I4RTQ5NUIzRDMzMjU4OUVBQTJENkYzRDg0NkEzOTI2QTY5QkQ0NkUucG5n.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Lidl",
-    "name": "Bloemkool- of broccoli-roosjes",
-    "deal": "1.59 — 400 g",
+    "name": "Aardappelschijfjes naturel",
+    "deal": "1.49",
     "description": "",
-    "price": "1.59",
-    "url": "https://www.lidl.nl/p/bloemkool-of-broccoli-roosjes/p10025376",
-    "image": "https://imgproxy-retcat.assets.schwarz/8pMS14NBiWeF-yj5uhu9JiJva6C72dVul2kBUTnJqPc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50Lzc1NDUwQzkxOEFCRTk0MzE3OEY3ODdFNz/VFN0JGRDg2Rjc2NzdCRjZFNUVGMEEyNEZCMDE5OTBBRDQxRDFCMTkucG5n.png",
-    "scraped_date": "2026-04-17"
+    "price": "1.49",
+    "url": "https://www.lidl.nl/p/aardappelschijfjes-naturel/p10026365",
+    "image": "https://imgproxy-retcat.assets.schwarz/RzKmyMM1lJ_xiaIKHDbwL1xU0WLQ96Cg8Mlena0so90/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9CNjI1MUQzRENDQUEyMDUzN0Q4NUFEQ0M/1QzAwRUIwMDU3NUIwMTcxQjQxMDNGMDkwQTYzNEVDQzY0QzMzNzYyLnBuZw.png",
+    "scraped_date": "2026-04-30"
   },
   {
     "store": "Lidl",
-    "name": "Schnitt-broodje",
+    "name": "Kaiserbroodje",
     "deal": "0.19 — Per stuk",
     "description": "",
     "price": "0.19",
-    "url": "https://www.lidl.nl/p/schnitt-broodje/p10025378",
-    "image": "https://imgproxy-retcat.assets.schwarz/_cz4jYdvgABOfkNoqMQRv4C3Boebjp0gQja-XNA2I5Q/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzE4ODI4Qjk5RTlENjdEQ0Q4MEUyNEFGME/JFQTU5NUJDRDQ0MkY4N0IzNTZCNjdEMDlFRDA0ODQwOUY2RjRGQjUucG5n.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "Walnoten honing broodje",
-    "deal": "0.39 — Per stuk",
-    "description": "",
-    "price": "0.39",
-    "url": "https://www.lidl.nl/p/walnoten-honing-broodje/p10025380",
-    "image": "https://imgproxy-retcat.assets.schwarz/ibeQihoKNDdgGuz9ew0br2z61eFWagYw-pnvkM6kd1k/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzVEMDQwRTAwRkQ4QzcyQjJCRjNDN0JGQj/MzQ0I1RUMwMkJDRTk3OTI4NDlEODE0ODU3MTcyMjY1MEEwNzU0NUMucG5n.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "Boeren-bruinbrood heel",
-    "deal": "0.99 — 800 g",
-    "description": "",
-    "price": "0.99",
-    "url": "https://www.lidl.nl/p/boeren-bruinbrood-heel/p10025382",
-    "image": "https://imgproxy-retcat.assets.schwarz/uyvFSsDR3TyExfDl8uJMqqtQj-F8HP70v84suim9ELY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS80MDA1RUZFMzEwNkU0MjlBRDZFNjNCODM/1NUU5RDdCQzNDOUVBNEVFODczQzgyM0EzRDg3N0ZDOUIxRDlFMDdGLnBuZw.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "Citroen cake",
-    "deal": "2.99 — 350 g",
-    "description": "",
-    "price": "2.99",
-    "url": "https://www.lidl.nl/p/citroen-cake/p10025384",
-    "image": "https://imgproxy-retcat.assets.schwarz/ShsL8Af5zypMdOeD2cK1PuFPbj2J2pGqOp4Qh0pFhiw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS80MzdBOUUyMzRDOUZEQ0YzQkI3MjU5OEV/DNDJFODU3MjJBQUMzQzg3Q0ZDQUZCNDcxNEU4OTU1NERCNjA5QTk3LmpwZw.jpg",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "Canna",
-    "deal": "3.49",
-    "description": "Potmaat: Ø 19 cm\nHoogte: ca. 40 cm",
-    "price": "3.49",
-    "url": "https://www.lidl.nl/p/canna/p10025498",
-    "image": "https://imgproxy-retcat.assets.schwarz/k28BScUZVhNkTw9ff0gmJ2ITi1TWzuFcx_imBHekzEs/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzdFRDhFNzE1NDkyMkJCMUYzNkU2RDMzMT/ZEREQyMUU3NEMzRkNDNUEyNjQxQzBEM0ZGMjE5QkM0QjgwRjk5NzYucG5n.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "Luchtzuiverende kamerplant",
-    "deal": "2.49",
-    "description": "Potmaat: Ø 12 cm\nHoogte: ca. 28 cm",
-    "price": "2.49",
-    "url": "https://www.lidl.nl/p/luchtzuiverende-kamerplant/p10025500",
-    "image": "https://imgproxy-retcat.assets.schwarz/CQC2XEPrgML3ygnkVQZvysl_Gnk4v51Hq9OqCHdlf78/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzE4M0M1OUUzRDVDNEM1QjA3NjFGMUVGRk/NFOEY3RDZFMTE0NkI0RTg4ODNFRUU3RjQ0RjlGNDI5QjE1RUNEQjQucG5n.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "Knoflooksaus Turkse stijl",
-    "deal": "1.22 — 525 ml",
-    "description": "",
-    "price": "1.22",
-    "url": "https://www.lidl.nl/p/knoflooksaus-turkse-stijl/p10025502",
-    "image": "https://imgproxy-retcat.assets.schwarz/ZrttTPtp2sRZQI19tUJh0unL2pRl1EaHxT52lG4hN8s/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzJCNkYwQkMwNjk2ODI2RkE0MUY1NUNBOD/FCRkRGNDlERUNFMzdBOUM1MjEwMjZFMUM2MzczNkU0MTQ3QkY5NDQucG5n.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "Pita-broodjes",
-    "deal": "0.49 — 2 x 5 stuks",
-    "description": "",
-    "price": "0.49",
-    "url": "https://www.lidl.nl/p/pita-broodjes/p10025504",
-    "image": "https://imgproxy-retcat.assets.schwarz/nkzoQIVWjD_YpdW3Wn3vQmo7EKOTXHjGyL7rolx1FrE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0IxRkRFOEQxNUFFNDc0MDVBQ0UyMUU0ME/M0OTc5QkU4RTgwOTUwNTg2Rjg4OTI0NTEyMDZEMDhDMUJBMTQyNjQucG5n.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "Shoarma",
-    "deal": "3.29 — 500 g",
-    "description": "",
-    "price": "3.29",
-    "url": "https://www.lidl.nl/p/shoarma/p10025513",
-    "image": "https://imgproxy-retcat.assets.schwarz/T0JLDX2UumnznN8_zbkUVcx3zSuyb7VmGXemEoaIzCM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0E0RDExQTlEN0M3OTZFOEMzMjFEMjVCQz/ExMjdCOTM3N0VDRUJEOTRCQjQzNTI2OEIwNUNDN0YxOTY2RkZDRTcucG5n.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "MILKA MMMax hazelnoot",
-    "deal": "2.89 — 250 g",
-    "description": "",
-    "price": "2.89",
-    "url": "https://www.lidl.nl/p/milka-mmmax-hazelnoot/p10025506",
-    "image": "https://imgproxy-retcat.assets.schwarz/sdRBt2yFoQrpfcWy1ORk9xO6ubpNsNcsjcSlrI9PHvI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS83NkIyRTdFOEM1MzcwNDk5MDdCMUUyOTc/xMkE3MzM4QTA3NTg3RERFNUNCRkE2QjlCQkQ3OEFGQkZGNjhGNTYwLnBuZw.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "LEFFE Blond 0.0%",
-    "deal": "3.99 — 6 x 0,33 l",
-    "description": "",
-    "price": "3.99",
-    "url": "https://www.lidl.nl/p/leffe-blond-0-0/p10025508",
-    "image": "https://imgproxy-retcat.assets.schwarz/AyJin8we_JxUeIJokU0UTLz0rN4mbExmmM8P_j6LPiQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS84RkRFNjZENjFEMTJFNDBCQTQ4NTBGM0U/yOUFDMDlDMzZFOTgyNDAxNDcxQjg1MDBGQzA2ODAzQThDRjNBQ0Q5LnBuZw.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "LEFFE Blond",
-    "deal": "1.49 — 0,5 l",
-    "description": "",
-    "price": "1.49",
-    "url": "https://www.lidl.nl/p/leffe-blond/p10025510",
-    "image": "https://imgproxy-retcat.assets.schwarz/6RrKz_lzp0bL8-f_7GwYH2_hqHSw2gkqZ1Dk882ZudY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9CQjY0NTY4NDdBRDkyNzY5OTZGRDI3QUN/DMEJBRUZENjhENzYxOEMxOTQ1RTU0NjUwOUZFRTdEQUU2RjlBNjlCLnBuZw.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "Minneloa",
-    "deal": "1.99 — 1 kilo",
-    "description": "",
-    "price": "1.99",
-    "url": "https://www.lidl.nl/p/minneloa/p10026046",
-    "image": "https://imgproxy-retcat.assets.schwarz/GXQuiv4PmMReLdmGVma7pCtQ_f0Srv1NoE-C2tHPXTw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzhDNTg1OTBCNjE2M0EwNEVDODgwNzhBRU/Q1NDNDRDIwNzM4OUIzM0FBRjVGQUYxMEE4RjNFOTAxQzUzQzE5NjUucG5n.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "Aardbeien",
-    "deal": "2.99 — 400 gram",
-    "description": "",
-    "price": "2.99",
-    "url": "https://www.lidl.nl/p/aardbeien/p10026047",
-    "image": "https://imgproxy-retcat.assets.schwarz/zKbcDp0iCRJPkhNQtEQ7IAwQrkXbqpBNpf_KV6f2da0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50Lzg5MDMwNDEzQTNGM0MyQzhFMTQ0QTYyNE/UzRTdCRjlCRjY2RDUwMjEyMzM1MzM1NzU4MjEwMDIyRkQ4NDgzRjEucG5n.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "Groene asperges",
-    "deal": "3.99 — 500 g",
-    "description": "",
-    "price": "3.99",
-    "url": "https://www.lidl.nl/p/groene-asperges/p10024904",
-    "image": "https://imgproxy-retcat.assets.schwarz/8ap-mx3RuoWep4-58sxnXG21Eq5szE_WWmWTAvn3ShQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9EMTlFNTlCRDY2NUUxQkVDRjY0REFFNTA/2M0NDMzY2OTEwNkJCNkFGQjEyQzYyOEUyOUMwQjgyMTMzMEFGNDcxLnBuZw.png",
-    "scraped_date": "2026-04-17"
-  },
-  {
-    "store": "Lidl",
-    "name": "Kiwi groen",
-    "deal": "0.49 — Per stuk",
-    "description": "",
-    "price": "0.49",
-    "url": "https://www.lidl.nl/p/kiwi-groen/p10025512",
-    "image": "https://imgproxy-retcat.assets.schwarz/WKhqdEPVWesMfRVrb4xgqSol9Zphotbbd4cLzim66tc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50Lzg1QkZCNkI3QjM3M0NCRkIyMTE1MDJCMT/U5QzlDRjExQkMxRTdGNzEzRjA4QjU0MTQzRDA3MDgzMTIwRkU5RjcucG5n.png",
-    "scraped_date": "2026-04-17"
+    "url": "https://www.lidl.nl/p/kaiserbroodje/p10026367",
+    "image": "https://imgproxy-retcat.assets.schwarz/7DT4bGOCE0bHt1_qWaunqoKqx1TfeUibeQ3zHbdZA2Q/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0U0MThGNjVBNEVCQTFBNkZFOTQ0MzY4RD/gwOEQwRkI4RUEwNzAwQkU2Mjk5NzkyQzVGODUzMTRBOUQ1QjM3RkQucG5n.png",
+    "scraped_date": "2026-04-30"
   }
 ]
