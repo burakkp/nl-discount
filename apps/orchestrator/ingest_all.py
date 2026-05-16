@@ -147,59 +147,91 @@ class DataIngestor:
         return stores
 
     def ingest_to_db(self, all_items):
-        """Upsert processed discount records into the database across all chain stores."""
-        print(f"\n🚀 Initiating Database Upsert for {len(all_items)} total discounts across all stores...")
-        inserted = 0
+        """Bulk-upsert discount records across all chain stores using INSERT ON CONFLICT.
+
+        Architecture: Instead of N×M individual SELECTs (one per discount per store),
+        we bulk-fetch all stores and all existing discounts once, then batch-insert
+        the delta. This reduces ~163k queries to a handful of SQL statements.
+        """
+        from sqlalchemy.dialects.postgresql import insert as pg_insert
+
+        print(f"\n🚀 Initiating Bulk Database Upsert for {len(all_items)} total discounts across all stores...")
         try:
+            # 1. Pre-fetch ALL stores grouped by chain_name (single query)
+            all_stores: dict[str, list] = {}
+            for store in self.db.query(Store).all():
+                key = (store.chain_name or '').strip().lower()
+                all_stores.setdefault(key, []).append(store)
+
+            # 2. Build bulk upsert payload
+            records = []
             for item in all_items:
-                stores = self._get_all_stores(item['store_name'])
+                chain_key = (item['store_name'] or '').strip().lower()
+                # Fallback: create store on-the-fly if chain not found
+                stores = all_stores.get(chain_key, [])
+                if not stores:
+                    stores = self._get_all_stores(item['store_name'])
+                    for s in stores:
+                        all_stores.setdefault((s.chain_name or '').strip().lower(), []).append(s)
+
                 master_product_id = item['product_name'].lower().replace(' ', '_')[:100]
 
                 for store in stores:
-                    existing = self.db.query(Discount).filter(
-                        Discount.master_product_id == master_product_id,
-                        Discount.store_id == store.id
-                    ).first()
+                    records.append({
+                        "master_product_id": master_product_id,
+                        "store_id": store.id,
+                        "deal_type": item['deal_type'],
+                        "deal_price": item['deal_price'],
+                        "original_price": item.get('original_price'),
+                        "unit_price": item['unit_price'],
+                        "unit_label": item.get('unit_label'),
+                        "description": item.get('description'),
+                        "deal_options": item.get('deal_options'),
+                        "image_url": item.get('image_url'),
+                        "start_date": item['start_date'],
+                        "end_date": item['end_date'],
+                    })
 
-                    if existing:
-                        # Always update deal_type and dates
-                        existing.deal_type = item['deal_type']
-                        existing.start_date = item['start_date']
-                        existing.end_date = item['end_date']
-                        existing.unit_label = item.get('unit_label') or existing.unit_label
-                        existing.image_url = item.get('image_url') or existing.image_url
-                        # Always overwrite description and deal_options (richer data)
-                        if item.get('description'):
-                            existing.description = item['description']
-                        if item.get('deal_options'):
-                            existing.deal_options = item['deal_options']
-                        # Only overwrite prices if the new value is non-None and non-zero
-                        if item['deal_price']:
-                            existing.deal_price = item['deal_price']
-                        if item.get('original_price'):
-                            existing.original_price = item['original_price']
-                        if item['unit_price']:
-                            existing.unit_price = item['unit_price']
-                    else:
-                        discount = Discount(
-                            master_product_id=master_product_id,
-                            store_id=store.id,
-                            deal_type=item['deal_type'],
-                            deal_price=item['deal_price'],
-                            original_price=item.get('original_price'),
-                            unit_price=item['unit_price'],
-                            unit_label=item.get('unit_label'),
-                            description=item.get('description'),
-                            deal_options=item.get('deal_options'),
-                            image_url=item.get('image_url'),
-                            start_date=item['start_date'],
-                            end_date=item['end_date'],
-                        )
-                        self.db.add(discount)
-                    inserted += 1
+            if not records:
+                print("⚠️  No records to insert.")
+                return
+
+            # Deduplicate within the record set — same (master_product_id, store_id)
+            # can appear if a scraper emits the same product twice. Keep the last entry.
+            seen_keys: dict[tuple, dict] = {}
+            for rec in records:
+                key = (rec["master_product_id"], rec["store_id"])
+                seen_keys[key] = rec
+            records = list(seen_keys.values())
+            print(f"  📦 {len(records)} unique (product, store) pairs after dedup")
+
+            # 3. Chunk into batches of 1000 to avoid parameter limits
+            BATCH_SIZE = 1000
+            total_upserted = 0
+            for i in range(0, len(records), BATCH_SIZE):
+                batch = records[i:i + BATCH_SIZE]
+                stmt = pg_insert(Discount).values(batch)
+                stmt = stmt.on_conflict_do_update(
+                    constraint="uq_discounts_product_store",
+                    set_={
+                        "deal_type":      stmt.excluded.deal_type,
+                        "deal_price":     stmt.excluded.deal_price,
+                        "original_price": stmt.excluded.original_price,
+                        "unit_price":     stmt.excluded.unit_price,
+                        "unit_label":     stmt.excluded.unit_label,
+                        "description":    stmt.excluded.description,
+                        "deal_options":   stmt.excluded.deal_options,
+                        "image_url":      stmt.excluded.image_url,
+                        "start_date":     stmt.excluded.start_date,
+                        "end_date":       stmt.excluded.end_date,
+                    }
+                )
+                self.db.execute(stmt)
+                total_upserted += len(batch)
+                print(f"  ✅ Upserted batch {i // BATCH_SIZE + 1}: {total_upserted}/{len(records)} records")
 
             self.db.commit()
-            print(f"💾 Database transaction complete. Processed {inserted} store-deal pairs.")
+            print(f"💾 Bulk upsert complete: {total_upserted} store-deal pairs processed.")
         except Exception as exc:
             self.db.rollback()
             print(f"❌ DB error — transaction rolled back: {exc}")
