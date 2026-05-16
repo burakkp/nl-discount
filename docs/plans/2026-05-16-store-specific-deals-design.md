@@ -68,3 +68,18 @@ Assuming 3 sessions per DAU per day (12 API calls/day):
 
 ### 3.4 Business ROI & Monetization Alignment
 At 100,000 DAU, if 1% of users (1,000 users) subscribe to a premium "Hyper-Local Store Alerts & Ad-Free" tier at €2.99/month, the app generates **€2,990 / month** in recurring revenue against <€190/month infrastructure cost (**15.7x ROI / 93% gross margin**).
+
+---
+
+## 4. Small Market Integration & Future-Proofing Architecture
+
+### 4.1 Architectural Strategy for Independent & Small Markets
+As Nederland Discounts expands beyond major national chains (Albert Heijn, Jumbo, Aldi, Lidl, Plus) to include independent local grocers, ethnic supermarkets, and regional small markets (e.g., local Turkish/Moroccan bakeries, organic co-ops, regional farm stands), the architecture is specifically hardened to accommodate them seamlessly without altering core table schemas or API contracts.
+
+### 4.2 Ingestion Engine Isolation (`apps/orchestrator/`)
+- **Directory-Based Ingestion Pipelines:** Small markets often possess unique scraping formats or custom JSON structures stored in their own dedicated folders (e.g., `scrapers/small_markets/dirk/`, `scrapers/small_markets/ekoplaza/`).
+- **Plug-and-Play Orchestration:** `ingest_all.py` and `DataIngestor` operate purely on normalized dictionary schemas (`store_name`, `product_name`, `deal_price`, `start_date`, `end_date`). As long as small-market scrapers output this standardized JSON payload, `ingest_all.py` will automatically ingest them into `Store` and `Discount` tables with zero code modifications.
+
+### 4.3 Geofenced Discovery & API Compatibility
+- **Natural Hyper-Local Discovery:** Because small markets have limited physical footprints (often 1 to 5 stores total), our multi-store replication and PostGIS `ST_DWithin` architecture is the **perfect fit**. A local bakery in Rotterdam will automatically appear on `/discounts/nearby` exclusively for users within that 5km Rotterdam radius, preserving clean geofenced isolation without polluting nationwide search results for users in Amsterdam.
+- **Dynamic Store Filtering:** The existing frontend active store provider and backend filtering (`?store=Ekoplaza`) dynamically adapt to any new `chain_name` inserted into the database, instantly populating new small markets in the mobile UI's horizontal store selector bar.

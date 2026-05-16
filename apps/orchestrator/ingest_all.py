@@ -132,75 +132,74 @@ class DataIngestor:
         print(f"✅ Processed {len(processed_items)} items from {store_name}.")
         return processed_items
 
-    def _get_or_create_store(self, chain_name: str) -> Store:
-        """Return an existing Store row, or create one on the fly."""
-        store = (
+    def _get_all_stores(self, chain_name: str) -> list[Store]:
+        """Return all existing Store rows for a chain, or create one on the fly."""
+        stores = (
             self.db.query(Store)
             .filter(Store.chain_name.ilike(chain_name))
-            .first()
+            .all()
         )
-        if not store:
+        if not stores:
             store = Store(chain_name=chain_name)
             self.db.add(store)
             self.db.flush()  # assigns store.id without a full commit
-        return store
+            stores = [store]
+        return stores
 
     def ingest_to_db(self, all_items):
-        """Upsert processed discount records into the database."""
-        print(f"\n🚀 Initiating Database Upsert for {len(all_items)} total discounts...")
+        """Upsert processed discount records into the database across all chain stores."""
+        print(f"\n🚀 Initiating Database Upsert for {len(all_items)} total discounts across all stores...")
         inserted = 0
         try:
             for item in all_items:
-                store = self._get_or_create_store(item['store_name'])
-
-                # The Discount schema has no Product FK — it stores a string ID.
+                stores = self._get_all_stores(item['store_name'])
                 master_product_id = item['product_name'].lower().replace(' ', '_')[:100]
 
-                existing = self.db.query(Discount).filter(
-                    Discount.master_product_id == master_product_id,
-                    Discount.store_id == store.id
-                ).first()
+                for store in stores:
+                    existing = self.db.query(Discount).filter(
+                        Discount.master_product_id == master_product_id,
+                        Discount.store_id == store.id
+                    ).first()
 
-                if existing:
-                    # Always update deal_type and dates
-                    existing.deal_type = item['deal_type']
-                    existing.start_date = item['start_date']
-                    existing.end_date = item['end_date']
-                    existing.unit_label = item.get('unit_label') or existing.unit_label
-                    existing.image_url = item.get('image_url') or existing.image_url
-                    # Always overwrite description and deal_options (richer data)
-                    if item.get('description'):
-                        existing.description = item['description']
-                    if item.get('deal_options'):
-                        existing.deal_options = item['deal_options']
-                    # Only overwrite prices if the new value is non-None and non-zero
-                    if item['deal_price']:
-                        existing.deal_price = item['deal_price']
-                    if item.get('original_price'):
-                        existing.original_price = item['original_price']
-                    if item['unit_price']:
-                        existing.unit_price = item['unit_price']
-                else:
-                    discount = Discount(
-                        master_product_id=master_product_id,
-                        store_id=store.id,
-                        deal_type=item['deal_type'],
-                        deal_price=item['deal_price'],
-                        original_price=item.get('original_price'),
-                        unit_price=item['unit_price'],
-                        unit_label=item.get('unit_label'),
-                        description=item.get('description'),
-                        deal_options=item.get('deal_options'),
-                        image_url=item.get('image_url'),
-                        start_date=item['start_date'],
-                        end_date=item['end_date'],
-                    )
-                    self.db.add(discount)
-                
-                inserted += 1
+                    if existing:
+                        # Always update deal_type and dates
+                        existing.deal_type = item['deal_type']
+                        existing.start_date = item['start_date']
+                        existing.end_date = item['end_date']
+                        existing.unit_label = item.get('unit_label') or existing.unit_label
+                        existing.image_url = item.get('image_url') or existing.image_url
+                        # Always overwrite description and deal_options (richer data)
+                        if item.get('description'):
+                            existing.description = item['description']
+                        if item.get('deal_options'):
+                            existing.deal_options = item['deal_options']
+                        # Only overwrite prices if the new value is non-None and non-zero
+                        if item['deal_price']:
+                            existing.deal_price = item['deal_price']
+                        if item.get('original_price'):
+                            existing.original_price = item['original_price']
+                        if item['unit_price']:
+                            existing.unit_price = item['unit_price']
+                    else:
+                        discount = Discount(
+                            master_product_id=master_product_id,
+                            store_id=store.id,
+                            deal_type=item['deal_type'],
+                            deal_price=item['deal_price'],
+                            original_price=item.get('original_price'),
+                            unit_price=item['unit_price'],
+                            unit_label=item.get('unit_label'),
+                            description=item.get('description'),
+                            deal_options=item.get('deal_options'),
+                            image_url=item.get('image_url'),
+                            start_date=item['start_date'],
+                            end_date=item['end_date'],
+                        )
+                        self.db.add(discount)
+                    inserted += 1
 
             self.db.commit()
-            print(f"💾 Database transaction complete. Inserted {inserted} discounts.")
+            print(f"💾 Database transaction complete. Processed {inserted} store-deal pairs.")
         except Exception as exc:
             self.db.rollback()
             print(f"❌ DB error — transaction rolled back: {exc}")

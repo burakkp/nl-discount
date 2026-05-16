@@ -60,6 +60,24 @@ def get_optional_user_uid(authorization: Optional[str] = Header(None)):
     except Exception:
         return None
 
+import re
+
+def _parse_slug(slug: str):
+    """Extract a human-readable name and price pair from a product slug.
+    E.g. 'ah_komkommer_los_van_1.7_voor_0.99' -> ('Komkommer Los', 1.70, 0.99)
+    Handles both 'van X voor Y' and plain slugs.
+    """
+    m = re.search(r'van_([0-9]+[.,][0-9]+)_voor_([0-9]+[.,][0-9]+)', slug)
+    old_price = float(m.group(1).replace(',', '.')) if m else None
+    new_price = float(m.group(2).replace(',', '.')) if m else None
+
+    name = re.sub(r'^(alle_)?(ah|jumbo|lidl|aldi|plus)_', '', slug, flags=re.IGNORECASE)
+    name = re.sub(r'_van_[0-9.,]+_voor_[0-9.,]+$', '', name)
+    name = name.replace('_', ' ').strip().title()
+    name = re.sub(r'\(([^)]+)\)', lambda x: x.group(1).title(), name)
+
+    return name, old_price, new_price
+
 @app.get("/discounts/nearby")
 def get_nearby_discounts(
     lat: float = Query(..., description="User's latitude"),
@@ -87,6 +105,8 @@ def get_nearby_discounts(
         Discount.unit_label,
         Discount.start_date,
         Discount.end_date,
+        Discount.image_url,
+        Discount.description,
         Store.chain_name,
         Store.address,
         # ST_Distance calculates the exact distance to the store in meters
@@ -104,18 +124,26 @@ def get_nearby_discounts(
     # 3. Format for the Mobile App
     discounts_list = []
     for row in results:
+        slug = row.master_product_id or ''
+        display_name, old_price, price_from_slug = _parse_slug(slug)
+        price = row.deal_price if row.deal_price and row.deal_price > 0 else price_from_slug
+        old_p = row.original_price if row.original_price else old_price
+
         discounts_list.append({
-            "product": row.master_product_id,
+            "product": slug,
+            "title": display_name,
             "supermarket": row.chain_name,
             "address": row.address,
             "distance_km": round(row.distance_meters / 1000, 2),
             "deal_type": row.deal_type,
-            "price": row.deal_price,
-            "original_price": row.original_price,
+            "price": price,
+            "original_price": old_p,
             "unit_price": row.unit_price,
             "unit_label": row.unit_label,
             "start_date": row.start_date,
-            "end_date": row.end_date
+            "end_date": row.end_date,
+            "image_url": row.image_url,
+            "description": row.description
         })
 
     return {"status": "success", "radius_km": radius_km, "data": discounts_list}
@@ -225,7 +253,10 @@ async def crowdsource_discount(
         ai_result = vision_agent.analyze_price_tag(temp_file_path)
 
 
-        confidence = ai_result.get("confidence_score", 0)
+        try:
+            confidence = int(ai_result.get("confidence_score", 0))
+        except (ValueError, TypeError):
+            confidence = 0
 
         if confidence < 80:
 
@@ -358,39 +389,19 @@ def get_this_week_discounts(
     db: Session = Depends(get_db)
 ):
     """Returns all active discounts for the current week."""
-    import re
-
-    def _parse_slug(slug: str):
-        """Extract a human-readable name and price pair from a product slug.
-        E.g. 'ah_komkommer_los_van_1.7_voor_0.99' -> ('Komkommer Los', 1.70, 0.99)
-        Handles both 'van X voor Y' and plain slugs.
-        """
-        # Try to find 'van <old> voor <new>' pattern
-        m = re.search(r'van_([0-9]+[.,][0-9]+)_voor_([0-9]+[.,][0-9]+)', slug)
-        old_price = float(m.group(1).replace(',', '.')) if m else None
-        new_price = float(m.group(2).replace(',', '.')) if m else None
-
-        # Strip store prefix (ah_, alle_ah_, jumbo_, lidl_, etc.)
-        name = re.sub(r'^(alle_)?(ah|jumbo|lidl|aldi|plus)_', '', slug, flags=re.IGNORECASE)
-        # Remove trailing price fragment
-        name = re.sub(r'_van_[0-9.,]+_voor_[0-9.,]+$', '', name)
-        # Convert underscores to spaces and title-case
-        name = name.replace('_', ' ').strip().title()
-        # Clean up parentheses artefacts like '(Gele)'
-        name = re.sub(r'\(([^)]+)\)', lambda x: x.group(1).title(), name)
-
-        return name, old_price, new_price
-
     today = date.today()
     # Rename to avoid shadowing the query-param `deal_type` inside the loop below
     deal_type_filter = deal_type
 
     # Only surface items that have EITHER a real price OR a known deal type we can label.
     # This must be done at the SQL level so pagination counts are accurate.
-    from sqlalchemy import or_, and_
+    from sqlalchemy import or_, and_, select
     LABELABLE_TYPES = ('BOGO', 'HALF_PRICE_2ND', 'PERCENTAGE', 'FIXED_AMOUNT',
                        'FIXED_BUNDLE', 'FIXED_PRICE', 'PER_UNIT', 'CLEARANCE',
                        'MULTI_BUY', 'FIXED_DISCOUNT')
+
+    # Subquery to find the canonical (minimum) store ID for each chain
+    canonical_stores_subq = select(func.min(Store.id)).group_by(Store.chain_name).scalar_subquery()
 
     query = db.query(Discount, Store).join(
         Store, Discount.store_id == Store.id
@@ -398,6 +409,7 @@ def get_this_week_discounts(
         Discount.start_date <= today,
         Discount.end_date >= today,
         Discount.image_url.isnot(None),
+        Store.id.in_(canonical_stores_subq),
         # Must have a price OR a deal type we can render a label for
         or_(
             and_(Discount.deal_price.isnot(None), Discount.deal_price > 0),
@@ -416,8 +428,14 @@ def get_this_week_discounts(
     results = query.order_by(Discount.id.desc()).offset(offset).limit(page_size).all()
 
     data = []
+    seen = set()
     for r in results:
         slug = r.Discount.master_product_id or ''
+        deal_key = (r.Store.chain_name, slug)
+        if deal_key in seen:
+            continue
+        seen.add(deal_key)
+
         display_name, old_price, price_from_slug = _parse_slug(slug)
 
         # Prefer DB-stored prices; fall back to parsed values from the slug
