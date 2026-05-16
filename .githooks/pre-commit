@@ -1,0 +1,132 @@
+#!/usr/bin/env bash
+# =============================================================================
+# pre-commit hook: blocks commits containing sensitive data / secrets
+# Install: chmod +x .git/hooks/pre-commit
+# =============================================================================
+
+RED='\033[0;31m'
+YELLOW='\033[1;33m'
+GREEN='\033[0;32m'
+NC='\033[0m' # No Color
+
+FOUND=0
+
+echo "🔐 Running secret scanner pre-commit hook..."
+
+# ─── 1. BLOCKED FILES ────────────────────────────────────────────────────────
+# Files that should never be committed
+BLOCKED_FILES=(
+  ".env"
+  ".env.local"
+  ".env.production"
+  ".env.staging"
+  "*.pem"
+  "firebase_service_account.json"
+  "service-account.json"
+  "*-service-account.json"
+  "*.p12"
+  "*.pfx"
+  "credentials.json"
+)
+
+for pattern in "${BLOCKED_FILES[@]}"; do
+  # Check staged files
+  MATCHES=$(git diff --cached --name-only | grep -E "(^|/)${pattern//\*/.*}$" 2>/dev/null)
+  if [ -n "$MATCHES" ]; then
+    echo -e "${RED}❌ BLOCKED FILE:${NC} Attempting to commit a sensitive file:"
+    echo "$MATCHES" | while read -r f; do
+      echo -e "   ${RED}→ $f${NC}"
+    done
+    FOUND=1
+  fi
+done
+
+# ─── 2. SECRET PATTERNS IN STAGED CONTENT ────────────────────────────────────
+# Scan the actual diff content for secret patterns
+
+check_pattern() {
+  local label="$1"
+  local pattern="$2"
+  local exclusions="$3"
+
+  # Get staged diff, filter out deletions (lines starting with -)
+  local matches
+  matches=$(git diff --cached -U0 | grep '^+' | grep -v '^+++' | grep -E "$pattern" 2>/dev/null)
+
+  # Apply exclusions if provided
+  if [ -n "$exclusions" ]; then
+    matches=$(echo "$matches" | grep -Ev "$exclusions")
+  fi
+
+  if [ -n "$matches" ]; then
+    echo -e "${RED}❌ POTENTIAL SECRET DETECTED [${label}]:${NC}"
+    echo "$matches" | head -5 | while read -r line; do
+      # Truncate long lines for readability
+      echo -e "   ${YELLOW}→ ${line:0:120}${NC}"
+    done
+    FOUND=1
+  fi
+}
+
+# Firebase / Google API keys (AIza...)
+check_pattern "Google/Firebase API Key" \
+  'AIza[0-9A-Za-z_-]{35}' \
+  'firebase_options\.dart|google-services\.json|GoogleService-Info\.plist|example|test_|#'
+
+# Firebase private key block
+check_pattern "Firebase Private Key" \
+  'BEGIN PRIVATE KEY|BEGIN RSA PRIVATE KEY|BEGIN EC PRIVATE KEY' \
+  ''
+
+# Generic private key / certificate
+check_pattern "Private Key / Certificate" \
+  'BEGIN (RSA |EC |OPENSSH )?PRIVATE KEY|BEGIN CERTIFICATE' \
+  ''
+
+# Hardcoded passwords in common patterns
+check_pattern "Hardcoded Password" \
+  '(password|passwd|pwd)\s*=\s*["\x27][^"\x27]{4,}["\x27]' \
+  'password123@localhost|changeme|example|your-|placeholder|test_|#|os\.environ|getenv|environ\.get'
+
+# Database URLs with embedded credentials
+check_pattern "Database URL with credentials" \
+  'postgresql://[^:]+:[^@]{4,}@[^/]+/' \
+  'admin:password123@localhost|changeme_local|your-|example|os\.environ|getenv'
+
+# Gemini / OpenAI / Anthropic API keys
+check_pattern "AI Service API Key" \
+  '(GEMINI_API_KEY|OPENAI_API_KEY|ANTHROPIC_API_KEY|sk-[A-Za-z0-9]{20,}|AIzaSy[A-Za-z0-9_-]{33})\s*=' \
+  'your-|example|os\.environ|getenv|environ\.get|sync: false|#'
+
+# AWS credentials
+check_pattern "AWS Access Key" \
+  'AKIA[0-9A-Z]{16}' \
+  'example|your-|#'
+
+check_pattern "AWS Secret Key" \
+  '(aws_secret_access_key|AWS_SECRET_ACCESS_KEY)\s*=\s*["\x27]?[A-Za-z0-9/+=]{40}' \
+  'example|your-|#'
+
+# Generic high-entropy tokens (long random strings assigned to key-like variables)
+check_pattern "Generic Secret/Token Assignment" \
+  '(secret|token|api_key|apikey|auth_key|access_key)\s*[=:]\s*["\x27][A-Za-z0-9_\-]{32,}["\x27]' \
+  'your-|example|placeholder|changeme|os\.environ|getenv|environ\.get|sync: false|Bearer|#|secrets\.'
+
+# ─── 3. RESULT ───────────────────────────────────────────────────────────────
+
+if [ "$FOUND" -eq 1 ]; then
+  echo ""
+  echo -e "${RED}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+  echo -e "${RED}  🚫 COMMIT BLOCKED — Sensitive data detected above.${NC}"
+  echo -e "${RED}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+  echo ""
+  echo -e "${YELLOW}To fix:${NC}"
+  echo "  1. Move secrets to your .env file (already in .gitignore)"
+  echo "  2. Use os.environ.get() / dart-define / environment variables"
+  echo "  3. If this is a false positive, use: git commit --no-verify"
+  echo ""
+  exit 1
+fi
+
+echo -e "${GREEN}✅ No secrets detected — commit allowed.${NC}"
+exit 0
