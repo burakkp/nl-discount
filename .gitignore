@@ -2,7 +2,26 @@
 venv/
 __pycache__/
 *.pyc
+*.pyo
+
+# --- SECRETS (NEVER COMMIT) ---
 .env
+.env.*
+!.env.example
 core/security/*.json
+core/security/firebase_service_account.json
+
+# --- DATA & TEMP ---
 tmp/
 data/
+*.log
+backend.log
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- BUILD ARTIFACTS ---
+build/
+dist/
+*.egg-info/
