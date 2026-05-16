@@ -37,6 +37,15 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/healthz", tags=["ops"])
+def health_check():
+    """Render health-check endpoint. Returns 200 when the API is running."""
+    return {"status": "ok", "version": "1.0"}
+
+@app.get("/", tags=["ops"])
+def root():
+    return {"message": "Dutch Discounts API is live 🇳🇱", "docs": "/docs"}
+
 # Dependency to get DB session
 def get_db():
     db = SessionLocal()
